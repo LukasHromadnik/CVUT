@@ -1,0 +1,85 @@
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=ISO-8859-1">
+  <title>usps2mat.m</title>
+<link rel="stylesheet" type="text/css" href="../../m-syntax.css">
+</head>
+<body>
+<code>
+<span class=h1>%&nbsp;USPS2MAT&nbsp;converts&nbsp;USPS&nbsp;database&nbsp;to&nbsp;Matlab&nbsp;data&nbsp;file&nbsp;(MAT).</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Description:</span></span><br>
+<span class=help>%&nbsp;&nbsp;It&nbsp;creates&nbsp;MAT-file&nbsp;containing&nbsp;training&nbsp;and&nbsp;testing&nbsp;part</span><br>
+<span class=help>%&nbsp;&nbsp;of&nbsp;the&nbsp;USPS&nbsp;database&nbsp;of&nbsp;handwritten&nbsp;numerals.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Input:</span></span><br>
+<span class=help>%&nbsp;&nbsp;It&nbsp;requires&nbsp;input&nbsp;text&nbsp;files&nbsp;"zip.test"&nbsp;and&nbsp;"zip.train"</span><br>
+<span class=help>%&nbsp;&nbsp;which&nbsp;can&nbsp;be&nbsp;downloaded&nbsp;from:</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;&nbsp;http://www-stat-class.stanford.edu/~tibs/ElemStatLearn/datasets/zip.train.gz</span><br>
+<span class=help>%&nbsp;&nbsp;http://www-stat-class.stanford.edu/~tibs/ElemStatLearn/datasets/zip.test.gz</span><br>
+<span class=help>%&nbsp;&nbsp;</span><br>
+<span class=help>%&nbsp;<span class=help_field>Output:</span></span><br>
+<span class=help>%&nbsp;&nbsp;The&nbsp;output&nbsp;MAT-file&nbsp;"usps.mat"&nbsp;contains:&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;trn.X&nbsp;[256&nbsp;x&nbsp;7291]&nbsp;Images&nbsp;of&nbsp;training&nbsp;numerals&nbsp;stored&nbsp;as&nbsp;columns.</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;trn.y&nbsp;[1&nbsp;x&nbsp;7291]&nbsp;Labels&nbsp;y==1&nbsp;--&gt;"1",&nbsp;...,&nbsp;y==9--&gt;"9",...&nbsp;y==10--&gt;"0".</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;tst.X&nbsp;[256&nbsp;x&nbsp;2007]&nbsp;Images&nbsp;of&nbsp;testing&nbsp;numerals&nbsp;stored&nbsp;as&nbsp;columns.</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;tst.y&nbsp;[1&nbsp;x&nbsp;2007]&nbsp;Labels.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Example:</span></span><br>
+<span class=help>%&nbsp;&nbsp;The&nbsp;following&nbsp;code&nbsp;displays&nbsp;the&nbsp;first&nbsp;training&nbsp;image.</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;load&nbsp;usps.mat;</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;img&nbsp;=&nbsp;reshape(trn.X(:,1),16,16);</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;figure;&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;imshow(img,[]);</span><br>
+<span class=help>%&nbsp;</span><br>
+<hr>
+<span class=help1>%&nbsp;<span class=help1_field>About:</span>&nbsp;Statistical&nbsp;Pattern&nbsp;Recognition&nbsp;Toolbox</span><br>
+<span class=help1>%&nbsp;(C)&nbsp;1999-2003,&nbsp;Written&nbsp;by&nbsp;Vojtech&nbsp;Franc&nbsp;and&nbsp;Vaclav&nbsp;Hlavac</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://www.cvut.cz"&gt;Czech&nbsp;Technical&nbsp;University&nbsp;Prague&lt;/a&gt;</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://www.feld.cvut.cz"&gt;Faculty&nbsp;of&nbsp;Electrical&nbsp;Engineering&lt;/a&gt;</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://cmp.felk.cvut.cz"&gt;Center&nbsp;for&nbsp;Machine&nbsp;Perception&lt;/a&gt;</span><br>
+<br>
+<span class=help1>%&nbsp;<span class=help1_field>Modifications:</span></span><br>
+<span class=help1>%&nbsp;07-jun-2004,&nbsp;VF</span><br>
+<span class=help1>%&nbsp;10-mar-2004,&nbsp;VF</span><br>
+<br>
+<hr>
+trn_data&nbsp;=&nbsp;load(<span class=quotes>'zip.train'</span>,<span class=quotes>'-ascii'</span>);<br>
+tst_data&nbsp;=&nbsp;load(<span class=quotes>'zip.test'</span>,<span class=quotes>'-ascii'</span>);<br>
+<br>
+<span class=comment>%&nbsp;processing&nbsp;training&nbsp;data</span><br>
+trn.y&nbsp;=&nbsp;trn_data(:,1);<br>
+trn.y(find(trn.y==0))&nbsp;=&nbsp;10;<br>
+<br>
+tmp&nbsp;=&nbsp;trn_data(:,2:<span class=keyword>end</span>)';<br>
+trn.X&nbsp;=&nbsp;zeros(256,&nbsp;size(tmp,2));<br>
+<span class=io>fprintf</span>(<span class=quotes>'Processing&nbsp;training&nbsp;data'</span>);<br>
+<span class=keyword>for</span>&nbsp;i=1:size(tmp,2),<br>
+&nbsp;&nbsp;<span class=io>fprintf</span>(<span class=quotes>'.'</span>);<br>
+&nbsp;&nbsp;dummy&nbsp;=&nbsp;reshape(&nbsp;tmp(:,i),&nbsp;16,&nbsp;16&nbsp;)';<br>
+&nbsp;&nbsp;trn.X(:,i)&nbsp;=&nbsp;(dummy(:)+1)/2;<br>
+<span class=keyword>end</span><br>
+<span class=io>fprintf</span>(<span class=quotes>'\n'</span>);<br>
+&nbsp;&nbsp;<br>
+<span class=comment>%&nbsp;processing&nbsp;testing&nbsp;data</span><br>
+tst.y&nbsp;=&nbsp;tst_data(:,1);<br>
+tst.y(find(tst.y==0))&nbsp;=&nbsp;10;<br>
+<br>
+tmp&nbsp;=&nbsp;tst_data(:,2:<span class=keyword>end</span>)';<br>
+tst.X&nbsp;=&nbsp;zeros(256,&nbsp;size(tmp,2));<br>
+<span class=io>fprintf</span>(<span class=quotes>'Processing&nbsp;testing&nbsp;data'</span>);<br>
+<span class=keyword>for</span>&nbsp;i=1:size(tmp,2),<br>
+&nbsp;&nbsp;<span class=io>fprintf</span>(<span class=quotes>'.'</span>);<br>
+&nbsp;&nbsp;dummy&nbsp;=&nbsp;reshape(&nbsp;tmp(:,i),&nbsp;16,&nbsp;16&nbsp;)';<br>
+&nbsp;&nbsp;tst.X(:,i)&nbsp;=&nbsp;(dummy(:)+1)/2;<br>
+<span class=keyword>end</span><br>
+<span class=io>fprintf</span>(<span class=quotes>'\n'</span>);<br>
+<br>
+<span class=comment>%&nbsp;</span><br>
+name&nbsp;=&nbsp;<span class=quotes>'USPS&nbsp;database&nbsp;of&nbsp;handwritten&nbsp;numerals'</span>;<br>
+save&nbsp;usps&nbsp;trn&nbsp;tst&nbsp;name;<br>
+<br>
+<span class=comment>%&nbsp;EOF</span><br>
+</code>

@@ -1,0 +1,13 @@
+;; Optimal cost: 10
+;; h^max for init: 6
+
+(load-truck package1 pgh-truck pgh-po)
+(drive-truck pgh-truck pgh-po pgh-airport pgh)
+(unload-truck package1 pgh-truck pgh-airport)
+(load-airplane package1 airplane1 pgh-airport)
+(fly-airplane airplane1 pgh-airport ny-airport)
+(unload-airplane package1 airplane1 ny-airport)
+(drive-truck ny-truck ny-po ny-airport ny)
+(load-truck package1 ny-truck ny-airport)
+(drive-truck ny-truck ny-airport ny-po ny)
+(unload-truck package1 ny-truck ny-po)

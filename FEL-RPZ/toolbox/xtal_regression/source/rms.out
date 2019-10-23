@@ -1,0 +1,8 @@
+________________________________________________________________________________
+
+Training file train.txt opened with 99 samples and  1 predictor variables (mean=-25.413131)
+Test file test.txt opened with 34 samples (mean=-25.938235)
+Zeroth order model (y=-25.413131) has RMS error=42.064058 on the test set.
+________________________________________________________________________________
+K-NN with 11 neighbors NRMS error ===>> 0.480619
+*******************************************.|....|....|....|....|....|....|....|

@@ -1,0 +1,11 @@
+\section{Modelování problému}
+
+Proměnné problému jsou pozice jednotlivých dam. Každý agent je zodpovědný za jednu dámu. Jednotlivé proměnné mohou nabývat hodnot \( 0 \) až \( n - 1 \), kde \( n \) je počet všech dam. Tato čísla odpovídají sloupcům, ve kterém se agent může nacházet. Pozice, na kterých se agenti mohou nacházet se řídí klasickými šachovými pravidly, kde každá dáma kontroluje svůj sloupec, řádek a diagonály příslušející k poli, na kterém stojí. Jednotlivé podmínky na rozestavení dam potom vznikají z kombinací pozic, na kterých se dámy mohou v průběhu hledání řešení nacházet.
+
+\section{Úprava ABT pro n-Queen problém}
+
+Agenti mají priority přiřazené dle jejich identifikátoru, první agent (s číslem 0) má nejvyšší prioritu a poslední agent nejnižší. Mezi agenty se posílají OK? zprávy, které putují od agenta s vyšší prioritou ke všem agentům s nižší prioritou. Díky tomu není potřeba v algoritmu implementovat metoda AddLink pro přidání spojení mezi agenty.
+
+\section{Ukončení hledání}
+
+Ukončení hledání může nastat v případě, že není nalezeno žádné řešení. To lze detekovat tehdy, pokud agent s nejvyšší prioritou (Agent 0) nemá žádnou validní pozici, kam se postavit. Nalezení správného řešení a ukočení algoritmu je zaručeno tak, že poslední agent, kontroluje průběžně svoje agentView, zda-li je kompletní (všichni agenti s vyšší prioritou mají přiřazenou pozici), a jeho pozice je validní (tedy žádný nadřazený agent ho neohrožuje), odešle nadřazenému agentovi zprávu, ve které odešle své agentView k porovnání. Pokud agentView nadřazeného agenta souhlasí s agentView agenta podřazeného a jeho pozice odpovídá pozici v zaslaném agentView, opět se pošle zpráva výše. Toto se opakuje až do kořene. Pokud se cestou nezjistí nějaký problém, agent s nejvyšší prioritou po zkontrolování odešle všem ostatním agentům zprávu o nalezení řešení a ukončí se algoritmus.

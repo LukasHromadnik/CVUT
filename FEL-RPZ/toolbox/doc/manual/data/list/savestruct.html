@@ -1,0 +1,53 @@
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=ISO-8859-1">
+  <title>savestruct.m</title>
+<link rel="stylesheet" type="text/css" href="../../m-syntax.css">
+</head>
+<body>
+<code>
+<span class=defun_kw>function</span>&nbsp;<span class=defun_name>savestruct</span>(<span class=defun_in>structure,file_name</span>)<br>
+<span class=h1>%&nbsp;SAVESTRUCT&nbsp;saves&nbsp;fields&nbsp;of&nbsp;given&nbsp;structure&nbsp;to&nbsp;file.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Synopsis:</span></span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;savestruct(structure)</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;savestruct(structure,file_name)</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Description:</span></span><br>
+<span class=help>%&nbsp;&nbsp;It&nbsp;saves&nbsp;fields&nbsp;of&nbsp;given&nbsp;structure&nbsp;to&nbsp;specified&nbsp;file.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Input:</span></span><br>
+<span class=help>%&nbsp;&nbsp;structure&nbsp;[struct]&nbsp;Input&nbsp;structure.&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;file_name&nbsp;[string]&nbsp;File&nbsp;name&nbsp;(default&nbsp;'struct.mat'.</span><br>
+<span class=help>%</span><br>
+<hr>
+<span class=help1>%&nbsp;<span class=help1_field>About:</span>&nbsp;Statistical&nbsp;Pattern&nbsp;Recognition&nbsp;Toolbox</span><br>
+<span class=help1>%&nbsp;(C)&nbsp;1999-2003,&nbsp;Written&nbsp;by&nbsp;Vojtech&nbsp;Franc&nbsp;and&nbsp;Vaclav&nbsp;Hlavac</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://www.cvut.cz"&gt;Czech&nbsp;Technical&nbsp;University&nbsp;Prague&lt;/a&gt;</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://www.feld.cvut.cz"&gt;Faculty&nbsp;of&nbsp;Electrical&nbsp;Engineering&lt;/a&gt;</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://cmp.felk.cvut.cz"&gt;Center&nbsp;for&nbsp;Machine&nbsp;Perception&lt;/a&gt;</span><br>
+<br>
+<span class=help1>%&nbsp;<span class=help1_field>Modifications:</span></span><br>
+<span class=help1>%&nbsp;21-apr-2004,&nbsp;VF</span><br>
+<br>
+<hr>
+<span class=keyword>if</span>&nbsp;<span class=stack>nargin</span>&nbsp;&lt;&nbsp;2,&nbsp;file_name&nbsp;=&nbsp;<span class=quotes>'struct.mat'</span>;&nbsp;<span class=keyword>end</span><br>
+<br>
+names&nbsp;=&nbsp;fieldnames(structure);<br>
+<br>
+save_str&nbsp;=&nbsp;<span class=quotes>'save(file_name'</span>;<br>
+<span class=keyword>for</span>&nbsp;i=1:length(names);<br>
+&nbsp;&nbsp;save_str&nbsp;=&nbsp;[save_str&nbsp;<span class=quotes>',&nbsp;'</span><span class=quotes>''</span>&nbsp;names{i}&nbsp;<span class=quotes>''</span><span class=quotes>''</span>];<br>
+&nbsp;&nbsp;<br>
+&nbsp;&nbsp;<span class=eval>eval</span>([names{i}&nbsp;<span class=quotes>'=&nbsp;structure.'</span>&nbsp;names{i}&nbsp;<span class=quotes>';'</span>]);<br>
+&nbsp;&nbsp;<br>
+<span class=keyword>end</span><br>
+<br>
+save_str&nbsp;=&nbsp;[save_str&nbsp;<span class=quotes>');'</span>];<br>
+<br>
+<span class=eval>eval</span>(save_str);<br>
+<br>
+<span class=jump>return</span>;<br>
+<br>
+<span class=comment>%EOF</span><br>
+</code>

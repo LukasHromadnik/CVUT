@@ -1,0 +1,11 @@
+\section{Objevování světa}
+
+Každý agent má k dispozici kompletní obraz již prozkoumaného světa. Svět je reprezentován maticí, kde na jednotlivých jsou uloženy informace o daném poli v herním světě. Díky tomuto objektu je agent schopen nalézt všechna neobjevená místa na mapě. V případě, že agent nemá přidělen důležitější úkol, dostane přiděleno náhodné místo na mapě, kde žádný jiný agent doposud nebyl. Díky tomu dojde ke kompletnímu zmapování celého herního pole.
+
+\section{Plánování cesty}
+
+Jednoduchá implementace plánování cesty nestačí pro složitější světy. Ve chvíli, kdy se v cestě agenta objeví překážka, dojde k vyvolání náhodného pohybu, díky kterému se agent \uv{rozhodí} a nehrozí tak uváznutí v místě, ze kterého by se jednoduchou implemetací nedostal. Tato implementace však nestačí pro komplikovanější překážky.
+
+\section{Vyhledání pomoci – synchronizace}
+
+Při vyhledávání pomoci je potřeba zjistit, zda-li je k dispozici agent, jehož úkol dovoluje, aby mohl jít pomoci jinému agentovi s vyzvednutím zlata. Při této komunikaci je odeslána zpráva všem agentům a agent, který zprávu vyslal, čeká na odpověď od všech agentů (ať už kladnou nebo zápornou). Ve chvíli, kdy všechny odpovědi dorazí, agent si vybere pomocníka, který je k němu nejblíže. Vzdálenost mezi agenty se počítá v okamžiku odeslání zprávy s odpovědí.

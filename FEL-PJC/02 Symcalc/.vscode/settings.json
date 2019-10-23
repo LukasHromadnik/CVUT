@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "iomanip": "cpp",
+        "ostream": "cpp",
+        "random": "cpp",
+        "regex": "cpp",
+        "stdexcept": "cpp",
+        "vector": "cpp"
+    },
+    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools"
+}

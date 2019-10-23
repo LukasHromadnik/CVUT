@@ -1,0 +1,13 @@
+production: &production
+  adapter: em_postgresql
+  encoding: unicode
+  database: movies_production
+  pool: 5
+  username: 'movies'
+  password: 'm0vi3zzrulezz!'
+development:
+  <<: *production
+  database: movies_development
+test:
+  <<: *production
+  database: movies_test

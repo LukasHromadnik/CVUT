@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @thesis.title %>
+</p>
+
+<p>
+  <strong>Abstract:</strong>
+  <%= @thesis.abstract %>
+</p>
+
+<p>
+  <strong>Defended:</strong>
+  <%= @thesis.defended %>
+</p>
+
+<p>
+  <strong>Faculty:</strong>
+  <%= @thesis.faculty.try!(:name) %>
+</p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @thesis.person.try! { |p| "#{p.name} #{p.surname}"} %>
+</p>
+
+<%= link_to 'Edit', edit_thesis_path(@thesis) %> |
+<%= link_to 'Back', theses_path %>

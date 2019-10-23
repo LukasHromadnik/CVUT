@@ -1,0 +1,14 @@
+<h1>Person detail</h1>
+
+<p><strong>Username:</strong> <%= @person.username %></p>
+<p><strong>Name:</strong> <%= @person.name %></p>
+<p><strong>Surname:</strong> <%= @person.surname %></p>
+<p><strong>Theses:</strong>
+<ul>
+	<% @person.theses.each do |t| %>
+	<li><%= link_to t.title, thesis_path(t) %></li>
+	<% end %>
+</ul>
+</p>
+
+<%= link_to 'Edit', edit_person_path(@person) %> | <%= link_to 'Back', people_path %>

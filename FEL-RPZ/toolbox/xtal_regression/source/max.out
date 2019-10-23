@@ -1,0 +1,10 @@
+________________________________________________________________________________
+
+Training file train.txt has response MIN = -134.000000
+Training file train.txt has response MAX = 75.000000
+Test file test.txt has response MIN = -123.000000
+Test file test.txt has response MAX = 46.900000
+The test response MIN-MAX difference is 169.900000
+________________________________________________________________________________
+K-NN with 11 neighbors NMAX error ==> 0.257585
+************************************************************....|....|....|....|

@@ -1,0 +1,14 @@
+target 'AngryFIT' do
+  use_frameworks!
+
+  pod 'SnapKit', '~> 3.0'
+
+  target 'AngryFITTests' do
+    inherit! :search_paths
+  end
+
+  target 'AngryFITUITests' do
+    inherit! :search_paths
+  end
+
+end

@@ -1,0 +1,10 @@
+# A sample Guardfile
+# More info at https://github.com/guard/guard#readme
+
+guard :rspec, cmd: 'rspec spec' do
+  watch('Gemfile.lock')
+  watch('eliza_*.rb') { :rspec }
+  watch(%r{^spec/.*\.rb$}) { :rspec }
+  watch(%r{^eliza_.*\.rb$})
+  watch('eliza_server.rb') { :rspec }
+end

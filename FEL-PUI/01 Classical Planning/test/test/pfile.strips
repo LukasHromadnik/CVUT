@@ -1,0 +1,107 @@
+13
+(at airplane1 ny-airport)
+(at airplane1 pgh-airport)
+(at ny-truck ny-airport)
+(at ny-truck ny-po)
+(at package1 ny-airport)
+(at package1 ny-po)
+(at package1 pgh-airport)
+(at package1 pgh-po)
+(at pgh-truck pgh-airport)
+(at pgh-truck pgh-po)
+(in package1 airplane1)
+(in package1 ny-truck)
+(in package1 pgh-truck)
+4 1 3 7 9
+1 5
+18
+drive-truck ny-truck ny-airport ny-po ny
+1 2
+1 3
+1 2
+1
+drive-truck ny-truck ny-po ny-airport ny
+1 3
+1 2
+1 3
+1
+drive-truck pgh-truck pgh-airport pgh-po pgh
+1 8
+1 9
+1 8
+1
+drive-truck pgh-truck pgh-po pgh-airport pgh
+1 9
+1 8
+1 9
+1
+fly-airplane airplane1 ny-airport pgh-airport
+1 0
+1 1
+1 0
+1
+fly-airplane airplane1 pgh-airport ny-airport
+1 1
+1 0
+1 1
+1
+load-airplane package1 airplane1 ny-airport
+2 0 4
+1 10
+1 4
+1
+load-airplane package1 airplane1 pgh-airport
+2 1 6
+1 10
+1 6
+1
+load-truck package1 ny-truck ny-airport
+2 2 4
+1 11
+1 4
+1
+load-truck package1 ny-truck ny-po
+2 3 5
+1 11
+1 5
+1
+load-truck package1 pgh-truck pgh-airport
+2 6 8
+1 12
+1 6
+1
+load-truck package1 pgh-truck pgh-po
+2 7 9
+1 12
+1 7
+1
+unload-airplane package1 airplane1 ny-airport
+2 0 10
+1 4
+1 10
+1
+unload-airplane package1 airplane1 pgh-airport
+2 1 10
+1 6
+1 10
+1
+unload-truck package1 ny-truck ny-airport
+2 2 11
+1 4
+1 11
+1
+unload-truck package1 ny-truck ny-po
+2 3 11
+1 5
+1 11
+1
+unload-truck package1 pgh-truck pgh-airport
+2 8 12
+1 6
+1 12
+1
+unload-truck package1 pgh-truck pgh-po
+2 9 12
+1 7
+1 12
+1

@@ -1,0 +1,10 @@
+title 'Habbits'
+author 'John Doe'
+theme 'warsaw'
+
+section 'In the morning'
+slide do
+  title 'Getting up'
+  item 'Turn off alarm'
+  item 'Get out of bed'
+end

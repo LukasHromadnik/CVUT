@@ -1,0 +1,37 @@
+
+PP Driver
+
+To compile, use
+
+f77 -o xpp ppprog.f ppr_dvr3.f
+
+The executable will be called xpp.
+
+The following files contain the projection pursuit
+driver and routines.  The driver is a short fortran program
+which looks in the file pp.config for its input and then
+runs the projection pursuit routines.  In order to communicate
+to the program, you need to enter the information into the file
+pp.config.  The format of this file is as follows:
+--------------------------------------
+train_filename
+n      (number of samples in training set)
+p      (number of predictor variables)
+test_filename
+nt     (number of samples in test set)
+ml     ( projection pursuit parameter -see SMART manual)
+mu     (projection pursuit parameter -see SMART manual)
+out_filename
+----------------------------------------
+In the above example, replace the variables with numbers.
+For example:
+----------------------------------------
+train.data
+100
+2
+test.data
+75
+10
+2
+results1
+-----------------------------------------

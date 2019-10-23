@@ -1,0 +1,58 @@
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=ISO-8859-1">
+  <title>gencircledata.m</title>
+<link rel="stylesheet" type="text/css" href="../../m-syntax.css">
+</head>
+<body>
+<code>
+<span class=defun_kw>function</span>&nbsp;<span class=defun_out>[X,gnd_X]&nbsp;</span>=&nbsp;<span class=defun_name>gencircledata</span>(<span class=defun_in>Center,R,num_data,dev</span>)<br>
+<span class=h1>%&nbsp;GENCIRCLEDATA&nbsp;Generates&nbsp;data&nbsp;on&nbsp;circle&nbsp;corrupted&nbsp;by&nbsp;Gaussian&nbsp;noise.</span><br>
+<span class=help>%&nbsp;</span><br>
+<span class=help>%&nbsp;<span class=help_field>Synopsis:</span></span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;[X,gnd_X]&nbsp;=&nbsp;gencircledata(Center,R,num_data,dev)</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Description:</span></span><br>
+<span class=help>%&nbsp;&nbsp;The&nbsp;underlying&nbsp;curve&nbsp;is&nbsp;2D&nbsp;circle&nbsp;given&nbsp;by&nbsp;Center&nbsp;and&nbsp;radius&nbsp;R.</span><br>
+<span class=help>%&nbsp;&nbsp;This&nbsp;function&nbsp;randomly&nbsp;samples&nbsp;points&nbsp;on&nbsp;the&nbsp;circle&nbsp;and&nbsp;it&nbsp;adds&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;Gaussian&nbsp;noise&nbsp;with&nbsp;given&nbsp;standard&nbsp;deviation&nbsp;dev.</span><br>
+<span class=help>%&nbsp;&nbsp;</span><br>
+<span class=help>%&nbsp;<span class=help_field>Input:</span></span><br>
+<span class=help>%&nbsp;&nbsp;Center&nbsp;[2x1]&nbsp;Circle&nbsp;center.</span><br>
+<span class=help>%&nbsp;&nbsp;R&nbsp;[1x1]&nbsp;Circle&nbsp;radius.</span><br>
+<span class=help>%&nbsp;&nbsp;num_data&nbsp;[1x1]&nbsp;Number&nbsp;of&nbsp;samples.</span><br>
+<span class=help>%&nbsp;&nbsp;dev&nbsp;[1x1]&nbsp;Standard&nbsp;deviation&nbsp;of&nbsp;added&nbsp;Gaussian&nbsp;noise&nbsp;(default&nbsp;1).</span><br>
+<span class=help>%&nbsp;</span><br>
+<span class=help>%&nbsp;<span class=help_field>Output:</span></span><br>
+<span class=help>%&nbsp;&nbsp;X&nbsp;[2xnum_data]&nbsp;Generated&nbsp;samples.</span><br>
+<span class=help>%&nbsp;&nbsp;gnd_X&nbsp;[2xnum_data]&nbsp;Ground&nbsp;truth&nbsp;-&nbsp;samples&nbsp;without&nbsp;noise.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Example:</span></span><br>
+<span class=help>%&nbsp;&nbsp;[X,gnd_X]&nbsp;=&nbsp;gencircledata([1;1],5,500,1);</span><br>
+<span class=help>%&nbsp;&nbsp;figure;&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;ppatterns(X);&nbsp;ppatterns(gnd_X,'r+');</span><br>
+<span class=help>%</span><br>
+<hr>
+<br>
+<span class=help1>%&nbsp;<span class=help1_field>About:</span>&nbsp;Statistical&nbsp;Pattern&nbsp;Recognition&nbsp;Toolbox</span><br>
+<span class=help1>%&nbsp;(C)&nbsp;1999-2003,&nbsp;Written&nbsp;by&nbsp;Vojtech&nbsp;Franc&nbsp;and&nbsp;Vaclav&nbsp;Hlavac</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://www.cvut.cz"&gt;Czech&nbsp;Technical&nbsp;University&nbsp;Prague&lt;/a&gt;</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://www.feld.cvut.cz"&gt;Faculty&nbsp;of&nbsp;Electrical&nbsp;Engineering&lt;/a&gt;</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://cmp.felk.cvut.cz"&gt;Center&nbsp;for&nbsp;Machine&nbsp;Perception&lt;/a&gt;</span><br>
+<br>
+<span class=help1>%&nbsp;<span class=help1_field>Modifications:</span></span><br>
+<span class=help1>%&nbsp;4-may-2004,&nbsp;VF</span><br>
+<br>
+<hr>
+<span class=keyword>if</span>&nbsp;<span class=stack>nargin</span>&nbsp;&lt;&nbsp;4,&nbsp;dev&nbsp;=&nbsp;1;&nbsp;<span class=keyword>end</span><br>
+<br>
+phi&nbsp;=&nbsp;2*pi*rand(1,num_data);<br>
+gnd_X&nbsp;=&nbsp;repmat(Center,1,num_data)+R*[cos(phi);sin(phi)];<br>
+gnd_y&nbsp;=&nbsp;ones(1,num_data);<br>
+<br>
+<span class=comment>%&nbsp;add&nbsp;noise</span><br>
+X&nbsp;=&nbsp;gnd_X&nbsp;+&nbsp;randn(2,num_data)*dev;<br>
+<br>
+<span class=jump>return</span>;<br>
+<span class=comment>%&nbsp;EOF</span><br>
+</code>

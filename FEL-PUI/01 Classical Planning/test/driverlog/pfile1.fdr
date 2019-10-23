@@ -1,0 +1,494 @@
+8
+7
+(at driver1 p1-0)
+(at driver1 p1-2)
+(at driver1 s0)
+(at driver1 s1)
+(at driver1 s2)
+(driving driver1 truck1)
+(driving driver1 truck2)
+7
+(at driver2 p1-0)
+(at driver2 p1-2)
+(at driver2 s0)
+(at driver2 s1)
+(at driver2 s2)
+(driving driver2 truck1)
+(driving driver2 truck2)
+5
+(at package1 s0)
+(at package1 s1)
+(at package1 s2)
+(in package1 truck1)
+(in package1 truck2)
+5
+(at package2 s0)
+(at package2 s1)
+(at package2 s2)
+(in package2 truck1)
+(in package2 truck2)
+3
+(at truck1 s0)
+(at truck1 s1)
+(at truck1 s2)
+3
+(at truck2 s0)
+(at truck2 s1)
+(at truck2 s2)
+2
+(empty truck1)
+<none of those>
+2
+(empty truck2)
+<none of those>
+4 4 0 0 0 0 0 0
+4 0 3 2 0 3 0 4 1
+112
+board-truck driver1 truck1 s0
+3 0 2 4 0 6 0
+2 0 5 6 1
+1
+board-truck driver1 truck1 s1
+3 0 3 4 1 6 0
+2 0 5 6 1
+1
+board-truck driver1 truck1 s2
+3 0 4 4 2 6 0
+2 0 5 6 1
+1
+board-truck driver1 truck2 s0
+3 0 2 5 0 7 0
+2 0 6 7 1
+1
+board-truck driver1 truck2 s1
+3 0 3 5 1 7 0
+2 0 6 7 1
+1
+board-truck driver1 truck2 s2
+3 0 4 5 2 7 0
+2 0 6 7 1
+1
+board-truck driver2 truck1 s0
+3 1 2 4 0 6 0
+2 1 5 6 1
+1
+board-truck driver2 truck1 s1
+3 1 3 4 1 6 0
+2 1 5 6 1
+1
+board-truck driver2 truck1 s2
+3 1 4 4 2 6 0
+2 1 5 6 1
+1
+board-truck driver2 truck2 s0
+3 1 2 5 0 7 0
+2 1 6 7 1
+1
+board-truck driver2 truck2 s1
+3 1 3 5 1 7 0
+2 1 6 7 1
+1
+board-truck driver2 truck2 s2
+3 1 4 5 2 7 0
+2 1 6 7 1
+1
+disembark-truck driver1 truck1 s0
+2 0 5 4 0
+2 0 2 6 0
+1
+disembark-truck driver1 truck1 s1
+2 0 5 4 1
+2 0 3 6 0
+1
+disembark-truck driver1 truck1 s2
+2 0 5 4 2
+2 0 4 6 0
+1
+disembark-truck driver1 truck2 s0
+2 0 6 5 0
+2 0 2 7 0
+1
+disembark-truck driver1 truck2 s1
+2 0 6 5 1
+2 0 3 7 0
+1
+disembark-truck driver1 truck2 s2
+2 0 6 5 2
+2 0 4 7 0
+1
+disembark-truck driver2 truck1 s0
+2 1 5 4 0
+2 1 2 6 0
+1
+disembark-truck driver2 truck1 s1
+2 1 5 4 1
+2 1 3 6 0
+1
+disembark-truck driver2 truck1 s2
+2 1 5 4 2
+2 1 4 6 0
+1
+disembark-truck driver2 truck2 s0
+2 1 6 5 0
+2 1 2 7 0
+1
+disembark-truck driver2 truck2 s1
+2 1 6 5 1
+2 1 3 7 0
+1
+disembark-truck driver2 truck2 s2
+2 1 6 5 2
+2 1 4 7 0
+1
+drive-truck truck1 s0 s1 driver1
+2 0 5 4 0
+1 4 1
+1
+drive-truck truck1 s0 s1 driver2
+2 1 5 4 0
+1 4 1
+1
+drive-truck truck1 s0 s2 driver1
+2 0 5 4 0
+1 4 2
+1
+drive-truck truck1 s0 s2 driver2
+2 1 5 4 0
+1 4 2
+1
+drive-truck truck1 s1 s0 driver1
+2 0 5 4 1
+1 4 0
+1
+drive-truck truck1 s1 s0 driver2
+2 1 5 4 1
+1 4 0
+1
+drive-truck truck1 s1 s2 driver1
+2 0 5 4 1
+1 4 2
+1
+drive-truck truck1 s1 s2 driver2
+2 1 5 4 1
+1 4 2
+1
+drive-truck truck1 s2 s0 driver1
+2 0 5 4 2
+1 4 0
+1
+drive-truck truck1 s2 s0 driver2
+2 1 5 4 2
+1 4 0
+1
+drive-truck truck1 s2 s1 driver1
+2 0 5 4 2
+1 4 1
+1
+drive-truck truck1 s2 s1 driver2
+2 1 5 4 2
+1 4 1
+1
+drive-truck truck2 s0 s1 driver1
+2 0 6 5 0
+1 5 1
+1
+drive-truck truck2 s0 s1 driver2
+2 1 6 5 0
+1 5 1
+1
+drive-truck truck2 s0 s2 driver1
+2 0 6 5 0
+1 5 2
+1
+drive-truck truck2 s0 s2 driver2
+2 1 6 5 0
+1 5 2
+1
+drive-truck truck2 s1 s0 driver1
+2 0 6 5 1
+1 5 0
+1
+drive-truck truck2 s1 s0 driver2
+2 1 6 5 1
+1 5 0
+1
+drive-truck truck2 s1 s2 driver1
+2 0 6 5 1
+1 5 2
+1
+drive-truck truck2 s1 s2 driver2
+2 1 6 5 1
+1 5 2
+1
+drive-truck truck2 s2 s0 driver1
+2 0 6 5 2
+1 5 0
+1
+drive-truck truck2 s2 s0 driver2
+2 1 6 5 2
+1 5 0
+1
+drive-truck truck2 s2 s1 driver1
+2 0 6 5 2
+1 5 1
+1
+drive-truck truck2 s2 s1 driver2
+2 1 6 5 2
+1 5 1
+1
+load-truck package1 truck1 driver1 s0
+3 0 5 2 0 4 0
+1 2 3
+1
+load-truck package1 truck1 driver1 s1
+3 0 5 2 1 4 1
+1 2 3
+1
+load-truck package1 truck1 driver1 s2
+3 0 5 2 2 4 2
+1 2 3
+1
+load-truck package1 truck1 driver2 s0
+3 1 5 2 0 4 0
+1 2 3
+1
+load-truck package1 truck1 driver2 s1
+3 1 5 2 1 4 1
+1 2 3
+1
+load-truck package1 truck1 driver2 s2
+3 1 5 2 2 4 2
+1 2 3
+1
+load-truck package1 truck2 driver1 s0
+3 0 6 2 0 5 0
+1 2 4
+1
+load-truck package1 truck2 driver1 s1
+3 0 6 2 1 5 1
+1 2 4
+1
+load-truck package1 truck2 driver1 s2
+3 0 6 2 2 5 2
+1 2 4
+1
+load-truck package1 truck2 driver2 s0
+3 1 6 2 0 5 0
+1 2 4
+1
+load-truck package1 truck2 driver2 s1
+3 1 6 2 1 5 1
+1 2 4
+1
+load-truck package1 truck2 driver2 s2
+3 1 6 2 2 5 2
+1 2 4
+1
+load-truck package2 truck1 driver1 s0
+3 0 5 3 0 4 0
+1 3 3
+1
+load-truck package2 truck1 driver1 s1
+3 0 5 3 1 4 1
+1 3 3
+1
+load-truck package2 truck1 driver1 s2
+3 0 5 3 2 4 2
+1 3 3
+1
+load-truck package2 truck1 driver2 s0
+3 1 5 3 0 4 0
+1 3 3
+1
+load-truck package2 truck1 driver2 s1
+3 1 5 3 1 4 1
+1 3 3
+1
+load-truck package2 truck1 driver2 s2
+3 1 5 3 2 4 2
+1 3 3
+1
+load-truck package2 truck2 driver1 s0
+3 0 6 3 0 5 0
+1 3 4
+1
+load-truck package2 truck2 driver1 s1
+3 0 6 3 1 5 1
+1 3 4
+1
+load-truck package2 truck2 driver1 s2
+3 0 6 3 2 5 2
+1 3 4
+1
+load-truck package2 truck2 driver2 s0
+3 1 6 3 0 5 0
+1 3 4
+1
+load-truck package2 truck2 driver2 s1
+3 1 6 3 1 5 1
+1 3 4
+1
+load-truck package2 truck2 driver2 s2
+3 1 6 3 2 5 2
+1 3 4
+1
+unload-truck package1 truck1 driver1 s0
+3 0 5 2 3 4 0
+1 2 0
+1
+unload-truck package1 truck1 driver1 s1
+3 0 5 2 3 4 1
+1 2 1
+1
+unload-truck package1 truck1 driver1 s2
+3 0 5 2 3 4 2
+1 2 2
+1
+unload-truck package1 truck1 driver2 s0
+3 1 5 2 3 4 0
+1 2 0
+1
+unload-truck package1 truck1 driver2 s1
+3 1 5 2 3 4 1
+1 2 1
+1
+unload-truck package1 truck1 driver2 s2
+3 1 5 2 3 4 2
+1 2 2
+1
+unload-truck package1 truck2 driver1 s0
+3 0 6 2 4 5 0
+1 2 0
+1
+unload-truck package1 truck2 driver1 s1
+3 0 6 2 4 5 1
+1 2 1
+1
+unload-truck package1 truck2 driver1 s2
+3 0 6 2 4 5 2
+1 2 2
+1
+unload-truck package1 truck2 driver2 s0
+3 1 6 2 4 5 0
+1 2 0
+1
+unload-truck package1 truck2 driver2 s1
+3 1 6 2 4 5 1
+1 2 1
+1
+unload-truck package1 truck2 driver2 s2
+3 1 6 2 4 5 2
+1 2 2
+1
+unload-truck package2 truck1 driver1 s0
+3 0 5 3 3 4 0
+1 3 0
+1
+unload-truck package2 truck1 driver1 s1
+3 0 5 3 3 4 1
+1 3 1
+1
+unload-truck package2 truck1 driver1 s2
+3 0 5 3 3 4 2
+1 3 2
+1
+unload-truck package2 truck1 driver2 s0
+3 1 5 3 3 4 0
+1 3 0
+1
+unload-truck package2 truck1 driver2 s1
+3 1 5 3 3 4 1
+1 3 1
+1
+unload-truck package2 truck1 driver2 s2
+3 1 5 3 3 4 2
+1 3 2
+1
+unload-truck package2 truck2 driver1 s0
+3 0 6 3 4 5 0
+1 3 0
+1
+unload-truck package2 truck2 driver1 s1
+3 0 6 3 4 5 1
+1 3 1
+1
+unload-truck package2 truck2 driver1 s2
+3 0 6 3 4 5 2
+1 3 2
+1
+unload-truck package2 truck2 driver2 s0
+3 1 6 3 4 5 0
+1 3 0
+1
+unload-truck package2 truck2 driver2 s1
+3 1 6 3 4 5 1
+1 3 1
+1
+unload-truck package2 truck2 driver2 s2
+3 1 6 3 4 5 2
+1 3 2
+1
+walk driver1 p1-0 s0
+1 0 0
+1 0 2
+1
+walk driver1 p1-0 s1
+1 0 0
+1 0 3
+1
+walk driver1 p1-2 s1
+1 0 1
+1 0 3
+1
+walk driver1 p1-2 s2
+1 0 1
+1 0 4
+1
+walk driver1 s0 p1-0
+1 0 2
+1 0 0
+1
+walk driver1 s1 p1-0
+1 0 3
+1 0 0
+1
+walk driver1 s1 p1-2
+1 0 3
+1 0 1
+1
+walk driver1 s2 p1-2
+1 0 4
+1 0 1
+1
+walk driver2 p1-0 s0
+1 1 0
+1 1 2
+1
+walk driver2 p1-0 s1
+1 1 0
+1 1 3
+1
+walk driver2 p1-2 s1
+1 1 1
+1 1 3
+1
+walk driver2 p1-2 s2
+1 1 1
+1 1 4
+1
+walk driver2 s0 p1-0
+1 1 2
+1 1 0
+1
+walk driver2 s1 p1-0
+1 1 3
+1 1 0
+1
+walk driver2 s1 p1-2
+1 1 3
+1 1 1
+1
+walk driver2 s2 p1-2
+1 1 4
+1 1 1
+1

@@ -1,0 +1,8 @@
+sekvenční řešení není to samé jako paralelní s jedním vláknem
+změřím: sekvenční, funkční paralelismus, datový paralelismus, mpi
+
+zkopírovat:
+/home/mpi
+paralell_job.sh
+serial_job.sh
+nastavit MY_PARALLEL_PROGRAM

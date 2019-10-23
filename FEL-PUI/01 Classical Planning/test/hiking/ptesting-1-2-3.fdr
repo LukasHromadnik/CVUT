@@ -1,0 +1,471 @@
+7
+3
+(at_car car0 place0)
+(at_car car0 place1)
+(at_car car0 place2)
+3
+(at_car car1 place0)
+(at_car car1 place1)
+(at_car car1 place2)
+3
+(at_person girl0 place0)
+(at_person girl0 place1)
+(at_person girl0 place2)
+3
+(at_person guy0 place0)
+(at_person guy0 place1)
+(at_person guy0 place2)
+3
+(at_tent tent0 place0)
+(at_tent tent0 place1)
+(at_tent tent0 place2)
+3
+(walked couple0 place0)
+(walked couple0 place1)
+(walked couple0 place2)
+2
+(down tent0)
+(up tent0)
+0 0 0 0 0 0 1
+1 5 2
+110
+drive girl0 place0 place1 car0
+2 0 0 2 0
+2 0 1 2 1
+1
+drive girl0 place0 place1 car1
+2 1 0 2 0
+2 1 1 2 1
+1
+drive girl0 place0 place2 car0
+2 0 0 2 0
+2 0 2 2 2
+1
+drive girl0 place0 place2 car1
+2 1 0 2 0
+2 1 2 2 2
+1
+drive girl0 place1 place0 car0
+2 0 1 2 1
+2 0 0 2 0
+1
+drive girl0 place1 place0 car1
+2 1 1 2 1
+2 1 0 2 0
+1
+drive girl0 place1 place2 car0
+2 0 1 2 1
+2 0 2 2 2
+1
+drive girl0 place1 place2 car1
+2 1 1 2 1
+2 1 2 2 2
+1
+drive girl0 place2 place0 car0
+2 0 2 2 2
+2 0 0 2 0
+1
+drive girl0 place2 place0 car1
+2 1 2 2 2
+2 1 0 2 0
+1
+drive girl0 place2 place1 car0
+2 0 2 2 2
+2 0 1 2 1
+1
+drive girl0 place2 place1 car1
+2 1 2 2 2
+2 1 1 2 1
+1
+drive guy0 place0 place1 car0
+2 0 0 3 0
+2 0 1 3 1
+1
+drive guy0 place0 place1 car1
+2 1 0 3 0
+2 1 1 3 1
+1
+drive guy0 place0 place2 car0
+2 0 0 3 0
+2 0 2 3 2
+1
+drive guy0 place0 place2 car1
+2 1 0 3 0
+2 1 2 3 2
+1
+drive guy0 place1 place0 car0
+2 0 1 3 1
+2 0 0 3 0
+1
+drive guy0 place1 place0 car1
+2 1 1 3 1
+2 1 0 3 0
+1
+drive guy0 place1 place2 car0
+2 0 1 3 1
+2 0 2 3 2
+1
+drive guy0 place1 place2 car1
+2 1 1 3 1
+2 1 2 3 2
+1
+drive guy0 place2 place0 car0
+2 0 2 3 2
+2 0 0 3 0
+1
+drive guy0 place2 place0 car1
+2 1 2 3 2
+2 1 0 3 0
+1
+drive guy0 place2 place1 car0
+2 0 2 3 2
+2 0 1 3 1
+1
+drive guy0 place2 place1 car1
+2 1 2 3 2
+2 1 1 3 1
+1
+drive_passenger girl0 place0 place1 car0 guy0
+3 0 0 2 0 3 0
+3 0 1 2 1 3 1
+1
+drive_passenger girl0 place0 place1 car1 guy0
+3 1 0 2 0 3 0
+3 1 1 2 1 3 1
+1
+drive_passenger girl0 place0 place2 car0 guy0
+3 0 0 2 0 3 0
+3 0 2 2 2 3 2
+1
+drive_passenger girl0 place0 place2 car1 guy0
+3 1 0 2 0 3 0
+3 1 2 2 2 3 2
+1
+drive_passenger girl0 place1 place0 car0 guy0
+3 0 1 2 1 3 1
+3 0 0 2 0 3 0
+1
+drive_passenger girl0 place1 place0 car1 guy0
+3 1 1 2 1 3 1
+3 1 0 2 0 3 0
+1
+drive_passenger girl0 place1 place2 car0 guy0
+3 0 1 2 1 3 1
+3 0 2 2 2 3 2
+1
+drive_passenger girl0 place1 place2 car1 guy0
+3 1 1 2 1 3 1
+3 1 2 2 2 3 2
+1
+drive_passenger girl0 place2 place0 car0 guy0
+3 0 2 2 2 3 2
+3 0 0 2 0 3 0
+1
+drive_passenger girl0 place2 place0 car1 guy0
+3 1 2 2 2 3 2
+3 1 0 2 0 3 0
+1
+drive_passenger girl0 place2 place1 car0 guy0
+3 0 2 2 2 3 2
+3 0 1 2 1 3 1
+1
+drive_passenger girl0 place2 place1 car1 guy0
+3 1 2 2 2 3 2
+3 1 1 2 1 3 1
+1
+drive_passenger guy0 place0 place1 car0 girl0
+3 0 0 2 0 3 0
+3 0 1 2 1 3 1
+1
+drive_passenger guy0 place0 place1 car1 girl0
+3 1 0 2 0 3 0
+3 1 1 2 1 3 1
+1
+drive_passenger guy0 place0 place2 car0 girl0
+3 0 0 2 0 3 0
+3 0 2 2 2 3 2
+1
+drive_passenger guy0 place0 place2 car1 girl0
+3 1 0 2 0 3 0
+3 1 2 2 2 3 2
+1
+drive_passenger guy0 place1 place0 car0 girl0
+3 0 1 2 1 3 1
+3 0 0 2 0 3 0
+1
+drive_passenger guy0 place1 place0 car1 girl0
+3 1 1 2 1 3 1
+3 1 0 2 0 3 0
+1
+drive_passenger guy0 place1 place2 car0 girl0
+3 0 1 2 1 3 1
+3 0 2 2 2 3 2
+1
+drive_passenger guy0 place1 place2 car1 girl0
+3 1 1 2 1 3 1
+3 1 2 2 2 3 2
+1
+drive_passenger guy0 place2 place0 car0 girl0
+3 0 2 2 2 3 2
+3 0 0 2 0 3 0
+1
+drive_passenger guy0 place2 place0 car1 girl0
+3 1 2 2 2 3 2
+3 1 0 2 0 3 0
+1
+drive_passenger guy0 place2 place1 car0 girl0
+3 0 2 2 2 3 2
+3 0 1 2 1 3 1
+1
+drive_passenger guy0 place2 place1 car1 girl0
+3 1 2 2 2 3 2
+3 1 1 2 1 3 1
+1
+drive_tent girl0 place0 place1 car0 tent0
+4 0 0 2 0 4 0 6 0
+3 0 1 2 1 4 1
+1
+drive_tent girl0 place0 place1 car1 tent0
+4 1 0 2 0 4 0 6 0
+3 1 1 2 1 4 1
+1
+drive_tent girl0 place0 place2 car0 tent0
+4 0 0 2 0 4 0 6 0
+3 0 2 2 2 4 2
+1
+drive_tent girl0 place0 place2 car1 tent0
+4 1 0 2 0 4 0 6 0
+3 1 2 2 2 4 2
+1
+drive_tent girl0 place1 place0 car0 tent0
+4 0 1 2 1 4 1 6 0
+3 0 0 2 0 4 0
+1
+drive_tent girl0 place1 place0 car1 tent0
+4 1 1 2 1 4 1 6 0
+3 1 0 2 0 4 0
+1
+drive_tent girl0 place1 place2 car0 tent0
+4 0 1 2 1 4 1 6 0
+3 0 2 2 2 4 2
+1
+drive_tent girl0 place1 place2 car1 tent0
+4 1 1 2 1 4 1 6 0
+3 1 2 2 2 4 2
+1
+drive_tent girl0 place2 place0 car0 tent0
+4 0 2 2 2 4 2 6 0
+3 0 0 2 0 4 0
+1
+drive_tent girl0 place2 place0 car1 tent0
+4 1 2 2 2 4 2 6 0
+3 1 0 2 0 4 0
+1
+drive_tent girl0 place2 place1 car0 tent0
+4 0 2 2 2 4 2 6 0
+3 0 1 2 1 4 1
+1
+drive_tent girl0 place2 place1 car1 tent0
+4 1 2 2 2 4 2 6 0
+3 1 1 2 1 4 1
+1
+drive_tent guy0 place0 place1 car0 tent0
+4 0 0 3 0 4 0 6 0
+3 0 1 3 1 4 1
+1
+drive_tent guy0 place0 place1 car1 tent0
+4 1 0 3 0 4 0 6 0
+3 1 1 3 1 4 1
+1
+drive_tent guy0 place0 place2 car0 tent0
+4 0 0 3 0 4 0 6 0
+3 0 2 3 2 4 2
+1
+drive_tent guy0 place0 place2 car1 tent0
+4 1 0 3 0 4 0 6 0
+3 1 2 3 2 4 2
+1
+drive_tent guy0 place1 place0 car0 tent0
+4 0 1 3 1 4 1 6 0
+3 0 0 3 0 4 0
+1
+drive_tent guy0 place1 place0 car1 tent0
+4 1 1 3 1 4 1 6 0
+3 1 0 3 0 4 0
+1
+drive_tent guy0 place1 place2 car0 tent0
+4 0 1 3 1 4 1 6 0
+3 0 2 3 2 4 2
+1
+drive_tent guy0 place1 place2 car1 tent0
+4 1 1 3 1 4 1 6 0
+3 1 2 3 2 4 2
+1
+drive_tent guy0 place2 place0 car0 tent0
+4 0 2 3 2 4 2 6 0
+3 0 0 3 0 4 0
+1
+drive_tent guy0 place2 place0 car1 tent0
+4 1 2 3 2 4 2 6 0
+3 1 0 3 0 4 0
+1
+drive_tent guy0 place2 place1 car0 tent0
+4 0 2 3 2 4 2 6 0
+3 0 1 3 1 4 1
+1
+drive_tent guy0 place2 place1 car1 tent0
+4 1 2 3 2 4 2 6 0
+3 1 1 3 1 4 1
+1
+drive_tent_passenger girl0 place0 place1 car0 tent0 guy0
+5 0 0 2 0 3 0 4 0 6 0
+4 0 1 2 1 3 1 4 1
+1
+drive_tent_passenger girl0 place0 place1 car1 tent0 guy0
+5 1 0 2 0 3 0 4 0 6 0
+4 1 1 2 1 3 1 4 1
+1
+drive_tent_passenger girl0 place0 place2 car0 tent0 guy0
+5 0 0 2 0 3 0 4 0 6 0
+4 0 2 2 2 3 2 4 2
+1
+drive_tent_passenger girl0 place0 place2 car1 tent0 guy0
+5 1 0 2 0 3 0 4 0 6 0
+4 1 2 2 2 3 2 4 2
+1
+drive_tent_passenger girl0 place1 place0 car0 tent0 guy0
+5 0 1 2 1 3 1 4 1 6 0
+4 0 0 2 0 3 0 4 0
+1
+drive_tent_passenger girl0 place1 place0 car1 tent0 guy0
+5 1 1 2 1 3 1 4 1 6 0
+4 1 0 2 0 3 0 4 0
+1
+drive_tent_passenger girl0 place1 place2 car0 tent0 guy0
+5 0 1 2 1 3 1 4 1 6 0
+4 0 2 2 2 3 2 4 2
+1
+drive_tent_passenger girl0 place1 place2 car1 tent0 guy0
+5 1 1 2 1 3 1 4 1 6 0
+4 1 2 2 2 3 2 4 2
+1
+drive_tent_passenger girl0 place2 place0 car0 tent0 guy0
+5 0 2 2 2 3 2 4 2 6 0
+4 0 0 2 0 3 0 4 0
+1
+drive_tent_passenger girl0 place2 place0 car1 tent0 guy0
+5 1 2 2 2 3 2 4 2 6 0
+4 1 0 2 0 3 0 4 0
+1
+drive_tent_passenger girl0 place2 place1 car0 tent0 guy0
+5 0 2 2 2 3 2 4 2 6 0
+4 0 1 2 1 3 1 4 1
+1
+drive_tent_passenger girl0 place2 place1 car1 tent0 guy0
+5 1 2 2 2 3 2 4 2 6 0
+4 1 1 2 1 3 1 4 1
+1
+drive_tent_passenger guy0 place0 place1 car0 tent0 girl0
+5 0 0 2 0 3 0 4 0 6 0
+4 0 1 2 1 3 1 4 1
+1
+drive_tent_passenger guy0 place0 place1 car1 tent0 girl0
+5 1 0 2 0 3 0 4 0 6 0
+4 1 1 2 1 3 1 4 1
+1
+drive_tent_passenger guy0 place0 place2 car0 tent0 girl0
+5 0 0 2 0 3 0 4 0 6 0
+4 0 2 2 2 3 2 4 2
+1
+drive_tent_passenger guy0 place0 place2 car1 tent0 girl0
+5 1 0 2 0 3 0 4 0 6 0
+4 1 2 2 2 3 2 4 2
+1
+drive_tent_passenger guy0 place1 place0 car0 tent0 girl0
+5 0 1 2 1 3 1 4 1 6 0
+4 0 0 2 0 3 0 4 0
+1
+drive_tent_passenger guy0 place1 place0 car1 tent0 girl0
+5 1 1 2 1 3 1 4 1 6 0
+4 1 0 2 0 3 0 4 0
+1
+drive_tent_passenger guy0 place1 place2 car0 tent0 girl0
+5 0 1 2 1 3 1 4 1 6 0
+4 0 2 2 2 3 2 4 2
+1
+drive_tent_passenger guy0 place1 place2 car1 tent0 girl0
+5 1 1 2 1 3 1 4 1 6 0
+4 1 2 2 2 3 2 4 2
+1
+drive_tent_passenger guy0 place2 place0 car0 tent0 girl0
+5 0 2 2 2 3 2 4 2 6 0
+4 0 0 2 0 3 0 4 0
+1
+drive_tent_passenger guy0 place2 place0 car1 tent0 girl0
+5 1 2 2 2 3 2 4 2 6 0
+4 1 0 2 0 3 0 4 0
+1
+drive_tent_passenger guy0 place2 place1 car0 tent0 girl0
+5 0 2 2 2 3 2 4 2 6 0
+4 0 1 2 1 3 1 4 1
+1
+drive_tent_passenger guy0 place2 place1 car1 tent0 girl0
+5 1 2 2 2 3 2 4 2 6 0
+4 1 1 2 1 3 1 4 1
+1
+put_down girl0 place0 tent0
+3 2 0 4 0 6 1
+1 6 0
+1
+put_down girl0 place1 tent0
+3 2 1 4 1 6 1
+1 6 0
+1
+put_down girl0 place2 tent0
+3 2 2 4 2 6 1
+1 6 0
+1
+put_down guy0 place0 tent0
+3 3 0 4 0 6 1
+1 6 0
+1
+put_down guy0 place1 tent0
+3 3 1 4 1 6 1
+1 6 0
+1
+put_down guy0 place2 tent0
+3 3 2 4 2 6 1
+1 6 0
+1
+put_up girl0 place0 tent0
+3 2 0 4 0 6 0
+1 6 1
+1
+put_up girl0 place1 tent0
+3 2 1 4 1 6 0
+1 6 1
+1
+put_up girl0 place2 tent0
+3 2 2 4 2 6 0
+1 6 1
+1
+put_up guy0 place0 tent0
+3 3 0 4 0 6 0
+1 6 1
+1
+put_up guy0 place1 tent0
+3 3 1 4 1 6 0
+1 6 1
+1
+put_up guy0 place2 tent0
+3 3 2 4 2 6 0
+1 6 1
+1
+walk_together tent0 place1 guy0 place0 girl0 couple0
+5 2 0 3 0 4 1 5 0 6 1
+3 2 1 3 1 5 1
+1
+walk_together tent0 place2 guy0 place1 girl0 couple0
+5 2 1 3 1 4 2 5 1 6 1
+3 2 2 3 2 5 2
+1

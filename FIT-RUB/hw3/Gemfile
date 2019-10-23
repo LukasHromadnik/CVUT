@@ -1,0 +1,24 @@
+source 'https://rubygems.org'
+
+gem 'pg'
+gem 'rake'
+gem 'em-postgresql-adapter',
+    git: 'git://github.com/leftbee/em-postgresql-adapter.git'
+gem 'rack-fiber_pool',  require: 'rack/fiber_pool'
+gem 'em-http-request'
+gem 'em-synchrony'
+gem 'yajl-ruby'
+gem 'grape'
+gem 'goliath'
+gem 'rubyzip'
+
+group :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'rack-test', require: 'rack/test'
+  gem 'factory_girl'
+end
+
+group :development do
+  gem 'foreman'
+end

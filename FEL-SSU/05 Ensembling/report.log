@@ -1,0 +1,360 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.3)  13 JAN 2019 21:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 22 language(s) loaded.
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/a4wide/a4wide.sty
+Package: a4wide 1994/08/30
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/ntgclass/a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+))
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/babel-czech/czech.ldf
+Language: czech 2008/07/06 v3.1a Czech support from the babel system
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count91
+\U@D=\dimen111
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count92
+)
+Package babel Info: Making " an active character on input line 172.
+\cs@wordlen=\count93
+Package babel Info: Making - an active character on input line 226.
+))
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+)
+\c@ContinuedFloat=\count94
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count95
+\c@subtable=\count96
+)
+(./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=460.72124pt
+* \textheight=621.0pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=0.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=54.2025pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count97
+\scratchdimen=\dimen121
+\scratchbox=\box26
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen122
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks19
+) (/usr/local/texlive/2018basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018basic/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 24.
+<plots/01/regression_tree_sin.pdf, id=1, 462.52798pt x 346.89601pt>
+File: plots/01/regression_tree_sin.pdf Graphic file (type pdf)
+<use plots/01/regression_tree_sin.pdf>
+Package pdftex.def Info: plots/01/regression_tree_sin.pdf  used on input line 3
+7.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+<plots/01/regression_tree_housing.pdf, id=2, 462.52798pt x 346.89601pt>
+File: plots/01/regression_tree_housing.pdf Graphic file (type pdf)
+<use plots/01/regression_tree_housing.pdf>
+Package pdftex.def Info: plots/01/regression_tree_housing.pdf  used on input li
+ne 43.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+ [1
+
+{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
+plots/01/regression_tree_sin.pdf> <./plots/01/regression_tree_housing.pdf
+
+pdfTeX warning: pdflatex (file ./plots/01/regression_tree_housing.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>]
+<plots/02/01-sin.png, id=103, 462.528pt x 346.896pt>
+File: plots/02/01-sin.png Graphic file (type png)
+<use plots/02/01-sin.png>
+Package pdftex.def Info: plots/02/01-sin.png  used on input line 62.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+<plots/02/02-housing.png, id=105, 462.528pt x 346.896pt>
+File: plots/02/02-housing.png Graphic file (type png)
+<use plots/02/02-housing.png>
+Package pdftex.def Info: plots/02/02-housing.png  used on input line 68.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+<plots/02/03-attributes.png, id=106, 462.528pt x 346.896pt>
+File: plots/02/03-attributes.png Graphic file (type png)
+<use plots/02/03-attributes.png>
+Package pdftex.def Info: plots/02/03-attributes.png  used on input line 74.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+ [2 <./plots/02/01-sin.png> <./plots/02/02-housing.png> <./plots/02/03-attribut
+es.png>]
+<plots/03/01-sin-0-1.png, id=113, 462.528pt x 346.896pt>
+File: plots/03/01-sin-0-1.png Graphic file (type png)
+<use plots/03/01-sin-0-1.png>
+Package pdftex.def Info: plots/03/01-sin-0-1.png  used on input line 95.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 96.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 96.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 96.
+<plots/03/01-sin-0-2.png, id=114, 462.528pt x 346.896pt>
+File: plots/03/01-sin-0-2.png Graphic file (type png)
+<use plots/03/01-sin-0-2.png>
+Package pdftex.def Info: plots/03/01-sin-0-2.png  used on input line 101.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+<plots/03/01-sin-0-5.png, id=115, 462.528pt x 346.896pt>
+File: plots/03/01-sin-0-5.png Graphic file (type png)
+<use plots/03/01-sin-0-5.png>
+Package pdftex.def Info: plots/03/01-sin-0-5.png  used on input line 107.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+<plots/03/01-sin-1.png, id=116, 462.528pt x 346.896pt>
+File: plots/03/01-sin-1.png Graphic file (type png)
+<use plots/03/01-sin-1.png>
+Package pdftex.def Info: plots/03/01-sin-1.png  used on input line 113.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 121.
+ [3 <./plots/03/01-sin-0-1.png> <./plots/03/01-sin-0-2.png> <./plots/03/01-sin-
+0-5.png> <./plots/03/01-sin-1.png>]
+<plots/03/02-housing-0-1.png, id=126, 462.528pt x 346.896pt>
+File: plots/03/02-housing-0-1.png Graphic file (type png)
+<use plots/03/02-housing-0-1.png>
+Package pdftex.def Info: plots/03/02-housing-0-1.png  used on input line 129.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+<plots/03/02-housing-0-2.png, id=127, 462.528pt x 346.896pt>
+File: plots/03/02-housing-0-2.png Graphic file (type png)
+<use plots/03/02-housing-0-2.png>
+Package pdftex.def Info: plots/03/02-housing-0-2.png  used on input line 135.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+<plots/03/02-housing-0-5.png, id=128, 462.528pt x 346.896pt>
+File: plots/03/02-housing-0-5.png Graphic file (type png)
+<use plots/03/02-housing-0-5.png>
+Package pdftex.def Info: plots/03/02-housing-0-5.png  used on input line 141.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+<plots/03/02-housing-1.png, id=129, 462.528pt x 346.896pt>
+File: plots/03/02-housing-1.png Graphic file (type png)
+<use plots/03/02-housing-1.png>
+Package pdftex.def Info: plots/03/02-housing-1.png  used on input line 147.
+(pdftex.def)             Requested size: 203.17896pt x 152.38593pt.
+ [4 <./plots/03/02-housing-0-1.png> <./plots/03/02-housing-0-2.png> <./plots/03
+/02-housing-0-5.png> <./plots/03/02-housing-1.png>] [5] (./report.aux) ) 
+Here is how much of TeX's memory you used:
+ 3794 strings out of 494091
+ 59925 string characters out of 6163524
+ 131875 words of memory out of 5000000
+ 7416 multiletter control sequences out of 15000+600000
+ 9110 words of font info for 32 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 41i,7n,39p,390b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/l
+ocal/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
+sr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12
+.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr17.pfb>
+Output written on report.pdf (5 pages, 393158 bytes).
+PDF statistics:
+ 160 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+

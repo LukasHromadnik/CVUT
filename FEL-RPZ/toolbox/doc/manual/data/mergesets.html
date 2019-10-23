@@ -1,0 +1,50 @@
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=ISO-8859-1">
+  <title>Contents.m</title>
+<link rel="stylesheet" type="text/css" href="../stpr.css">
+</head>
+<body>
+<table  border=0 width="100%" cellpadding=0 cellspacing=0><tr valign="baseline">
+<td valign="baseline" class="function"><b class="function">MERGESETS</b>
+<td valign="baseline" align="right" class="function"><a href="../data/index.html" target="mdsdir"><img border = 0 src="../up.gif"></a></table>
+  <p><b>Merges data sets to one labeled data file.</b></p>
+  <hr>
+<div class='code'><code>
+<span class=help></span><br>
+<span class=help>&nbsp;<span class=help_field>Synopsis:</span></span><br>
+<span class=help>&nbsp;&nbsp;mergesets(DirName,OutputFile)</span><br>
+<span class=help></span><br>
+<span class=help>&nbsp;<span class=help_field>Description:</span></span><br>
+<span class=help>&nbsp;&nbsp;It&nbsp;loads&nbsp;data&nbsp;files&nbsp;from&nbsp;given&nbsp;directory&nbsp;DirName&nbsp;and</span><br>
+<span class=help>&nbsp;&nbsp;merges&nbsp;them&nbsp;to&nbsp;one&nbsp;labeled&nbsp;data&nbsp;file.&nbsp;The&nbsp;individual&nbsp;files</span><br>
+<span class=help>&nbsp;&nbsp;are&nbsp;assumed&nbsp;to&nbsp;contain&nbsp;the&nbsp;field&nbsp;X&nbsp;[dim&nbsp;x&nbsp;num_data].</span><br>
+<span class=help>&nbsp;&nbsp;The&nbsp;file&nbsp;names&nbsp;have&nbsp;to&nbsp;have&nbsp;the&nbsp;following&nbsp;format</span><br>
+<span class=help>&nbsp;&nbsp;name_xxx.mat&nbsp;('_'&nbsp;can&nbsp;be&nbsp;omitted),&nbsp;where&nbsp;xxx&nbsp;denotes&nbsp;an&nbsp;</span><br>
+<span class=help>&nbsp;&nbsp;integer&nbsp;which&nbsp;is&nbsp;used&nbsp;to&nbsp;label&nbsp;the&nbsp;data&nbsp;X&nbsp;from&nbsp;the&nbsp;given&nbsp;</span><br>
+<span class=help>&nbsp;&nbsp;file.&nbsp;The&nbsp;OutputFile&nbsp;contains&nbsp;item&nbsp;X&nbsp;[dim&nbsp;x&nbsp;num_all_data]&nbsp;</span><br>
+<span class=help>&nbsp;&nbsp;with&nbsp;all&nbsp;merged&nbsp;data&nbsp;and&nbsp;vector&nbsp;of&nbsp;labels&nbsp;y&nbsp;[1&nbsp;x&nbsp;num_all_data].&nbsp;</span><br>
+<span class=help>&nbsp;</span><br>
+<span class=help>&nbsp;<span class=help_field>Input:</span></span><br>
+<span class=help>&nbsp;&nbsp;DirName&nbsp;[string]&nbsp;Input&nbsp;directory.</span><br>
+<span class=help>&nbsp;&nbsp;OutputFile&nbsp;[string]&nbsp;Output&nbsp;data&nbsp;file.</span><br>
+<span class=help></span><br>
+<span class=help>&nbsp;<span class=help_field>Output:</span></span><br>
+<span class=help>&nbsp;&nbsp;file&nbsp;OutputFile&nbsp;with&nbsp;items:</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;X&nbsp;[dim&nbsp;x&nbsp;num_all_data]&nbsp;Data&nbsp;matrix.</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;y&nbsp;[1&nbsp;x&nbsp;num_all_data]&nbsp;Labels&nbsp;of&nbsp;data.</span><br>
+<span class=help></span><br>
+</code></div>
+  <hr>
+  <b>Source:</b> <a href= "../data/list/mergesets.html">mergesets.m</a>
+  <p><b class="info_field">(c) </b> Statistical Pattern Recognition Toolbox, (C) 1999-2003,<br>
+ Written by Vojtech Franc and Vaclav Hlavac,<br>
+ <a href="http://www.cvut.cz">Czech Technical University Prague</a>,<br>
+ <a href="http://www.feld.cvut.cz">Faculty of Electrical engineering</a>,<br>
+ <a href="http://cmp.felk.cvut.cz">Center for Machine Perception</a><br>
+
+  <p><b class="info_field">Modifications: </b> <br>
+  9-sep-2003, VF<br>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+network unknown {
+}
+variable AvgSpeed {
+    type discrete [ 2 ] { AvgSpeed_0, AvgSpeed_1 };
+    property weight = None ;
+}
+variable Country {
+    type discrete [ 3 ] { Country_0, Country_1, Country_2 };
+    property weight = None ;
+}
+variable DangerLvl {
+    type discrete [ 2 ] { DangerLvl_0, DangerLvl_1 };
+    property weight = None ;
+}
+variable NoAccidents {
+    type discrete [ 3 ] { NoAccidents_0, NoAccidents_1, NoAccidents_2 };
+    property weight = None ;
+}
+variable NoFatalities {
+    type discrete [ 3 ] { NoFatalities_0, NoFatalities_1, NoFatalities_2 };
+    property weight = None ;
+}
+variable NoJourneys {
+    type discrete [ 2 ] { NoJourneys_0, NoJourneys_1 };
+    property weight = None ;
+}
+variable PoliceActivity {
+    type discrete [ 2 ] { PoliceActivity_0, PoliceActivity_1 };
+    property weight = None ;
+}
+variable RoadCond {
+    type discrete [ 2 ] { RoadCond_0, RoadCond_1 };
+    property weight = None ;
+}
+variable Season {
+    type discrete [ 4 ] { Season_0, Season_1, Season_2, Season_3 };
+    property weight = None ;
+}
+variable Weather {
+    type discrete [ 2 ] { Weather_0, Weather_1 };
+    property weight = None ;
+}
+variable Weekend {
+    type discrete [ 3 ] { Weekend_0, Weekend_1, Weekend_2 };
+    property weight = None ;
+}
+probability ( AvgSpeed | RoadCond ) {
+    table 0.5, 0.5, 0.5, 0.5 ;
+}
+probability ( Country | Season ) {
+    table 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333 ;
+}
+probability ( DangerLvl | Weather ) {
+    table 0.5, 0.5, 0.5, 0.5 ;
+}
+probability ( NoAccidents | RoadCond ) {
+    table 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333 ;
+}
+probability ( NoFatalities | NoAccidents ) {
+    table 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333 ;
+}
+probability ( NoJourneys ) {
+    table 0.3117936117936118, 0.6882063882063882 ;
+}
+probability ( PoliceActivity | NoAccidents ) {
+    table 0.5, 0.5, 0.5, 0.5, 0.5, 0.5 ;
+}
+probability ( RoadCond | Country ) {
+    table 0.5, 0.5, 0.5, 0.5, 0.5, 0.5 ;
+}
+probability ( Season | Weekend ) {
+    table 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25 ;
+}
+probability ( Weather | Country ) {
+    table 0.5, 0.5, 0.5, 0.5, 0.5, 0.5 ;
+}
+probability ( Weekend | NoJourneys ) {
+    table 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333 ;
+}

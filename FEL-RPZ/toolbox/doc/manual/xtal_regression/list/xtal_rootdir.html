@@ -1,0 +1,84 @@
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=ISO-8859-1">
+  <title>xtal_rootdir.m</title>
+<link rel="stylesheet" type="text/css" href="../../m-syntax.css">
+</head>
+<body>
+<code>
+<span class=defun_kw>function</span>&nbsp;<span class=defun_out>[RootDir,CmdLine]&nbsp;</span>=&nbsp;<span class=defun_name>xtal_rootdir</span>()<br>
+<span class=h1>%&nbsp;XTAL_ROOTDIR&nbsp;returns&nbsp;root&nbsp;directory&nbsp;and&nbsp;command&nbsp;line&nbsp;to&nbsp;issue&nbsp;XTAL.</span><br>
+<span class=help>%&nbsp;</span><br>
+<span class=help>%&nbsp;<span class=help_field>Synopsis:</span></span><br>
+<span class=help>%&nbsp;&nbsp;[RootDir,CmdLine]&nbsp;=&nbsp;xtal_rootdir</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Description:</span></span><br>
+<span class=help>%&nbsp;&nbsp;This&nbsp;function&nbsp;returns&nbsp;the&nbsp;root&nbsp;directory&nbsp;of&nbsp;XTAL&nbsp;package&nbsp;and&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;the&nbsp;command&nbsp;line&nbsp;which,&nbsp;if&nbsp;executed,&nbsp;changes&nbsp;directory&nbsp;to&nbsp;RootDir</span><br>
+<span class=help>%&nbsp;&nbsp;and&nbsp;issues&nbsp;XTAL.</span><br>
+<span class=help>%&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;For&nbsp;Linux&nbsp;and&nbsp;Windows,&nbsp;RootDir&nbsp;and&nbsp;CmdLine&nbsp;are&nbsp;generated&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;automatically.&nbsp;</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;&nbsp;In&nbsp;the&nbsp;case&nbsp;that&nbsp;it&nbsp;does&nbsp;not&nbsp;work&nbsp;automatically,&nbsp;you&nbsp;have&nbsp;to&nbsp;set&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;RootDir&nbsp;and&nbsp;CmdLine&nbsp;manually&nbsp;at&nbsp;the&nbsp;beggining&nbsp;of&nbsp;this&nbsp;file.&nbsp;</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;&nbsp;For&nbsp;example&nbsp;in&nbsp;Linux</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;Rootdir&nbsp;=&nbsp;'/home/username/stprtool/xtal_regression/xtal_linux/';</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;CmdLine&nbsp;=&nbsp;'cd&nbsp;/home/username/stprtool/xtal_regression/xtal_linux/;&nbsp;./xtal';</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;&nbsp;and&nbsp;in&nbsp;Windows</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;Rootdir&nbsp;=&nbsp;'c:/stprtool/xtal_regresssion/xtal_win32/';</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;CmdLine&nbsp;=&nbsp;'cd&nbsp;c:/stprtool/xtal_regresssion/xtal_win32/&nbsp;&&nbsp;xtal.exe';</span><br>
+<span class=help>%&nbsp;&nbsp;</span><br>
+<span class=help>%&nbsp;</span><br>
+<hr>
+<br>
+<span class=comment>%RootDir&nbsp;=&nbsp;'D:\work-mike\xtal\xtal_linux\';</span><br>
+<span class=comment>%RootDir='D:\XTAL\xtal_win32\xtal_linux\';</span><br>
+<br>
+RootDir&nbsp;=&nbsp;[];<br>
+CmdLine&nbsp;=&nbsp;[];<br>
+<br>
+<span class=comment>%-------------------------------------------------------------</span><br>
+<span class=comment>%&nbsp;Try&nbsp;automatic&nbsp;locatiozation&nbsp;of&nbsp;the&nbsp;root&nbsp;directory&nbsp;if&nbsp;not&nbsp;given</span><br>
+<span class=comment>%-------------------------------------------------------------</span><br>
+<span class=keyword>if</span>&nbsp;isempty(RootDir)<br>
+&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;a&nbsp;=&nbsp;which(<span class=quotes>'xtal'</span>);<br>
+&nbsp;&nbsp;&nbsp;b&nbsp;=&nbsp;findstr(a,<span class=quotes>'xtal.m'</span>);<br>
+&nbsp;&nbsp;&nbsp;c&nbsp;=&nbsp;a(1:b-1);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<span class=keyword>switch</span>&nbsp;computer<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=label>case</span>&nbsp;<span class=quotes>'GLNX86'</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RootDir&nbsp;=&nbsp;[c&nbsp;<span class=quotes>'xtal_linux/'</span>];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=label>case</span>&nbsp;<span class=quotes>'PCWIN'</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RootDir&nbsp;=&nbsp;[c&nbsp;<span class=quotes>'xtal_win32\'</span>];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=label>otherwise</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=error>error</span>(<span class=quotes>'Supply&nbsp;RootDir&nbsp;and&nbsp;CmdLine&nbsp;to&nbsp;"xtal_rootdir.m".'</span>);<br>
+&nbsp;&nbsp;&nbsp;<span class=keyword>end</span>&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<span class=keyword>if</span>&nbsp;~<span class=stack>exist</span>(RootDir)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=error>error</span>(<span class=quotes>'Supply&nbsp;RootDir&nbsp;and&nbsp;CmdLine&nbsp;to&nbsp;"xtal_rootdir.m".'</span>);<br>
+&nbsp;&nbsp;&nbsp;<span class=keyword>end</span>&nbsp;&nbsp;&nbsp;<br>
+<span class=keyword>end</span><br>
+<br>
+<span class=keyword>if</span>&nbsp;isempty(CmdLine)<br>
+&nbsp;&nbsp;&nbsp;<span class=keyword>switch</span>&nbsp;computer<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=label>case</span>&nbsp;<span class=quotes>'GLNX86'</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CmdLine&nbsp;=&nbsp;[<span class=quotes>'cd&nbsp;'</span>&nbsp;RootDir&nbsp;<span class=quotes>'&nbsp;;&nbsp;./xtal'</span>];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=label>case</span>&nbsp;<span class=quotes>'PCWIN'</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CmdLine&nbsp;=&nbsp;[<span class=quotes>'cd&nbsp;'</span>&nbsp;RootDir&nbsp;<span class=quotes>'&nbsp;&&nbsp;xtal.exe'</span>];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=label>otherwise</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=error>error</span>(<span class=quotes>'Supply&nbsp;RootDir&nbsp;and&nbsp;CmdLine&nbsp;to&nbsp;"xtal_rootdir.m".'</span>);<br>
+&nbsp;&nbsp;&nbsp;<span class=keyword>end</span>&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<span class=keyword>end</span><br>
+<br>
+<span class=jump>return</span>;<br>
+</code>

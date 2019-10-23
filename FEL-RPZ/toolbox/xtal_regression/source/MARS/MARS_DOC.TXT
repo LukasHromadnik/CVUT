@@ -1,0 +1,84 @@
+
+
+
+
+                 Documentation for MARS driver code mars_dvr3.f 
+
+
+
+
+The mars driver code mars_dvr3.f is modeled after the sample driver
+routine supplied with the MARS code, but has some features which
+make it easy to use.  This code must be compiled with the mars routines
+contained in marslib.f.  This is done by typing:
+
+g77 -g -o xmars mars_dvr3.f marslib.f -ff77 -fno-globals -Wno-globals
+
+The executable will be the file xmars, which can be invoked by typing
+
+xmars
+
+
+In order to use the mars module with xtal, a copy of the executable must
+be in the same directory containing xtal.   
+
+
+
+The program xmars will ask for the following user parameters:
+
+
+1.  Training set file name
+The training data is expected to be in ASCII form with spaces or tabs as
+column delimiters.  The last column is assumed to be the y variable.
+
+2.  Number of samples in the training set
+This informs the program how many rows are in the training set. The maximum
+number of samples allowed is 10000.
+
+3.  Number of predictor variables in training data.
+This tells the program how many predictor or X variables are in the training
+and test data.
+
+4.  Test set file name
+The test data is expected to be in ASCII form with spaces or tabs as
+column delimiters.  The last column is assumed to be the y variable.
+
+5.  Number of samples in the test set
+This informs the program how many rows are in the test set.  The maximum number
+of samples allowed is 10000.
+
+6.  Maximum number of basis functions to use.
+This parameter controls the complexity of the model and should be set between
+1 and 100.
+
+7.  Maximum number of degrees of freedom to use
+This parameter should be between 0 and 9.  
+
+8.  Maximum number of interactions to allow
+The default value for this parameter is the number of predictor (X)
+variables.  This parameter is used to limit the number of variables which
+may enter in interaction terms of the basis functions.
+
+9.  Type of spline fit
+The default value for this parameter is 1 meaning piecewise-linear
+splines are used.  If this is set to 2, then piecewise-cubic splines
+are used.
+
+10.  Name of output file used to hold run messages
+The mars routines creates some useful and some not so useful
+run time messages about the fit it produces.  If you would like
+to save these, type in a file name here.  If you do not want
+these saved, type the word 'none' here.
+
+11. Name of output file used to hold fitted test set
+After execution, this file will contain the test set data
+only the y-values will be replaced with the estimates given by
+MARS.  If you do not want this file, type 'none' here.
+
+12. Name of the output file used to hold the RMS error
+After execution, this file will contain the RMS error of
+fitting the test set.  If you do not want this file, type 'none' here.
+
+NOTE: the program does not produce any output to stdout, only
+to the above output files.
+

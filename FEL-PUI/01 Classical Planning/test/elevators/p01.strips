@@ -1,0 +1,1415 @@
+61
+(boarded p0 fast0)
+(boarded p0 slow0-0)
+(boarded p0 slow1-0)
+(boarded p1 fast0)
+(boarded p1 slow0-0)
+(boarded p1 slow1-0)
+(boarded p2 fast0)
+(boarded p2 slow0-0)
+(boarded p2 slow1-0)
+(lift-at fast0 n0)
+(lift-at fast0 n2)
+(lift-at fast0 n4)
+(lift-at fast0 n6)
+(lift-at fast0 n8)
+(lift-at slow0-0 n0)
+(lift-at slow0-0 n1)
+(lift-at slow0-0 n2)
+(lift-at slow0-0 n3)
+(lift-at slow0-0 n4)
+(lift-at slow1-0 n4)
+(lift-at slow1-0 n5)
+(lift-at slow1-0 n6)
+(lift-at slow1-0 n7)
+(lift-at slow1-0 n8)
+(passenger-at p0 n0)
+(passenger-at p0 n1)
+(passenger-at p0 n2)
+(passenger-at p0 n3)
+(passenger-at p0 n4)
+(passenger-at p0 n5)
+(passenger-at p0 n6)
+(passenger-at p0 n7)
+(passenger-at p0 n8)
+(passenger-at p1 n0)
+(passenger-at p1 n1)
+(passenger-at p1 n2)
+(passenger-at p1 n3)
+(passenger-at p1 n4)
+(passenger-at p1 n5)
+(passenger-at p1 n6)
+(passenger-at p1 n7)
+(passenger-at p1 n8)
+(passenger-at p2 n0)
+(passenger-at p2 n1)
+(passenger-at p2 n2)
+(passenger-at p2 n3)
+(passenger-at p2 n4)
+(passenger-at p2 n5)
+(passenger-at p2 n6)
+(passenger-at p2 n7)
+(passenger-at p2 n8)
+(passengers fast0 n0)
+(passengers fast0 n1)
+(passengers fast0 n2)
+(passengers fast0 n3)
+(passengers slow0-0 n0)
+(passengers slow0-0 n1)
+(passengers slow0-0 n2)
+(passengers slow1-0 n0)
+(passengers slow1-0 n1)
+(passengers slow1-0 n2)
+9 9 16 19 32 36 44 51 55 58
+3 28 39 43
+270
+board p0 fast0 n0 n0 n1
+3 9 24 51
+2 0 52
+2 24 51
+0
+board p0 fast0 n0 n1 n2
+3 9 24 52
+2 0 53
+2 24 52
+0
+board p0 fast0 n0 n2 n3
+3 9 24 53
+2 0 54
+2 24 53
+0
+board p0 fast0 n2 n0 n1
+3 10 26 51
+2 0 52
+2 26 51
+0
+board p0 fast0 n2 n1 n2
+3 10 26 52
+2 0 53
+2 26 52
+0
+board p0 fast0 n2 n2 n3
+3 10 26 53
+2 0 54
+2 26 53
+0
+board p0 fast0 n4 n0 n1
+3 11 28 51
+2 0 52
+2 28 51
+0
+board p0 fast0 n4 n1 n2
+3 11 28 52
+2 0 53
+2 28 52
+0
+board p0 fast0 n4 n2 n3
+3 11 28 53
+2 0 54
+2 28 53
+0
+board p0 fast0 n6 n0 n1
+3 12 30 51
+2 0 52
+2 30 51
+0
+board p0 fast0 n6 n1 n2
+3 12 30 52
+2 0 53
+2 30 52
+0
+board p0 fast0 n6 n2 n3
+3 12 30 53
+2 0 54
+2 30 53
+0
+board p0 fast0 n8 n0 n1
+3 13 32 51
+2 0 52
+2 32 51
+0
+board p0 fast0 n8 n1 n2
+3 13 32 52
+2 0 53
+2 32 52
+0
+board p0 fast0 n8 n2 n3
+3 13 32 53
+2 0 54
+2 32 53
+0
+board p0 slow0-0 n0 n0 n1
+3 14 24 55
+2 1 56
+2 24 55
+0
+board p0 slow0-0 n0 n1 n2
+3 14 24 56
+2 1 57
+2 24 56
+0
+board p0 slow0-0 n1 n0 n1
+3 15 25 55
+2 1 56
+2 25 55
+0
+board p0 slow0-0 n1 n1 n2
+3 15 25 56
+2 1 57
+2 25 56
+0
+board p0 slow0-0 n2 n0 n1
+3 16 26 55
+2 1 56
+2 26 55
+0
+board p0 slow0-0 n2 n1 n2
+3 16 26 56
+2 1 57
+2 26 56
+0
+board p0 slow0-0 n3 n0 n1
+3 17 27 55
+2 1 56
+2 27 55
+0
+board p0 slow0-0 n3 n1 n2
+3 17 27 56
+2 1 57
+2 27 56
+0
+board p0 slow0-0 n4 n0 n1
+3 18 28 55
+2 1 56
+2 28 55
+0
+board p0 slow0-0 n4 n1 n2
+3 18 28 56
+2 1 57
+2 28 56
+0
+board p0 slow1-0 n4 n0 n1
+3 19 28 58
+2 2 59
+2 28 58
+0
+board p0 slow1-0 n4 n1 n2
+3 19 28 59
+2 2 60
+2 28 59
+0
+board p0 slow1-0 n5 n0 n1
+3 20 29 58
+2 2 59
+2 29 58
+0
+board p0 slow1-0 n5 n1 n2
+3 20 29 59
+2 2 60
+2 29 59
+0
+board p0 slow1-0 n6 n0 n1
+3 21 30 58
+2 2 59
+2 30 58
+0
+board p0 slow1-0 n6 n1 n2
+3 21 30 59
+2 2 60
+2 30 59
+0
+board p0 slow1-0 n7 n0 n1
+3 22 31 58
+2 2 59
+2 31 58
+0
+board p0 slow1-0 n7 n1 n2
+3 22 31 59
+2 2 60
+2 31 59
+0
+board p0 slow1-0 n8 n0 n1
+3 23 32 58
+2 2 59
+2 32 58
+0
+board p0 slow1-0 n8 n1 n2
+3 23 32 59
+2 2 60
+2 32 59
+0
+board p1 fast0 n0 n0 n1
+3 9 33 51
+2 3 52
+2 33 51
+0
+board p1 fast0 n0 n1 n2
+3 9 33 52
+2 3 53
+2 33 52
+0
+board p1 fast0 n0 n2 n3
+3 9 33 53
+2 3 54
+2 33 53
+0
+board p1 fast0 n2 n0 n1
+3 10 35 51
+2 3 52
+2 35 51
+0
+board p1 fast0 n2 n1 n2
+3 10 35 52
+2 3 53
+2 35 52
+0
+board p1 fast0 n2 n2 n3
+3 10 35 53
+2 3 54
+2 35 53
+0
+board p1 fast0 n4 n0 n1
+3 11 37 51
+2 3 52
+2 37 51
+0
+board p1 fast0 n4 n1 n2
+3 11 37 52
+2 3 53
+2 37 52
+0
+board p1 fast0 n4 n2 n3
+3 11 37 53
+2 3 54
+2 37 53
+0
+board p1 fast0 n6 n0 n1
+3 12 39 51
+2 3 52
+2 39 51
+0
+board p1 fast0 n6 n1 n2
+3 12 39 52
+2 3 53
+2 39 52
+0
+board p1 fast0 n6 n2 n3
+3 12 39 53
+2 3 54
+2 39 53
+0
+board p1 fast0 n8 n0 n1
+3 13 41 51
+2 3 52
+2 41 51
+0
+board p1 fast0 n8 n1 n2
+3 13 41 52
+2 3 53
+2 41 52
+0
+board p1 fast0 n8 n2 n3
+3 13 41 53
+2 3 54
+2 41 53
+0
+board p1 slow0-0 n0 n0 n1
+3 14 33 55
+2 4 56
+2 33 55
+0
+board p1 slow0-0 n0 n1 n2
+3 14 33 56
+2 4 57
+2 33 56
+0
+board p1 slow0-0 n1 n0 n1
+3 15 34 55
+2 4 56
+2 34 55
+0
+board p1 slow0-0 n1 n1 n2
+3 15 34 56
+2 4 57
+2 34 56
+0
+board p1 slow0-0 n2 n0 n1
+3 16 35 55
+2 4 56
+2 35 55
+0
+board p1 slow0-0 n2 n1 n2
+3 16 35 56
+2 4 57
+2 35 56
+0
+board p1 slow0-0 n3 n0 n1
+3 17 36 55
+2 4 56
+2 36 55
+0
+board p1 slow0-0 n3 n1 n2
+3 17 36 56
+2 4 57
+2 36 56
+0
+board p1 slow0-0 n4 n0 n1
+3 18 37 55
+2 4 56
+2 37 55
+0
+board p1 slow0-0 n4 n1 n2
+3 18 37 56
+2 4 57
+2 37 56
+0
+board p1 slow1-0 n4 n0 n1
+3 19 37 58
+2 5 59
+2 37 58
+0
+board p1 slow1-0 n4 n1 n2
+3 19 37 59
+2 5 60
+2 37 59
+0
+board p1 slow1-0 n5 n0 n1
+3 20 38 58
+2 5 59
+2 38 58
+0
+board p1 slow1-0 n5 n1 n2
+3 20 38 59
+2 5 60
+2 38 59
+0
+board p1 slow1-0 n6 n0 n1
+3 21 39 58
+2 5 59
+2 39 58
+0
+board p1 slow1-0 n6 n1 n2
+3 21 39 59
+2 5 60
+2 39 59
+0
+board p1 slow1-0 n7 n0 n1
+3 22 40 58
+2 5 59
+2 40 58
+0
+board p1 slow1-0 n7 n1 n2
+3 22 40 59
+2 5 60
+2 40 59
+0
+board p1 slow1-0 n8 n0 n1
+3 23 41 58
+2 5 59
+2 41 58
+0
+board p1 slow1-0 n8 n1 n2
+3 23 41 59
+2 5 60
+2 41 59
+0
+board p2 fast0 n0 n0 n1
+3 9 42 51
+2 6 52
+2 42 51
+0
+board p2 fast0 n0 n1 n2
+3 9 42 52
+2 6 53
+2 42 52
+0
+board p2 fast0 n0 n2 n3
+3 9 42 53
+2 6 54
+2 42 53
+0
+board p2 fast0 n2 n0 n1
+3 10 44 51
+2 6 52
+2 44 51
+0
+board p2 fast0 n2 n1 n2
+3 10 44 52
+2 6 53
+2 44 52
+0
+board p2 fast0 n2 n2 n3
+3 10 44 53
+2 6 54
+2 44 53
+0
+board p2 fast0 n4 n0 n1
+3 11 46 51
+2 6 52
+2 46 51
+0
+board p2 fast0 n4 n1 n2
+3 11 46 52
+2 6 53
+2 46 52
+0
+board p2 fast0 n4 n2 n3
+3 11 46 53
+2 6 54
+2 46 53
+0
+board p2 fast0 n6 n0 n1
+3 12 48 51
+2 6 52
+2 48 51
+0
+board p2 fast0 n6 n1 n2
+3 12 48 52
+2 6 53
+2 48 52
+0
+board p2 fast0 n6 n2 n3
+3 12 48 53
+2 6 54
+2 48 53
+0
+board p2 fast0 n8 n0 n1
+3 13 50 51
+2 6 52
+2 50 51
+0
+board p2 fast0 n8 n1 n2
+3 13 50 52
+2 6 53
+2 50 52
+0
+board p2 fast0 n8 n2 n3
+3 13 50 53
+2 6 54
+2 50 53
+0
+board p2 slow0-0 n0 n0 n1
+3 14 42 55
+2 7 56
+2 42 55
+0
+board p2 slow0-0 n0 n1 n2
+3 14 42 56
+2 7 57
+2 42 56
+0
+board p2 slow0-0 n1 n0 n1
+3 15 43 55
+2 7 56
+2 43 55
+0
+board p2 slow0-0 n1 n1 n2
+3 15 43 56
+2 7 57
+2 43 56
+0
+board p2 slow0-0 n2 n0 n1
+3 16 44 55
+2 7 56
+2 44 55
+0
+board p2 slow0-0 n2 n1 n2
+3 16 44 56
+2 7 57
+2 44 56
+0
+board p2 slow0-0 n3 n0 n1
+3 17 45 55
+2 7 56
+2 45 55
+0
+board p2 slow0-0 n3 n1 n2
+3 17 45 56
+2 7 57
+2 45 56
+0
+board p2 slow0-0 n4 n0 n1
+3 18 46 55
+2 7 56
+2 46 55
+0
+board p2 slow0-0 n4 n1 n2
+3 18 46 56
+2 7 57
+2 46 56
+0
+board p2 slow1-0 n4 n0 n1
+3 19 46 58
+2 8 59
+2 46 58
+0
+board p2 slow1-0 n4 n1 n2
+3 19 46 59
+2 8 60
+2 46 59
+0
+board p2 slow1-0 n5 n0 n1
+3 20 47 58
+2 8 59
+2 47 58
+0
+board p2 slow1-0 n5 n1 n2
+3 20 47 59
+2 8 60
+2 47 59
+0
+board p2 slow1-0 n6 n0 n1
+3 21 48 58
+2 8 59
+2 48 58
+0
+board p2 slow1-0 n6 n1 n2
+3 21 48 59
+2 8 60
+2 48 59
+0
+board p2 slow1-0 n7 n0 n1
+3 22 49 58
+2 8 59
+2 49 58
+0
+board p2 slow1-0 n7 n1 n2
+3 22 49 59
+2 8 60
+2 49 59
+0
+board p2 slow1-0 n8 n0 n1
+3 23 50 58
+2 8 59
+2 50 58
+0
+board p2 slow1-0 n8 n1 n2
+3 23 50 59
+2 8 60
+2 50 59
+0
+leave p0 fast0 n0 n1 n0
+3 0 9 52
+2 24 51
+2 0 52
+0
+leave p0 fast0 n0 n2 n1
+3 0 9 53
+2 24 52
+2 0 53
+0
+leave p0 fast0 n0 n3 n2
+3 0 9 54
+2 24 53
+2 0 54
+0
+leave p0 fast0 n2 n1 n0
+3 0 10 52
+2 26 51
+2 0 52
+0
+leave p0 fast0 n2 n2 n1
+3 0 10 53
+2 26 52
+2 0 53
+0
+leave p0 fast0 n2 n3 n2
+3 0 10 54
+2 26 53
+2 0 54
+0
+leave p0 fast0 n4 n1 n0
+3 0 11 52
+2 28 51
+2 0 52
+0
+leave p0 fast0 n4 n2 n1
+3 0 11 53
+2 28 52
+2 0 53
+0
+leave p0 fast0 n4 n3 n2
+3 0 11 54
+2 28 53
+2 0 54
+0
+leave p0 fast0 n6 n1 n0
+3 0 12 52
+2 30 51
+2 0 52
+0
+leave p0 fast0 n6 n2 n1
+3 0 12 53
+2 30 52
+2 0 53
+0
+leave p0 fast0 n6 n3 n2
+3 0 12 54
+2 30 53
+2 0 54
+0
+leave p0 fast0 n8 n1 n0
+3 0 13 52
+2 32 51
+2 0 52
+0
+leave p0 fast0 n8 n2 n1
+3 0 13 53
+2 32 52
+2 0 53
+0
+leave p0 fast0 n8 n3 n2
+3 0 13 54
+2 32 53
+2 0 54
+0
+leave p0 slow0-0 n0 n1 n0
+3 1 14 56
+2 24 55
+2 1 56
+0
+leave p0 slow0-0 n0 n2 n1
+3 1 14 57
+2 24 56
+2 1 57
+0
+leave p0 slow0-0 n1 n1 n0
+3 1 15 56
+2 25 55
+2 1 56
+0
+leave p0 slow0-0 n1 n2 n1
+3 1 15 57
+2 25 56
+2 1 57
+0
+leave p0 slow0-0 n2 n1 n0
+3 1 16 56
+2 26 55
+2 1 56
+0
+leave p0 slow0-0 n2 n2 n1
+3 1 16 57
+2 26 56
+2 1 57
+0
+leave p0 slow0-0 n3 n1 n0
+3 1 17 56
+2 27 55
+2 1 56
+0
+leave p0 slow0-0 n3 n2 n1
+3 1 17 57
+2 27 56
+2 1 57
+0
+leave p0 slow0-0 n4 n1 n0
+3 1 18 56
+2 28 55
+2 1 56
+0
+leave p0 slow0-0 n4 n2 n1
+3 1 18 57
+2 28 56
+2 1 57
+0
+leave p0 slow1-0 n4 n1 n0
+3 2 19 59
+2 28 58
+2 2 59
+0
+leave p0 slow1-0 n4 n2 n1
+3 2 19 60
+2 28 59
+2 2 60
+0
+leave p0 slow1-0 n5 n1 n0
+3 2 20 59
+2 29 58
+2 2 59
+0
+leave p0 slow1-0 n5 n2 n1
+3 2 20 60
+2 29 59
+2 2 60
+0
+leave p0 slow1-0 n6 n1 n0
+3 2 21 59
+2 30 58
+2 2 59
+0
+leave p0 slow1-0 n6 n2 n1
+3 2 21 60
+2 30 59
+2 2 60
+0
+leave p0 slow1-0 n7 n1 n0
+3 2 22 59
+2 31 58
+2 2 59
+0
+leave p0 slow1-0 n7 n2 n1
+3 2 22 60
+2 31 59
+2 2 60
+0
+leave p0 slow1-0 n8 n1 n0
+3 2 23 59
+2 32 58
+2 2 59
+0
+leave p0 slow1-0 n8 n2 n1
+3 2 23 60
+2 32 59
+2 2 60
+0
+leave p1 fast0 n0 n1 n0
+3 3 9 52
+2 33 51
+2 3 52
+0
+leave p1 fast0 n0 n2 n1
+3 3 9 53
+2 33 52
+2 3 53
+0
+leave p1 fast0 n0 n3 n2
+3 3 9 54
+2 33 53
+2 3 54
+0
+leave p1 fast0 n2 n1 n0
+3 3 10 52
+2 35 51
+2 3 52
+0
+leave p1 fast0 n2 n2 n1
+3 3 10 53
+2 35 52
+2 3 53
+0
+leave p1 fast0 n2 n3 n2
+3 3 10 54
+2 35 53
+2 3 54
+0
+leave p1 fast0 n4 n1 n0
+3 3 11 52
+2 37 51
+2 3 52
+0
+leave p1 fast0 n4 n2 n1
+3 3 11 53
+2 37 52
+2 3 53
+0
+leave p1 fast0 n4 n3 n2
+3 3 11 54
+2 37 53
+2 3 54
+0
+leave p1 fast0 n6 n1 n0
+3 3 12 52
+2 39 51
+2 3 52
+0
+leave p1 fast0 n6 n2 n1
+3 3 12 53
+2 39 52
+2 3 53
+0
+leave p1 fast0 n6 n3 n2
+3 3 12 54
+2 39 53
+2 3 54
+0
+leave p1 fast0 n8 n1 n0
+3 3 13 52
+2 41 51
+2 3 52
+0
+leave p1 fast0 n8 n2 n1
+3 3 13 53
+2 41 52
+2 3 53
+0
+leave p1 fast0 n8 n3 n2
+3 3 13 54
+2 41 53
+2 3 54
+0
+leave p1 slow0-0 n0 n1 n0
+3 4 14 56
+2 33 55
+2 4 56
+0
+leave p1 slow0-0 n0 n2 n1
+3 4 14 57
+2 33 56
+2 4 57
+0
+leave p1 slow0-0 n1 n1 n0
+3 4 15 56
+2 34 55
+2 4 56
+0
+leave p1 slow0-0 n1 n2 n1
+3 4 15 57
+2 34 56
+2 4 57
+0
+leave p1 slow0-0 n2 n1 n0
+3 4 16 56
+2 35 55
+2 4 56
+0
+leave p1 slow0-0 n2 n2 n1
+3 4 16 57
+2 35 56
+2 4 57
+0
+leave p1 slow0-0 n3 n1 n0
+3 4 17 56
+2 36 55
+2 4 56
+0
+leave p1 slow0-0 n3 n2 n1
+3 4 17 57
+2 36 56
+2 4 57
+0
+leave p1 slow0-0 n4 n1 n0
+3 4 18 56
+2 37 55
+2 4 56
+0
+leave p1 slow0-0 n4 n2 n1
+3 4 18 57
+2 37 56
+2 4 57
+0
+leave p1 slow1-0 n4 n1 n0
+3 5 19 59
+2 37 58
+2 5 59
+0
+leave p1 slow1-0 n4 n2 n1
+3 5 19 60
+2 37 59
+2 5 60
+0
+leave p1 slow1-0 n5 n1 n0
+3 5 20 59
+2 38 58
+2 5 59
+0
+leave p1 slow1-0 n5 n2 n1
+3 5 20 60
+2 38 59
+2 5 60
+0
+leave p1 slow1-0 n6 n1 n0
+3 5 21 59
+2 39 58
+2 5 59
+0
+leave p1 slow1-0 n6 n2 n1
+3 5 21 60
+2 39 59
+2 5 60
+0
+leave p1 slow1-0 n7 n1 n0
+3 5 22 59
+2 40 58
+2 5 59
+0
+leave p1 slow1-0 n7 n2 n1
+3 5 22 60
+2 40 59
+2 5 60
+0
+leave p1 slow1-0 n8 n1 n0
+3 5 23 59
+2 41 58
+2 5 59
+0
+leave p1 slow1-0 n8 n2 n1
+3 5 23 60
+2 41 59
+2 5 60
+0
+leave p2 fast0 n0 n1 n0
+3 6 9 52
+2 42 51
+2 6 52
+0
+leave p2 fast0 n0 n2 n1
+3 6 9 53
+2 42 52
+2 6 53
+0
+leave p2 fast0 n0 n3 n2
+3 6 9 54
+2 42 53
+2 6 54
+0
+leave p2 fast0 n2 n1 n0
+3 6 10 52
+2 44 51
+2 6 52
+0
+leave p2 fast0 n2 n2 n1
+3 6 10 53
+2 44 52
+2 6 53
+0
+leave p2 fast0 n2 n3 n2
+3 6 10 54
+2 44 53
+2 6 54
+0
+leave p2 fast0 n4 n1 n0
+3 6 11 52
+2 46 51
+2 6 52
+0
+leave p2 fast0 n4 n2 n1
+3 6 11 53
+2 46 52
+2 6 53
+0
+leave p2 fast0 n4 n3 n2
+3 6 11 54
+2 46 53
+2 6 54
+0
+leave p2 fast0 n6 n1 n0
+3 6 12 52
+2 48 51
+2 6 52
+0
+leave p2 fast0 n6 n2 n1
+3 6 12 53
+2 48 52
+2 6 53
+0
+leave p2 fast0 n6 n3 n2
+3 6 12 54
+2 48 53
+2 6 54
+0
+leave p2 fast0 n8 n1 n0
+3 6 13 52
+2 50 51
+2 6 52
+0
+leave p2 fast0 n8 n2 n1
+3 6 13 53
+2 50 52
+2 6 53
+0
+leave p2 fast0 n8 n3 n2
+3 6 13 54
+2 50 53
+2 6 54
+0
+leave p2 slow0-0 n0 n1 n0
+3 7 14 56
+2 42 55
+2 7 56
+0
+leave p2 slow0-0 n0 n2 n1
+3 7 14 57
+2 42 56
+2 7 57
+0
+leave p2 slow0-0 n1 n1 n0
+3 7 15 56
+2 43 55
+2 7 56
+0
+leave p2 slow0-0 n1 n2 n1
+3 7 15 57
+2 43 56
+2 7 57
+0
+leave p2 slow0-0 n2 n1 n0
+3 7 16 56
+2 44 55
+2 7 56
+0
+leave p2 slow0-0 n2 n2 n1
+3 7 16 57
+2 44 56
+2 7 57
+0
+leave p2 slow0-0 n3 n1 n0
+3 7 17 56
+2 45 55
+2 7 56
+0
+leave p2 slow0-0 n3 n2 n1
+3 7 17 57
+2 45 56
+2 7 57
+0
+leave p2 slow0-0 n4 n1 n0
+3 7 18 56
+2 46 55
+2 7 56
+0
+leave p2 slow0-0 n4 n2 n1
+3 7 18 57
+2 46 56
+2 7 57
+0
+leave p2 slow1-0 n4 n1 n0
+3 8 19 59
+2 46 58
+2 8 59
+0
+leave p2 slow1-0 n4 n2 n1
+3 8 19 60
+2 46 59
+2 8 60
+0
+leave p2 slow1-0 n5 n1 n0
+3 8 20 59
+2 47 58
+2 8 59
+0
+leave p2 slow1-0 n5 n2 n1
+3 8 20 60
+2 47 59
+2 8 60
+0
+leave p2 slow1-0 n6 n1 n0
+3 8 21 59
+2 48 58
+2 8 59
+0
+leave p2 slow1-0 n6 n2 n1
+3 8 21 60
+2 48 59
+2 8 60
+0
+leave p2 slow1-0 n7 n1 n0
+3 8 22 59
+2 49 58
+2 8 59
+0
+leave p2 slow1-0 n7 n2 n1
+3 8 22 60
+2 49 59
+2 8 60
+0
+leave p2 slow1-0 n8 n1 n0
+3 8 23 59
+2 50 58
+2 8 59
+0
+leave p2 slow1-0 n8 n2 n1
+3 8 23 60
+2 50 59
+2 8 60
+0
+move-down-fast fast0 n2 n0
+1 10
+1 9
+1 10
+7
+move-down-fast fast0 n4 n0
+1 11
+1 9
+1 11
+13
+move-down-fast fast0 n4 n2
+1 11
+1 10
+1 11
+7
+move-down-fast fast0 n6 n0
+1 12
+1 9
+1 12
+19
+move-down-fast fast0 n6 n2
+1 12
+1 10
+1 12
+13
+move-down-fast fast0 n6 n4
+1 12
+1 11
+1 12
+7
+move-down-fast fast0 n8 n0
+1 13
+1 9
+1 13
+25
+move-down-fast fast0 n8 n2
+1 13
+1 10
+1 13
+19
+move-down-fast fast0 n8 n4
+1 13
+1 11
+1 13
+13
+move-down-fast fast0 n8 n6
+1 13
+1 12
+1 13
+7
+move-down-slow slow0-0 n1 n0
+1 15
+1 14
+1 15
+6
+move-down-slow slow0-0 n2 n0
+1 16
+1 14
+1 16
+7
+move-down-slow slow0-0 n2 n1
+1 16
+1 15
+1 16
+6
+move-down-slow slow0-0 n3 n0
+1 17
+1 14
+1 17
+8
+move-down-slow slow0-0 n3 n1
+1 17
+1 15
+1 17
+7
+move-down-slow slow0-0 n3 n2
+1 17
+1 16
+1 17
+6
+move-down-slow slow0-0 n4 n0
+1 18
+1 14
+1 18
+9
+move-down-slow slow0-0 n4 n1
+1 18
+1 15
+1 18
+8
+move-down-slow slow0-0 n4 n2
+1 18
+1 16
+1 18
+7
+move-down-slow slow0-0 n4 n3
+1 18
+1 17
+1 18
+6
+move-down-slow slow1-0 n5 n4
+1 20
+1 19
+1 20
+6
+move-down-slow slow1-0 n6 n4
+1 21
+1 19
+1 21
+7
+move-down-slow slow1-0 n6 n5
+1 21
+1 20
+1 21
+6
+move-down-slow slow1-0 n7 n4
+1 22
+1 19
+1 22
+8
+move-down-slow slow1-0 n7 n5
+1 22
+1 20
+1 22
+7
+move-down-slow slow1-0 n7 n6
+1 22
+1 21
+1 22
+6
+move-down-slow slow1-0 n8 n4
+1 23
+1 19
+1 23
+9
+move-down-slow slow1-0 n8 n5
+1 23
+1 20
+1 23
+8
+move-down-slow slow1-0 n8 n6
+1 23
+1 21
+1 23
+7
+move-down-slow slow1-0 n8 n7
+1 23
+1 22
+1 23
+6
+move-up-fast fast0 n0 n2
+1 9
+1 10
+1 9
+7
+move-up-fast fast0 n0 n4
+1 9
+1 11
+1 9
+13
+move-up-fast fast0 n0 n6
+1 9
+1 12
+1 9
+19
+move-up-fast fast0 n0 n8
+1 9
+1 13
+1 9
+25
+move-up-fast fast0 n2 n4
+1 10
+1 11
+1 10
+7
+move-up-fast fast0 n2 n6
+1 10
+1 12
+1 10
+13
+move-up-fast fast0 n2 n8
+1 10
+1 13
+1 10
+19
+move-up-fast fast0 n4 n6
+1 11
+1 12
+1 11
+7
+move-up-fast fast0 n4 n8
+1 11
+1 13
+1 11
+13
+move-up-fast fast0 n6 n8
+1 12
+1 13
+1 12
+7
+move-up-slow slow0-0 n0 n1
+1 14
+1 15
+1 14
+6
+move-up-slow slow0-0 n0 n2
+1 14
+1 16
+1 14
+7
+move-up-slow slow0-0 n0 n3
+1 14
+1 17
+1 14
+8
+move-up-slow slow0-0 n0 n4
+1 14
+1 18
+1 14
+9
+move-up-slow slow0-0 n1 n2
+1 15
+1 16
+1 15
+6
+move-up-slow slow0-0 n1 n3
+1 15
+1 17
+1 15
+7
+move-up-slow slow0-0 n1 n4
+1 15
+1 18
+1 15
+8
+move-up-slow slow0-0 n2 n3
+1 16
+1 17
+1 16
+6
+move-up-slow slow0-0 n2 n4
+1 16
+1 18
+1 16
+7
+move-up-slow slow0-0 n3 n4
+1 17
+1 18
+1 17
+6
+move-up-slow slow1-0 n4 n5
+1 19
+1 20
+1 19
+6
+move-up-slow slow1-0 n4 n6
+1 19
+1 21
+1 19
+7
+move-up-slow slow1-0 n4 n7
+1 19
+1 22
+1 19
+8
+move-up-slow slow1-0 n4 n8
+1 19
+1 23
+1 19
+9
+move-up-slow slow1-0 n5 n6
+1 20
+1 21
+1 20
+6
+move-up-slow slow1-0 n5 n7
+1 20
+1 22
+1 20
+7
+move-up-slow slow1-0 n5 n8
+1 20
+1 23
+1 20
+8
+move-up-slow slow1-0 n6 n7
+1 21
+1 22
+1 21
+6
+move-up-slow slow1-0 n6 n8
+1 21
+1 23
+1 21
+7
+move-up-slow slow1-0 n7 n8
+1 22
+1 23
+1 22
+6

@@ -1,0 +1,3 @@
+isa(direwolf,dog)
+isa(dog,mammal)
+isa(cow,mammal)

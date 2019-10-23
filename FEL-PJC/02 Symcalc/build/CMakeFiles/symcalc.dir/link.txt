@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/symcalc.dir/tokenizer.cpp.o CMakeFiles/symcalc.dir/cmdline.cpp.o CMakeFiles/symcalc.dir/expr.cpp.o CMakeFiles/symcalc.dir/expr_impl.cpp.o CMakeFiles/symcalc.dir/app.cpp.o CMakeFiles/symcalc.dir/main.cpp.o  -o symcalc 

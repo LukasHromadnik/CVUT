@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=ISO-8859-1">
+  <title>Contents.m</title>
+<link rel="stylesheet" type="text/css" href="../stpr.css">
+</head>
+<body>
+<table  border=0 width="100%" cellpadding=0 cellspacing=0><tr valign="baseline">
+<td valign="baseline" class="function"><b class="function">CREATEDATA</b>
+<td valign="baseline" align="right" class="function"><a href="../data/index.html" target="mdsdir"><img border = 0 src="../up.gif"></a></table>
+  <p><b>Interactive data generator.</b></p>
+  <hr>
+<div class='code'><code>
+<span class=help></span><br>
+<span class=help>&nbsp;<span class=help_field>Synopsis:</span></span><br>
+<span class=help>&nbsp;&nbsp;createdata</span><br>
+<span class=help>&nbsp;&nbsp;createdata('finite')</span><br>
+<span class=help>&nbsp;&nbsp;createdata('finite',num_classes)</span><br>
+<span class=help>&nbsp;&nbsp;createdata('gauss')</span><br>
+<span class=help>&nbsp;&nbsp;createdata('gauss',num_distrib)</span><br>
+<span class=help></span><br>
+<span class=help>&nbsp;<span class=help_field>Description:</span></span><br>
+<span class=help>&nbsp;&nbsp;createdata&nbsp;or&nbsp;createdata('finite')&nbsp;invokes&nbsp;an&nbsp;interactive&nbsp;generator&nbsp;</span><br>
+<span class=help>&nbsp;&nbsp;of&nbsp;finite&nbsp;point&nbsp;sets&nbsp;in&nbsp;2D.&nbsp;The&nbsp;generated&nbsp;points&nbsp;can&nbsp;be&nbsp;assigned&nbsp;</span><br>
+<span class=help>&nbsp;&nbsp;into&nbsp;two&nbsp;classes&nbsp;(1,2).&nbsp;The&nbsp;generator&nbsp;saves&nbsp;data&nbsp;to&nbsp;a&nbsp;</span><br>
+<span class=help>&nbsp;&nbsp;specified&nbsp;file.&nbsp;The&nbsp;file&nbsp;has&nbsp;the&nbsp;following&nbsp;fields:</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;X&nbsp;[2&nbsp;x&nbsp;num_data]&nbsp;2D&nbsp;vectors.</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;y&nbsp;[1&nbsp;x&nbsp;num_data]&nbsp;Assigned&nbsp;labels.</span><br>
+<span class=help></span><br>
+<span class=help>&nbsp;&nbsp;createdata('finite',num_classes)&nbsp;when&nbsp;num_classes&nbsp;is&nbsp;specified</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;then&nbsp;the&nbsp;points&nbsp;can&nbsp;be&nbsp;assigned&nbsp;labels&nbsp;from&nbsp;1&nbsp;to&nbsp;num_classes.</span><br>
+<span class=help>&nbsp;&nbsp;</span><br>
+<span class=help>&nbsp;&nbsp;createdata('gauss')&nbsp;invokes&nbsp;an&nbsp;interactive&nbsp;generator&nbsp;of&nbsp;</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;Gaussian&nbsp;distributions.&nbsp;A&nbsp;user&nbsp;can&nbsp;specify&nbsp;mean&nbsp;vector&nbsp;and</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;covariance&nbsp;matrix.&nbsp;The&nbsp;generator&nbsp;saves&nbsp;data&nbsp;to&nbsp;a&nbsp;file</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;having&nbsp;the&nbsp;following&nbsp;fields:</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;&nbsp;Mean&nbsp;[2&nbsp;x&nbsp;ncomp]&nbsp;Mean&nbsp;vectors.</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;&nbsp;Cov&nbsp;[2&nbsp;x&nbsp;2&nbsp;x&nbsp;ncomp]&nbsp;Covariance&nbsp;matrices.</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;&nbsp;y&nbsp;[1&nbsp;x&nbsp;ncomp]&nbsp;Assigned&nbsp;labels.</span><br>
+<span class=help></span><br>
+<span class=help>&nbsp;&nbsp;createdata('gauss',num_classes)&nbsp;when&nbsp;num_classes&nbsp;is&nbsp;specified</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;then&nbsp;the&nbsp;distributions&nbsp;can&nbsp;be&nbsp;assigned&nbsp;labels&nbsp;from&nbsp;1&nbsp;to&nbsp;num_classes.</span><br>
+<span class=help>&nbsp;&nbsp;</span><br>
+<span class=help>&nbsp;&nbsp;The&nbsp;data&nbsp;generator&nbsp;is&nbsp;controlled&nbsp;by&nbsp;mouse:</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;&nbsp;Left&nbsp;button&nbsp;&nbsp;...&nbsp;creates&nbsp;a&nbsp;new&nbsp;point&nbsp;or&nbsp;Gaussian.</span><br>
+<span class=help>&nbsp;&nbsp;&nbsp;&nbsp;Right&nbsp;button&nbsp;...&nbsp;erases&nbsp;the&nbsp;focused&nbsp;point&nbsp;or&nbsp;Gaussian.</span><br>
+<span class=help></span><br>
+<span class=help>&nbsp;&nbsp;In&nbsp;the&nbsp;case&nbsp;of&nbsp;generating&nbsp;Gaussians&nbsp;left&nbsp;button&nbsp;double-click&nbsp;makes</span><br>
+<span class=help>&nbsp;&nbsp;selected&nbsp;Gaussian&nbsp;focused.&nbsp;The&nbsp;covariance&nbsp;matrix&nbsp;of&nbsp;focused&nbsp;</span><br>
+<span class=help>&nbsp;&nbsp;Gaussian&nbsp;can&nbsp;be&nbsp;modified.</span><br>
+<span class=help></span><br>
+</code></div>
+  <hr>
+  <b>Source:</b> <a href= "../data/list/createdata.html">createdata.m</a>
+  <p><b class="info_field">About: </b>  Statistical Pattern Recognition Toolbox<br>
+ (C) 1999-2003, Written by Vojtech Franc and Vaclav Hlavac <br>
+ <a href="http://www.cvut.cz">Czech Technical University Prague</a><br>
+ <a href="http://www.feld.cvut.cz">Faculty of Electrical Engineering</a><br>
+ <a href="http://cmp.felk.cvut.cz">Center for Machine Perception</a><br>
+
+  <p><b class="info_field">Modifications: </b>    <br>
+ 01-may-2004, VF<br>
+ 13-Feb-2003, VF  <br>
+
+</body>
+</html>

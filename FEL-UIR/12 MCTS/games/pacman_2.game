@@ -1,0 +1,6 @@
+# configuration file for the game
+# format: role, strategy, color, list of robots coordinate pairs 
+# 		roles:  EVADER x PURSUER
+# 		policies: GREEDY x MONTE_CARLO x VALUE_ITERATION
+EVADER GREEDY ro 9 15
+PURSUER GREEDY bo 8 9 10 9

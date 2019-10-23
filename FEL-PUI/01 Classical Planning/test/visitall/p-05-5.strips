@@ -1,0 +1,447 @@
+43
+(at-robot loc-x0-y0)
+(at-robot loc-x0-y1)
+(at-robot loc-x0-y2)
+(at-robot loc-x0-y3)
+(at-robot loc-x0-y4)
+(at-robot loc-x1-y0)
+(at-robot loc-x1-y1)
+(at-robot loc-x1-y2)
+(at-robot loc-x1-y3)
+(at-robot loc-x1-y4)
+(at-robot loc-x2-y0)
+(at-robot loc-x2-y1)
+(at-robot loc-x2-y2)
+(at-robot loc-x2-y3)
+(at-robot loc-x2-y4)
+(at-robot loc-x3-y0)
+(at-robot loc-x3-y1)
+(at-robot loc-x3-y2)
+(at-robot loc-x3-y3)
+(at-robot loc-x3-y4)
+(at-robot loc-x4-y0)
+(at-robot loc-x4-y1)
+(at-robot loc-x4-y2)
+(at-robot loc-x4-y3)
+(at-robot loc-x4-y4)
+(visited loc-x0-y1)
+(visited loc-x0-y2)
+(visited loc-x0-y3)
+(visited loc-x0-y4)
+(visited loc-x1-y0)
+(visited loc-x1-y1)
+(visited loc-x1-y2)
+(visited loc-x1-y3)
+(visited loc-x1-y4)
+(visited loc-x2-y1)
+(visited loc-x2-y2)
+(visited loc-x2-y4)
+(visited loc-x3-y0)
+(visited loc-x3-y2)
+(visited loc-x3-y4)
+(visited loc-x4-y1)
+(visited loc-x4-y2)
+(visited loc-x4-y3)
+2 12 35
+18 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42
+80
+move loc-x0-y0 loc-x0-y1
+1 0
+2 1 25
+1 0
+1
+move loc-x0-y0 loc-x1-y0
+1 0
+2 5 29
+1 0
+1
+move loc-x0-y1 loc-x0-y0
+1 1
+1 0
+1 1
+1
+move loc-x0-y1 loc-x0-y2
+1 1
+2 2 26
+1 1
+1
+move loc-x0-y1 loc-x1-y1
+1 1
+2 6 30
+1 1
+1
+move loc-x0-y2 loc-x0-y1
+1 2
+2 1 25
+1 2
+1
+move loc-x0-y2 loc-x0-y3
+1 2
+2 3 27
+1 2
+1
+move loc-x0-y2 loc-x1-y2
+1 2
+2 7 31
+1 2
+1
+move loc-x0-y3 loc-x0-y2
+1 3
+2 2 26
+1 3
+1
+move loc-x0-y3 loc-x0-y4
+1 3
+2 4 28
+1 3
+1
+move loc-x0-y3 loc-x1-y3
+1 3
+2 8 32
+1 3
+1
+move loc-x0-y4 loc-x0-y3
+1 4
+2 3 27
+1 4
+1
+move loc-x0-y4 loc-x1-y4
+1 4
+2 9 33
+1 4
+1
+move loc-x1-y0 loc-x0-y0
+1 5
+1 0
+1 5
+1
+move loc-x1-y0 loc-x1-y1
+1 5
+2 6 30
+1 5
+1
+move loc-x1-y0 loc-x2-y0
+1 5
+1 10
+1 5
+1
+move loc-x1-y1 loc-x0-y1
+1 6
+2 1 25
+1 6
+1
+move loc-x1-y1 loc-x1-y0
+1 6
+2 5 29
+1 6
+1
+move loc-x1-y1 loc-x1-y2
+1 6
+2 7 31
+1 6
+1
+move loc-x1-y1 loc-x2-y1
+1 6
+2 11 34
+1 6
+1
+move loc-x1-y2 loc-x0-y2
+1 7
+2 2 26
+1 7
+1
+move loc-x1-y2 loc-x1-y1
+1 7
+2 6 30
+1 7
+1
+move loc-x1-y2 loc-x1-y3
+1 7
+2 8 32
+1 7
+1
+move loc-x1-y2 loc-x2-y2
+1 7
+2 12 35
+1 7
+1
+move loc-x1-y3 loc-x0-y3
+1 8
+2 3 27
+1 8
+1
+move loc-x1-y3 loc-x1-y2
+1 8
+2 7 31
+1 8
+1
+move loc-x1-y3 loc-x1-y4
+1 8
+2 9 33
+1 8
+1
+move loc-x1-y3 loc-x2-y3
+1 8
+1 13
+1 8
+1
+move loc-x1-y4 loc-x0-y4
+1 9
+2 4 28
+1 9
+1
+move loc-x1-y4 loc-x1-y3
+1 9
+2 8 32
+1 9
+1
+move loc-x1-y4 loc-x2-y4
+1 9
+2 14 36
+1 9
+1
+move loc-x2-y0 loc-x1-y0
+1 10
+2 5 29
+1 10
+1
+move loc-x2-y0 loc-x2-y1
+1 10
+2 11 34
+1 10
+1
+move loc-x2-y0 loc-x3-y0
+1 10
+2 15 37
+1 10
+1
+move loc-x2-y1 loc-x1-y1
+1 11
+2 6 30
+1 11
+1
+move loc-x2-y1 loc-x2-y0
+1 11
+1 10
+1 11
+1
+move loc-x2-y1 loc-x2-y2
+1 11
+2 12 35
+1 11
+1
+move loc-x2-y1 loc-x3-y1
+1 11
+1 16
+1 11
+1
+move loc-x2-y2 loc-x1-y2
+1 12
+2 7 31
+1 12
+1
+move loc-x2-y2 loc-x2-y1
+1 12
+2 11 34
+1 12
+1
+move loc-x2-y2 loc-x2-y3
+1 12
+1 13
+1 12
+1
+move loc-x2-y2 loc-x3-y2
+1 12
+2 17 38
+1 12
+1
+move loc-x2-y3 loc-x1-y3
+1 13
+2 8 32
+1 13
+1
+move loc-x2-y3 loc-x2-y2
+1 13
+2 12 35
+1 13
+1
+move loc-x2-y3 loc-x2-y4
+1 13
+2 14 36
+1 13
+1
+move loc-x2-y3 loc-x3-y3
+1 13
+1 18
+1 13
+1
+move loc-x2-y4 loc-x1-y4
+1 14
+2 9 33
+1 14
+1
+move loc-x2-y4 loc-x2-y3
+1 14
+1 13
+1 14
+1
+move loc-x2-y4 loc-x3-y4
+1 14
+2 19 39
+1 14
+1
+move loc-x3-y0 loc-x2-y0
+1 15
+1 10
+1 15
+1
+move loc-x3-y0 loc-x3-y1
+1 15
+1 16
+1 15
+1
+move loc-x3-y0 loc-x4-y0
+1 15
+1 20
+1 15
+1
+move loc-x3-y1 loc-x2-y1
+1 16
+2 11 34
+1 16
+1
+move loc-x3-y1 loc-x3-y0
+1 16
+2 15 37
+1 16
+1
+move loc-x3-y1 loc-x3-y2
+1 16
+2 17 38
+1 16
+1
+move loc-x3-y1 loc-x4-y1
+1 16
+2 21 40
+1 16
+1
+move loc-x3-y2 loc-x2-y2
+1 17
+2 12 35
+1 17
+1
+move loc-x3-y2 loc-x3-y1
+1 17
+1 16
+1 17
+1
+move loc-x3-y2 loc-x3-y3
+1 17
+1 18
+1 17
+1
+move loc-x3-y2 loc-x4-y2
+1 17
+2 22 41
+1 17
+1
+move loc-x3-y3 loc-x2-y3
+1 18
+1 13
+1 18
+1
+move loc-x3-y3 loc-x3-y2
+1 18
+2 17 38
+1 18
+1
+move loc-x3-y3 loc-x3-y4
+1 18
+2 19 39
+1 18
+1
+move loc-x3-y3 loc-x4-y3
+1 18
+2 23 42
+1 18
+1
+move loc-x3-y4 loc-x2-y4
+1 19
+2 14 36
+1 19
+1
+move loc-x3-y4 loc-x3-y3
+1 19
+1 18
+1 19
+1
+move loc-x3-y4 loc-x4-y4
+1 19
+1 24
+1 19
+1
+move loc-x4-y0 loc-x3-y0
+1 20
+2 15 37
+1 20
+1
+move loc-x4-y0 loc-x4-y1
+1 20
+2 21 40
+1 20
+1
+move loc-x4-y1 loc-x3-y1
+1 21
+1 16
+1 21
+1
+move loc-x4-y1 loc-x4-y0
+1 21
+1 20
+1 21
+1
+move loc-x4-y1 loc-x4-y2
+1 21
+2 22 41
+1 21
+1
+move loc-x4-y2 loc-x3-y2
+1 22
+2 17 38
+1 22
+1
+move loc-x4-y2 loc-x4-y1
+1 22
+2 21 40
+1 22
+1
+move loc-x4-y2 loc-x4-y3
+1 22
+2 23 42
+1 22
+1
+move loc-x4-y3 loc-x3-y3
+1 23
+1 18
+1 23
+1
+move loc-x4-y3 loc-x4-y2
+1 23
+2 22 41
+1 23
+1
+move loc-x4-y3 loc-x4-y4
+1 23
+1 24
+1 23
+1
+move loc-x4-y4 loc-x3-y4
+1 24
+2 19 39
+1 24
+1
+move loc-x4-y4 loc-x4-y3
+1 24
+2 23 42
+1 24
+1

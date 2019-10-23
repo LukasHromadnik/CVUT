@@ -1,0 +1,856 @@
+72
+(at crate0 depot0)
+(at crate0 distributor0)
+(at crate0 distributor1)
+(at crate1 depot0)
+(at crate1 distributor0)
+(at crate1 distributor1)
+(at crate2 depot0)
+(at crate2 distributor0)
+(at crate2 distributor1)
+(at crate3 depot0)
+(at crate3 distributor0)
+(at crate3 distributor1)
+(at truck0 depot0)
+(at truck0 distributor0)
+(at truck0 distributor1)
+(at truck1 depot0)
+(at truck1 distributor0)
+(at truck1 distributor1)
+(available hoist0)
+(available hoist1)
+(available hoist2)
+(clear crate0)
+(clear crate1)
+(clear crate2)
+(clear crate3)
+(clear pallet0)
+(clear pallet1)
+(clear pallet2)
+(in crate0 truck0)
+(in crate0 truck1)
+(in crate1 truck0)
+(in crate1 truck1)
+(in crate2 truck0)
+(in crate2 truck1)
+(in crate3 truck0)
+(in crate3 truck1)
+(lifting hoist0 crate0)
+(lifting hoist0 crate1)
+(lifting hoist0 crate2)
+(lifting hoist0 crate3)
+(lifting hoist1 crate0)
+(lifting hoist1 crate1)
+(lifting hoist1 crate2)
+(lifting hoist1 crate3)
+(lifting hoist2 crate0)
+(lifting hoist2 crate1)
+(lifting hoist2 crate2)
+(lifting hoist2 crate3)
+(on crate0 crate1)
+(on crate0 crate2)
+(on crate0 crate3)
+(on crate0 pallet0)
+(on crate0 pallet1)
+(on crate0 pallet2)
+(on crate1 crate0)
+(on crate1 crate2)
+(on crate1 crate3)
+(on crate1 pallet0)
+(on crate1 pallet1)
+(on crate1 pallet2)
+(on crate2 crate0)
+(on crate2 crate1)
+(on crate2 crate3)
+(on crate2 pallet0)
+(on crate2 pallet1)
+(on crate2 pallet2)
+(on crate3 crate0)
+(on crate3 crate1)
+(on crate3 crate2)
+(on crate3 pallet0)
+(on crate3 pallet1)
+(on crate3 pallet2)
+16 0 5 8 10 12 15 18 19 20 21 23 24 51 59 61 70
+13 2 6 10 18 19 20 21 22 23 53 56 63 70
+156
+drive truck0 depot0 distributor0
+1 12
+1 13
+1 12
+1
+drive truck0 depot0 distributor1
+1 12
+1 14
+1 12
+1
+drive truck0 distributor0 depot0
+1 13
+1 12
+1 13
+1
+drive truck0 distributor0 distributor1
+1 13
+1 14
+1 13
+1
+drive truck0 distributor1 depot0
+1 14
+1 12
+1 14
+1
+drive truck0 distributor1 distributor0
+1 14
+1 13
+1 14
+1
+drive truck1 depot0 distributor0
+1 15
+1 16
+1 15
+1
+drive truck1 depot0 distributor1
+1 15
+1 17
+1 15
+1
+drive truck1 distributor0 depot0
+1 16
+1 15
+1 16
+1
+drive truck1 distributor0 distributor1
+1 16
+1 17
+1 16
+1
+drive truck1 distributor1 depot0
+1 17
+1 15
+1 17
+1
+drive truck1 distributor1 distributor0
+1 17
+1 16
+1 17
+1
+drop hoist0 crate0 crate1 depot0
+3 3 22 36
+4 0 18 21 48
+2 22 36
+1
+drop hoist0 crate0 crate2 depot0
+3 6 23 36
+4 0 18 21 49
+2 23 36
+1
+drop hoist0 crate0 crate3 depot0
+3 9 24 36
+4 0 18 21 50
+2 24 36
+1
+drop hoist0 crate0 pallet0 depot0
+2 25 36
+4 0 18 21 51
+2 25 36
+1
+drop hoist0 crate1 crate0 depot0
+3 0 21 37
+4 3 18 22 54
+2 21 37
+1
+drop hoist0 crate1 crate2 depot0
+3 6 23 37
+4 3 18 22 55
+2 23 37
+1
+drop hoist0 crate1 crate3 depot0
+3 9 24 37
+4 3 18 22 56
+2 24 37
+1
+drop hoist0 crate1 pallet0 depot0
+2 25 37
+4 3 18 22 57
+2 25 37
+1
+drop hoist0 crate2 crate0 depot0
+3 0 21 38
+4 6 18 23 60
+2 21 38
+1
+drop hoist0 crate2 crate1 depot0
+3 3 22 38
+4 6 18 23 61
+2 22 38
+1
+drop hoist0 crate2 crate3 depot0
+3 9 24 38
+4 6 18 23 62
+2 24 38
+1
+drop hoist0 crate2 pallet0 depot0
+2 25 38
+4 6 18 23 63
+2 25 38
+1
+drop hoist0 crate3 crate0 depot0
+3 0 21 39
+4 9 18 24 66
+2 21 39
+1
+drop hoist0 crate3 crate1 depot0
+3 3 22 39
+4 9 18 24 67
+2 22 39
+1
+drop hoist0 crate3 crate2 depot0
+3 6 23 39
+4 9 18 24 68
+2 23 39
+1
+drop hoist0 crate3 pallet0 depot0
+2 25 39
+4 9 18 24 69
+2 25 39
+1
+drop hoist1 crate0 crate1 distributor0
+3 4 22 40
+4 1 19 21 48
+2 22 40
+1
+drop hoist1 crate0 crate2 distributor0
+3 7 23 40
+4 1 19 21 49
+2 23 40
+1
+drop hoist1 crate0 crate3 distributor0
+3 10 24 40
+4 1 19 21 50
+2 24 40
+1
+drop hoist1 crate0 pallet1 distributor0
+2 26 40
+4 1 19 21 52
+2 26 40
+1
+drop hoist1 crate1 crate0 distributor0
+3 1 21 41
+4 4 19 22 54
+2 21 41
+1
+drop hoist1 crate1 crate2 distributor0
+3 7 23 41
+4 4 19 22 55
+2 23 41
+1
+drop hoist1 crate1 crate3 distributor0
+3 10 24 41
+4 4 19 22 56
+2 24 41
+1
+drop hoist1 crate1 pallet1 distributor0
+2 26 41
+4 4 19 22 58
+2 26 41
+1
+drop hoist1 crate2 crate0 distributor0
+3 1 21 42
+4 7 19 23 60
+2 21 42
+1
+drop hoist1 crate2 crate1 distributor0
+3 4 22 42
+4 7 19 23 61
+2 22 42
+1
+drop hoist1 crate2 crate3 distributor0
+3 10 24 42
+4 7 19 23 62
+2 24 42
+1
+drop hoist1 crate2 pallet1 distributor0
+2 26 42
+4 7 19 23 64
+2 26 42
+1
+drop hoist1 crate3 crate0 distributor0
+3 1 21 43
+4 10 19 24 66
+2 21 43
+1
+drop hoist1 crate3 crate1 distributor0
+3 4 22 43
+4 10 19 24 67
+2 22 43
+1
+drop hoist1 crate3 crate2 distributor0
+3 7 23 43
+4 10 19 24 68
+2 23 43
+1
+drop hoist1 crate3 pallet1 distributor0
+2 26 43
+4 10 19 24 70
+2 26 43
+1
+drop hoist2 crate0 crate1 distributor1
+3 5 22 44
+4 2 20 21 48
+2 22 44
+1
+drop hoist2 crate0 crate2 distributor1
+3 8 23 44
+4 2 20 21 49
+2 23 44
+1
+drop hoist2 crate0 crate3 distributor1
+3 11 24 44
+4 2 20 21 50
+2 24 44
+1
+drop hoist2 crate0 pallet2 distributor1
+2 27 44
+4 2 20 21 53
+2 27 44
+1
+drop hoist2 crate1 crate0 distributor1
+3 2 21 45
+4 5 20 22 54
+2 21 45
+1
+drop hoist2 crate1 crate2 distributor1
+3 8 23 45
+4 5 20 22 55
+2 23 45
+1
+drop hoist2 crate1 crate3 distributor1
+3 11 24 45
+4 5 20 22 56
+2 24 45
+1
+drop hoist2 crate1 pallet2 distributor1
+2 27 45
+4 5 20 22 59
+2 27 45
+1
+drop hoist2 crate2 crate0 distributor1
+3 2 21 46
+4 8 20 23 60
+2 21 46
+1
+drop hoist2 crate2 crate1 distributor1
+3 5 22 46
+4 8 20 23 61
+2 22 46
+1
+drop hoist2 crate2 crate3 distributor1
+3 11 24 46
+4 8 20 23 62
+2 24 46
+1
+drop hoist2 crate2 pallet2 distributor1
+2 27 46
+4 8 20 23 65
+2 27 46
+1
+drop hoist2 crate3 crate0 distributor1
+3 2 21 47
+4 11 20 24 66
+2 21 47
+1
+drop hoist2 crate3 crate1 distributor1
+3 5 22 47
+4 11 20 24 67
+2 22 47
+1
+drop hoist2 crate3 crate2 distributor1
+3 8 23 47
+4 11 20 24 68
+2 23 47
+1
+drop hoist2 crate3 pallet2 distributor1
+2 27 47
+4 11 20 24 71
+2 27 47
+1
+lift hoist0 crate0 crate1 depot0
+4 0 18 21 48
+2 22 36
+4 0 18 21 48
+1
+lift hoist0 crate0 crate2 depot0
+4 0 18 21 49
+2 23 36
+4 0 18 21 49
+1
+lift hoist0 crate0 crate3 depot0
+4 0 18 21 50
+2 24 36
+4 0 18 21 50
+1
+lift hoist0 crate0 pallet0 depot0
+4 0 18 21 51
+2 25 36
+4 0 18 21 51
+1
+lift hoist0 crate1 crate0 depot0
+4 3 18 22 54
+2 21 37
+4 3 18 22 54
+1
+lift hoist0 crate1 crate2 depot0
+4 3 18 22 55
+2 23 37
+4 3 18 22 55
+1
+lift hoist0 crate1 crate3 depot0
+4 3 18 22 56
+2 24 37
+4 3 18 22 56
+1
+lift hoist0 crate1 pallet0 depot0
+4 3 18 22 57
+2 25 37
+4 3 18 22 57
+1
+lift hoist0 crate2 crate0 depot0
+4 6 18 23 60
+2 21 38
+4 6 18 23 60
+1
+lift hoist0 crate2 crate1 depot0
+4 6 18 23 61
+2 22 38
+4 6 18 23 61
+1
+lift hoist0 crate2 crate3 depot0
+4 6 18 23 62
+2 24 38
+4 6 18 23 62
+1
+lift hoist0 crate2 pallet0 depot0
+4 6 18 23 63
+2 25 38
+4 6 18 23 63
+1
+lift hoist0 crate3 crate0 depot0
+4 9 18 24 66
+2 21 39
+4 9 18 24 66
+1
+lift hoist0 crate3 crate1 depot0
+4 9 18 24 67
+2 22 39
+4 9 18 24 67
+1
+lift hoist0 crate3 crate2 depot0
+4 9 18 24 68
+2 23 39
+4 9 18 24 68
+1
+lift hoist0 crate3 pallet0 depot0
+4 9 18 24 69
+2 25 39
+4 9 18 24 69
+1
+lift hoist1 crate0 crate1 distributor0
+4 1 19 21 48
+2 22 40
+4 1 19 21 48
+1
+lift hoist1 crate0 crate2 distributor0
+4 1 19 21 49
+2 23 40
+4 1 19 21 49
+1
+lift hoist1 crate0 crate3 distributor0
+4 1 19 21 50
+2 24 40
+4 1 19 21 50
+1
+lift hoist1 crate0 pallet1 distributor0
+4 1 19 21 52
+2 26 40
+4 1 19 21 52
+1
+lift hoist1 crate1 crate0 distributor0
+4 4 19 22 54
+2 21 41
+4 4 19 22 54
+1
+lift hoist1 crate1 crate2 distributor0
+4 4 19 22 55
+2 23 41
+4 4 19 22 55
+1
+lift hoist1 crate1 crate3 distributor0
+4 4 19 22 56
+2 24 41
+4 4 19 22 56
+1
+lift hoist1 crate1 pallet1 distributor0
+4 4 19 22 58
+2 26 41
+4 4 19 22 58
+1
+lift hoist1 crate2 crate0 distributor0
+4 7 19 23 60
+2 21 42
+4 7 19 23 60
+1
+lift hoist1 crate2 crate1 distributor0
+4 7 19 23 61
+2 22 42
+4 7 19 23 61
+1
+lift hoist1 crate2 crate3 distributor0
+4 7 19 23 62
+2 24 42
+4 7 19 23 62
+1
+lift hoist1 crate2 pallet1 distributor0
+4 7 19 23 64
+2 26 42
+4 7 19 23 64
+1
+lift hoist1 crate3 crate0 distributor0
+4 10 19 24 66
+2 21 43
+4 10 19 24 66
+1
+lift hoist1 crate3 crate1 distributor0
+4 10 19 24 67
+2 22 43
+4 10 19 24 67
+1
+lift hoist1 crate3 crate2 distributor0
+4 10 19 24 68
+2 23 43
+4 10 19 24 68
+1
+lift hoist1 crate3 pallet1 distributor0
+4 10 19 24 70
+2 26 43
+4 10 19 24 70
+1
+lift hoist2 crate0 crate1 distributor1
+4 2 20 21 48
+2 22 44
+4 2 20 21 48
+1
+lift hoist2 crate0 crate2 distributor1
+4 2 20 21 49
+2 23 44
+4 2 20 21 49
+1
+lift hoist2 crate0 crate3 distributor1
+4 2 20 21 50
+2 24 44
+4 2 20 21 50
+1
+lift hoist2 crate0 pallet2 distributor1
+4 2 20 21 53
+2 27 44
+4 2 20 21 53
+1
+lift hoist2 crate1 crate0 distributor1
+4 5 20 22 54
+2 21 45
+4 5 20 22 54
+1
+lift hoist2 crate1 crate2 distributor1
+4 5 20 22 55
+2 23 45
+4 5 20 22 55
+1
+lift hoist2 crate1 crate3 distributor1
+4 5 20 22 56
+2 24 45
+4 5 20 22 56
+1
+lift hoist2 crate1 pallet2 distributor1
+4 5 20 22 59
+2 27 45
+4 5 20 22 59
+1
+lift hoist2 crate2 crate0 distributor1
+4 8 20 23 60
+2 21 46
+4 8 20 23 60
+1
+lift hoist2 crate2 crate1 distributor1
+4 8 20 23 61
+2 22 46
+4 8 20 23 61
+1
+lift hoist2 crate2 crate3 distributor1
+4 8 20 23 62
+2 24 46
+4 8 20 23 62
+1
+lift hoist2 crate2 pallet2 distributor1
+4 8 20 23 65
+2 27 46
+4 8 20 23 65
+1
+lift hoist2 crate3 crate0 distributor1
+4 11 20 24 66
+2 21 47
+4 11 20 24 66
+1
+lift hoist2 crate3 crate1 distributor1
+4 11 20 24 67
+2 22 47
+4 11 20 24 67
+1
+lift hoist2 crate3 crate2 distributor1
+4 11 20 24 68
+2 23 47
+4 11 20 24 68
+1
+lift hoist2 crate3 pallet2 distributor1
+4 11 20 24 71
+2 27 47
+4 11 20 24 71
+1
+load hoist0 crate0 truck0 depot0
+2 12 36
+2 18 28
+1 36
+1
+load hoist0 crate0 truck1 depot0
+2 15 36
+2 18 29
+1 36
+1
+load hoist0 crate1 truck0 depot0
+2 12 37
+2 18 30
+1 37
+1
+load hoist0 crate1 truck1 depot0
+2 15 37
+2 18 31
+1 37
+1
+load hoist0 crate2 truck0 depot0
+2 12 38
+2 18 32
+1 38
+1
+load hoist0 crate2 truck1 depot0
+2 15 38
+2 18 33
+1 38
+1
+load hoist0 crate3 truck0 depot0
+2 12 39
+2 18 34
+1 39
+1
+load hoist0 crate3 truck1 depot0
+2 15 39
+2 18 35
+1 39
+1
+load hoist1 crate0 truck0 distributor0
+2 13 40
+2 19 28
+1 40
+1
+load hoist1 crate0 truck1 distributor0
+2 16 40
+2 19 29
+1 40
+1
+load hoist1 crate1 truck0 distributor0
+2 13 41
+2 19 30
+1 41
+1
+load hoist1 crate1 truck1 distributor0
+2 16 41
+2 19 31
+1 41
+1
+load hoist1 crate2 truck0 distributor0
+2 13 42
+2 19 32
+1 42
+1
+load hoist1 crate2 truck1 distributor0
+2 16 42
+2 19 33
+1 42
+1
+load hoist1 crate3 truck0 distributor0
+2 13 43
+2 19 34
+1 43
+1
+load hoist1 crate3 truck1 distributor0
+2 16 43
+2 19 35
+1 43
+1
+load hoist2 crate0 truck0 distributor1
+2 14 44
+2 20 28
+1 44
+1
+load hoist2 crate0 truck1 distributor1
+2 17 44
+2 20 29
+1 44
+1
+load hoist2 crate1 truck0 distributor1
+2 14 45
+2 20 30
+1 45
+1
+load hoist2 crate1 truck1 distributor1
+2 17 45
+2 20 31
+1 45
+1
+load hoist2 crate2 truck0 distributor1
+2 14 46
+2 20 32
+1 46
+1
+load hoist2 crate2 truck1 distributor1
+2 17 46
+2 20 33
+1 46
+1
+load hoist2 crate3 truck0 distributor1
+2 14 47
+2 20 34
+1 47
+1
+load hoist2 crate3 truck1 distributor1
+2 17 47
+2 20 35
+1 47
+1
+unload hoist0 crate0 truck0 depot0
+3 12 18 28
+1 36
+2 18 28
+1
+unload hoist0 crate0 truck1 depot0
+3 15 18 29
+1 36
+2 18 29
+1
+unload hoist0 crate1 truck0 depot0
+3 12 18 30
+1 37
+2 18 30
+1
+unload hoist0 crate1 truck1 depot0
+3 15 18 31
+1 37
+2 18 31
+1
+unload hoist0 crate2 truck0 depot0
+3 12 18 32
+1 38
+2 18 32
+1
+unload hoist0 crate2 truck1 depot0
+3 15 18 33
+1 38
+2 18 33
+1
+unload hoist0 crate3 truck0 depot0
+3 12 18 34
+1 39
+2 18 34
+1
+unload hoist0 crate3 truck1 depot0
+3 15 18 35
+1 39
+2 18 35
+1
+unload hoist1 crate0 truck0 distributor0
+3 13 19 28
+1 40
+2 19 28
+1
+unload hoist1 crate0 truck1 distributor0
+3 16 19 29
+1 40
+2 19 29
+1
+unload hoist1 crate1 truck0 distributor0
+3 13 19 30
+1 41
+2 19 30
+1
+unload hoist1 crate1 truck1 distributor0
+3 16 19 31
+1 41
+2 19 31
+1
+unload hoist1 crate2 truck0 distributor0
+3 13 19 32
+1 42
+2 19 32
+1
+unload hoist1 crate2 truck1 distributor0
+3 16 19 33
+1 42
+2 19 33
+1
+unload hoist1 crate3 truck0 distributor0
+3 13 19 34
+1 43
+2 19 34
+1
+unload hoist1 crate3 truck1 distributor0
+3 16 19 35
+1 43
+2 19 35
+1
+unload hoist2 crate0 truck0 distributor1
+3 14 20 28
+1 44
+2 20 28
+1
+unload hoist2 crate0 truck1 distributor1
+3 17 20 29
+1 44
+2 20 29
+1
+unload hoist2 crate1 truck0 distributor1
+3 14 20 30
+1 45
+2 20 30
+1
+unload hoist2 crate1 truck1 distributor1
+3 17 20 31
+1 45
+2 20 31
+1
+unload hoist2 crate2 truck0 distributor1
+3 14 20 32
+1 46
+2 20 32
+1
+unload hoist2 crate2 truck1 distributor1
+3 17 20 33
+1 46
+2 20 33
+1
+unload hoist2 crate3 truck0 distributor1
+3 14 20 34
+1 47
+2 20 34
+1
+unload hoist2 crate3 truck1 distributor1
+3 17 20 35
+1 47
+2 20 35
+1

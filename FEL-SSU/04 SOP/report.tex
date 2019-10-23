@@ -1,0 +1,46 @@
+% Classic paper style
+\documentclass[12pt]{article}
+\usepackage[a4paper,left=2.5cm,right=2.5cm]{geometry}
+
+% Set wide A4 format
+\usepackage{a4wide}
+
+% Support for Czech alphabet
+\usepackage[czech]{babel}
+
+% Set UTF-8 coding
+\usepackage[utf8]{inputenc}
+
+% Document beginning
+\begin{document}
+
+% Title page
+\title{SSU 04 – Structured Output Perceptron}
+\author{Lukáš Hromadník}
+\date{}
+
+\pagestyle{empty}
+\maketitle
+\thispagestyle{empty}
+
+\pagestyle{plain}
+
+% Content
+\begin{center}
+    \begin{tabular}{|l|c|c|} \hline
+    & \multicolumn{2}{c|}{Testing errors in \%} \\ \hline
+    & $R^{seq}$ & $R^{char}$ \\ \hline
+    independent multi-class classifier & 66.60 \% & 26.16 \% \\ \hline
+    structured, pair-wise dependency & 29.80 \% & 18.27 \% \\ \hline
+    structured, fixed number of sequences & 2.80 \% & 2.83 \% \\ \hline
+    \end{tabular}
+\end{center}
+
+The first classifier is the simplest one. It learns only dependencies among the features. It doesn't take anything else into account. So that's probably the reason why it has the biggest error on the test set.
+
+The second classifier uses relations between letters to improve its performance. The relation is a probability that two letters can be seen next to each other in the name. By using this improvement we can get better results because the algorithm can reject very improbable combinations of letters. Using this improvement we complicate the main function, so learning takes a little bit more time to successfully converge.
+
+The last classifier is using probability of occurrence of a name. So the most common names should have the highest value of the function. Using this improvement and knowledge that in the dataset are only 20 names, this classifier is the fastest in learning. The main disadvantage is that it is not very general. In the real world it's almost impossible to collect all the names that can appear in the dataset.
+
+% End of document
+\end{document}

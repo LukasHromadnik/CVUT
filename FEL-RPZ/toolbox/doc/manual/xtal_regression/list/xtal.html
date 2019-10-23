@@ -1,0 +1,175 @@
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=ISO-8859-1">
+  <title>xtal.m</title>
+<link rel="stylesheet" type="text/css" href="../../m-syntax.css">
+</head>
+<body>
+<code>
+<span class=defun_kw>function</span>&nbsp;<span class=defun_out>[ypred,nrms,rms0,nmax]</span>=&nbsp;<span class=defun_name>xtal</span>(<span class=defun_in>trn_data,tst_data,method,params,verb</span>)<br>
+<span class=h1>%&nbsp;XTAL&nbsp;is&nbsp;interface&nbsp;to&nbsp;the&nbsp;XTAL&nbsp;regression&nbsp;package.&nbsp;</span><br>
+<span class=help>%&nbsp;</span><br>
+<span class=help>%&nbsp;<span class=help_field>Synopsis:</span></span><br>
+<span class=help>%&nbsp;&nbsp;[ypred,nrms,rms0,nmax]&nbsp;=&nbsp;xtal(trn_data,tst_data,method,params)</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Description:</span></span><br>
+<span class=help>%&nbsp;&nbsp;This&nbsp;function&nbsp;provides&nbsp;Matlab&nbsp;interface&nbsp;to&nbsp;the&nbsp;XTAL&nbsp;regression&nbsp;package.&nbsp;</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;&nbsp;The&nbsp;XTAL&nbsp;package&nbsp;is&nbsp;accessed&nbsp;from&nbsp;Matlab&nbsp;through&nbsp;the&nbsp;program&nbsp;"xtal".&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;Data&nbsp;are&nbsp;exchanged&nbsp;using&nbsp;text&nbsp;files&nbsp;created&nbsp;in&nbsp;the&nbsp;XTAL&nbsp;root&nbsp;directory&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;whenever&nbsp;this&nbsp;function&nbsp;is&nbsp;issued.&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;<span class=help_field>Requirements:</span></span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;1.&nbsp;XTAL&nbsp;package&nbsp;is&nbsp;installed.&nbsp;XTAL&nbsp;can&nbsp;be&nbsp;downloaded&nbsp;from</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://www.ece.umn.edu/users/cherkass/ee8591/software/xtal.html</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;STPRtool&nbsp;comes&nbsp;with&nbsp;binaries&nbsp;compiled&nbsp;for&nbsp;Linux&nbsp;and&nbsp;Windows&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(to&nbsp;run&nbsp;XTAL&nbsp;under&nbsp;Windows&nbsp;it&nbsp;is&nbsp;required&nbsp;that&nbsp;CYGWIN&nbsp;from&nbsp;www.cygwin.com/&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is&nbsp;installed).</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;2.&nbsp;XTAL&nbsp;root&nbsp;directory&nbsp;and&nbsp;the&nbsp;command&nbsp;line&nbsp;to&nbsp;run&nbsp;XTAL&nbsp;are&nbsp;specified&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in&nbsp;"xtal_rootdir.m".&nbsp;See&nbsp;"help&nbsp;xtal_rootdir".</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For&nbsp;Linux&nbsp;and&nbsp;Windows&nbsp;the&nbsp;XTAL&nbsp;root&nbsp;directory&nbsp;and&nbsp;the&nbsp;command&nbsp;line&nbsp;are&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generated&nbsp;automatically.&nbsp;Hence&nbsp;the&nbsp;XTAL&nbsp;interface&nbsp;should&nbsp;work&nbsp;out&nbsp;of&nbsp;the&nbsp;box.&nbsp;&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If&nbsp;not&nbsp;you&nbsp;have&nbsp;to&nbsp;do&nbsp;both&nbsp;above&nbsp;mentioned&nbsp;steps&nbsp;manually.</span><br>
+<span class=help>%&nbsp;</span><br>
+<span class=help>%&nbsp;<span class=help_field>Inputs:</span></span><br>
+<span class=help>%&nbsp;&nbsp;trn_data.X&nbsp;[nDim&nbsp;x&nbsp;nTrnData]&nbsp;training&nbsp;inputs.</span><br>
+<span class=help>%&nbsp;&nbsp;trn_data.y&nbsp;[nTrnData&nbsp;x&nbsp;1]&nbsp;training&nbsp;outputs.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;&nbsp;tst_data.X&nbsp;[nDim&nbsp;x&nbsp;nTstData]&nbsp;testing&nbsp;inputs.</span><br>
+<span class=help>%&nbsp;&nbsp;tst_data.y&nbsp;[nTstData&nbsp;x&nbsp;1]&nbsp;testing&nbsp;outputs.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;&nbsp;method&nbsp;[string]&nbsp;Regression&nbsp;method&nbsp;supported&nbsp;by&nbsp;XTAL;&nbsp;it&nbsp;must&nbsp;be&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;strings:&nbsp;'ANN1','PPR1','CTM1','KNN1','MRS1'&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;params&nbsp;[nRuns&nbsp;x&nbsp;nParams]&nbsp;Parameters&nbsp;of&nbsp;the&nbsp;selected&nbsp;method.&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;See&nbsp;XTAL&nbsp;documentation&nbsp;for&nbsp;more&nbsp;info.</span><br>
+<span class=help>%&nbsp;&nbsp;verb&nbsp;[1x1]&nbsp;if&nbsp;1&nbsp;(default)&nbsp;then&nbsp;progress&nbsp;info&nbsp;is&nbsp;displayed.&nbsp;</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Outputs:</span></span><br>
+<span class=help>%&nbsp;&nbsp;ypred&nbsp;[nRuns&nbsp;x&nbsp;nTstData]&nbsp;Predicted&nbsp;test&nbsp;outputs.</span><br>
+<span class=help>%&nbsp;&nbsp;nrms&nbsp;[nRuns&nbsp;x&nbsp;1]&nbsp;Normalized&nbsp;RMS&nbsp;error&nbsp;for&nbsp;each&nbsp;run.</span><br>
+<span class=help>%&nbsp;&nbsp;rms0&nbsp;[nRuns&nbsp;x&nbsp;1]&nbsp;RMS&nbsp;error&nbsp;of&nbsp;the&nbsp;0-th&nbsp;order&nbsp;model.</span><br>
+<span class=help>%&nbsp;&nbsp;nmax&nbsp;[nRuns&nbsp;x&nbsp;1]&nbsp;Normalized&nbsp;maximal&nbsp;deviation.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Example:</span></span><br>
+<span class=help>%&nbsp;&nbsp;Run&nbsp;test&nbsp;script</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;&nbsp;xtal_test</span><br>
+<span class=help>%</span><br>
+<hr>
+<br>
+[XTAL_RootDir,XTAL_CmdLine]&nbsp;=&nbsp;xtal_rootdir;<br>
+<br>
+<span class=comment>%----------------------------------------------------</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+Methods&nbsp;=&nbsp;{<span class=quotes>'ANN1'</span>,<span class=quotes>'PPR1'</span>,<span class=quotes>'CTM1'</span>,<span class=quotes>'KNN1'</span>,<span class=quotes>'MRS1'</span>};<br>
+ResultFiles&nbsp;=&nbsp;{<span class=quotes>'ann1.res'</span>,<span class=quotes>'ppr.res'</span>,<span class=quotes>'fit1'</span>,<span class=quotes>'knn.res'</span>,<span class=quotes>'mars.res'</span>};<br>
+<br>
+<span class=keyword>if</span>&nbsp;<span class=stack>nargin</span>&nbsp;&lt;&nbsp;4<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=error>error</span>(<span class=quotes>'XTAL&nbsp;function&nbsp;expetct&nbsp;four&nbsp;input&nbsp;arguments&nbsp;at&nbsp;least.'</span>);<br>
+<span class=keyword>end</span><br>
+<span class=keyword>if</span>&nbsp;<span class=stack>nargin</span>&nbsp;&lt;&nbsp;5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;verb&nbsp;=&nbsp;1;<br>
+<span class=keyword>end</span><br>
+<span class=keyword>if</span>&nbsp;isempty(strmatch(method,Methods,<span class=quotes>'exact'</span>))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=error>error</span>(<span class=quotes>'Input&nbsp;argument&nbsp;"method"&nbsp;does&nbsp;not&nbsp;match&nbsp;any&nbsp;supported&nbsp;method.'</span>);<br>
+<span class=keyword>end</span><br>
+<br>
+<br>
+nTstData&nbsp;=&nbsp;length(tst_data.y);<br>
+nTrnData&nbsp;=&nbsp;length(trn_data.y);<br>
+nRuns&nbsp;=&nbsp;size(params,1);<br>
+<br>
+<br>
+<span class=comment>%&nbsp;save&nbsp;training/testing&nbsp;data&nbsp;to&nbsp;XTAL&nbsp;RootDir</span><br>
+<span class=comment>%---------------------------------------------</span><br>
+data&nbsp;=&nbsp;[trn_data.X'&nbsp;trn_data.y(:)];<br>
+save([XTAL_RootDir&nbsp;<span class=quotes>'train.txt'</span>],<span class=quotes>'data'</span>,<span class=quotes>'-ASCII'</span>);<br>
+trn_fname&nbsp;=&nbsp;<span class=quotes>'train.txt'</span>;<br>
+<br>
+data&nbsp;=&nbsp;[tst_data.X'&nbsp;tst_data.y(:)];<br>
+save([XTAL_RootDir&nbsp;<span class=quotes>'test.txt'</span>],<span class=quotes>'data'</span>,<span class=quotes>'-ASCII'</span>);<br>
+tst_fname&nbsp;=&nbsp;<span class=quotes>'test.txt'</span>;<br>
+<br>
+<span class=comment>%&nbsp;create&nbsp;filename.con&nbsp;</span><br>
+<span class=comment>%---------------------------------------------</span><br>
+fname&nbsp;=&nbsp;[XTAL_RootDir&nbsp;<span class=quotes>'filename.con'</span>];<br>
+fid&nbsp;=&nbsp;fopen(fname,<span class=quotes>'w'</span>);<br>
+<span class=keyword>if</span>&nbsp;fid&nbsp;==&nbsp;-1&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=error>error</span>(<span class=io>sprintf</span>(<span class=quotes>'Cannot&nbsp;open:&nbsp;%s&nbsp;.'</span>,fname));<br>
+<span class=keyword>end</span><br>
+<span class=io>fprintf</span>(fid,[trn_fname&nbsp;<span class=quotes>'&nbsp;'</span>&nbsp;tst_fname]);<br>
+fclose(fid);<br>
+<br>
+ypred&nbsp;=&nbsp;zeros(nRuns,nTstData);<br>
+rms0&nbsp;=&nbsp;zeros(nRuns,1);<br>
+nrms&nbsp;=&nbsp;zeros(nRuns,1);<br>
+nmax&nbsp;=&nbsp;zeros(nRuns,1);<br>
+<br>
+max_tst_y&nbsp;=&nbsp;max(tst_data.y);<br>
+min_tst_y&nbsp;=&nbsp;min(tst_data.y);<br>
+<br>
+method_idx&nbsp;=&nbsp;strmatch(method,Methods,<span class=quotes>'exact'</span>);<br>
+<span class=keyword>if</span>&nbsp;isempty(method_idx)<br>
+&nbsp;&nbsp;&nbsp;<span class=error>error</span>(<span class=quotes>'Improper&nbsp;value&nbsp;for&nbsp;the&nbsp;argument&nbsp;"method"'</span>);<br>
+<span class=keyword>end</span><br>
+<br>
+<span class=comment>%&nbsp;call&nbsp;xtal-method&nbsp;for&nbsp;all&nbsp;parameters</span><br>
+<span class=comment>%---------------------------------------------</span><br>
+<span class=keyword>for</span>&nbsp;i=1:size(params,1)<br>
+&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=comment>%&nbsp;create&nbsp;operate.con&nbsp;file</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;fname&nbsp;=&nbsp;[XTAL_RootDir&nbsp;<span class=quotes>'operate.con'</span>];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;fid&nbsp;=&nbsp;fopen(fname,<span class=quotes>'w'</span>);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>if</span>&nbsp;fid&nbsp;==&nbsp;-1&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=error>error</span>(<span class=io>sprintf</span>(<span class=quotes>'Cannot&nbsp;open:&nbsp;%s&nbsp;.'</span>,fname));<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>end</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=io>fprintf</span>(fid,<span class=quotes>'%s&nbsp;'</span>,method);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>for</span>&nbsp;j=1:size(params,2)-1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=io>fprintf</span>(fid,<span class=quotes>'%d,'</span>,&nbsp;params(i,j));<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>end</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=io>fprintf</span>(fid,<span class=quotes>'%d\n'</span>,&nbsp;params(i,<span class=keyword>end</span>));<br>
+&nbsp;&nbsp;&nbsp;&nbsp;fclose(fid);<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>if</span>&nbsp;verb<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=io>fprintf</span>(<span class=quotes>'Running&nbsp;%s&nbsp;with&nbsp;parameter&nbsp;(&nbsp;'</span>,&nbsp;method);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=io>fprintf</span>(<span class=quotes>'%d&nbsp;'</span>,&nbsp;params(i,:));<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=io>fprintf</span>(<span class=quotes>')&nbsp;...&nbsp;'</span>);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>end</span><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;res_fname&nbsp;=&nbsp;[XTAL_RootDir&nbsp;ResultFiles{method_idx}];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>if</span>&nbsp;<span class=stack>exist</span>(res_fname)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delete(res_fname);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>end</span><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=comment>%&nbsp;run&nbsp;xtal</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;[a,b]&nbsp;=&nbsp;system(XTAL_CmdLine);&nbsp;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>if</span>&nbsp;verb<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=io>fprintf</span>(<span class=quotes>'done.'</span>);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>end</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=comment>%&nbsp;load&nbsp;predicted&nbsp;outputs</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;=&nbsp;load(res_fname,<span class=quotes>'-ASCII'</span>);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;ypred(i,:)&nbsp;=&nbsp;data(:,<span class=keyword>end</span>)';<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=comment>%&nbsp;compute&nbsp;RMS&nbsp;of&nbsp;0-th&nbsp;order&nbsp;method</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;rms0(i)&nbsp;=&nbsp;sum((tst_data.y&nbsp;-&nbsp;mean(trn_data.y)).^2);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;rms0(i)&nbsp;=&nbsp;sqrt(rms0(i)/(nTstData+1));<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=comment>%&nbsp;compute&nbsp;normalized&nbsp;RMS&nbsp;of&nbsp;the&nbsp;prediced&nbsp;outputs</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;nrms(i)&nbsp;=&nbsp;sum((ypred(i,:)-tst_data.y(:)').^2);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;nrms(i)&nbsp;=&nbsp;sqrt(nrms(i)/length(tst_data.y))/rms0(i);<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=comment>%&nbsp;compute&nbsp;normalized&nbsp;maximal&nbsp;deviation</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;nmax(i)&nbsp;=&nbsp;max(ypred(i,:)-tst_data.y(:)')/(max_tst_y-min_tst_y);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>if</span>&nbsp;verb<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=io>fprintf</span>(<span class=quotes>'&nbsp;&nbsp;NRMS:&nbsp;%f&nbsp;&nbsp;NMAX:&nbsp;%f\n'</span>,&nbsp;nrms(i),&nbsp;nmax(i));<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>end</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<span class=keyword>end</span><br>
+<br>
+<span class=jump>return</span>;<br>
+</code>

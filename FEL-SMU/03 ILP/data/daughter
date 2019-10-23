@@ -1,0 +1,4 @@
++ daugther(jana),!parent(ingrid,jana),!female(ingrid),!female(jana).
++ daugther(amalia),!parent(dan,amalia),!male(dan),!female(amalia).
++ daugther(X),!parent(Y,X),!human(Y),!female(X).
+- son(X),!parent(Y,X),!man(X).

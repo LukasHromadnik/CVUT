@@ -1,0 +1,4 @@
+1 proces: Random forest (housing): n_trees = 1000 finished in 500.25s
+4 procesy: Random forest (housing): n_trees = 1000 finished in 148.00s
+8 procesů: Random forest (housing): n_trees = 1000 finished in 143.83s
+6 procesů: Random forest (housing): n_trees = 1000 finished in 142.65s

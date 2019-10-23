@@ -1,0 +1,74 @@
+READ_1ST.TXT --  XTAL Version 5 Regression Package.
+                 Description of files in package
+
+
+     This package consists of a main directory with all the files
+necessary for running XTAL on Sun Sparcstations.  There is no
+executable code included for any platform other than this.  There are
+five subdirectories containing the source code for each of the five
+executable program modules that comprise the XTAL package.  The
+contents of these subdirectories is only necessary if the user intends
+to recompile these modules.
+
+Files in main directory that are needed to run XTAL:
+(1)  READ_1ST.TXT    ------  This file (ASCII)
+(2)  xtal_doc.txt    ------  XTAL User's Manual (ASCII)
+(3)  xtal            ------  Main program (Sun executable)
+(4)  xpp             ------  Projection Pursuit Subprogram (Sun executable)
+(5)  xmars           ------  Mars Subprogram (Sun executable)
+(6)  bctm            ------  CTM Subprogram (Sun executable)
+(7)  neural          ------  ANN Subprogram (Sun executable)
+
+
+Subdirectories with source code needed for recompiling XTAL:
+(1) XTAL_V51-------  C++ source code for xtal.
+(2) PPR     -------  Fortran source code for xpp
+(3) MARS    -------  Fortran source code for xmars
+(4) CTM     -------  C++ source code for bctm
+(5) ANN     -------  C++ source code for neural
+
+To run on linux:
+	You can try and run the package as it is since the binaries in this dir are compiled for linux (Mandrake10.0).  If it doesn't work, you will need to recompile.  You will need gcc, g++, and g77 to recompile the packages.  Follow the directions below to recompile:
+
+To compile package for linux:
+First, delete all the existing binary files:
+rm xpp
+rm bctm
+rm neural
+rm xmars
+rm xtal
+
+Now, compile all the separate packages:
+
+1.  ANN
+Go into the ANN directory.  Type:
+make
+This should create the "neural" binary file.  Check to see if it is there.  If it is, copy it to the xtal dir with command:
+cp neural ../.
+
+2.  CTM
+Go into the CTM directory.  Type:
+make
+This should create the "bctm" binary file.  Check to see if it is there.  If it is, copy it to the xtal dir with command:
+cp bctm ../.
+
+3.  MARS
+Go into the MARS directory.  Type:
+g77 -g -o xmars mars_dvr3.f marslib.f -ff77 -fno-globals -Wno-globals
+This should create the "xmars" binary file.  Check to see if it is there.  If it is, copy it to the xtal dir with command:
+cp xmars ../.
+
+4.  PPR
+Go into the PPR directory.  Type:
+g77 -o xpp ppprog.f ppr_dvr3.f 
+This should create the "xpp" binary file.  Check to see if it is there.  If it is, copy it to the xtal dir with command:
+cp xpp ../.
+
+5.  XTAL
+Go into the XTAL_V51 directory.  Type:
+gcc -o xtal xta_v51.c -lm
+This should create the "xtal" binary file.  Check to see if it is there.  If it is, copy it to the xtal dir with command:
+cpp xtal ../.
+
+Read the rest of the instructions on setting up the input files. Everything should work now.
+Harry Rostovtsev

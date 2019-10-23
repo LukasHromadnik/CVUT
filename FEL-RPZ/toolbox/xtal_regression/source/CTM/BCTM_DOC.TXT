@@ -1,0 +1,99 @@
+                    Documentation for CTM 
+                         Filip Mulier
+                        
+
+
+This is an implementation of the CTM algorithm which uses 
+batch processing with linear units (piecewise-linear 
+approx. rather than piecewise constant).  It also uses 
+leave-one-out cross-validation to determine when to stop 
+training.  The program accepts ascii input files with tabs 
+or spaces between the columns of data.(Examples with 
+software:train, test)  Some programs which can generate 
+this format are teachtext, matlab (use save fname x 
+/ascii), or excel.
+
+The following code will be sent:
+ctml8.c
+regress.c
+choldc_e.c
+cholsl.c
+matrix_iof.h
+matrix_iof.c
+memoryutilf.c
+memoryutilf.h
+ctmq_batch2.c
+
+and also a makefile, which must be modified so that the 
+binary is put where you want it.
+
+In order to compile the program , type make.  The executable is the
+file called bctm.
+
+
+
+                  Program usage
+
+The program will first ask for the following
+information:
+
+training input file name
+
+test input file name
+
+In order for the program to read the files, they must be 
+ascii tab or white space delimited (see example train file) 
+and they must be in the same directory as the application 
+itself.
+
+After all the file input, the program asks the user to 
+enter some parameters:
+
+number of map dimensions: depends on the number of 
+unconstrained variables in the problem.  Usually 1,2, or 3 is good.  It 
+should be less than or equal to the number of x-variables.
+
+smoothness level:  This number controls the smoothness of the fit.
+A value of 0 causes bctm to find the model which minimizes the error
+on the training set, so may select a non-smooth model.  A value of 9
+causes bctm to find the model which minimizes the cross-validation
+estimate of test set error, so this will be a more smooth model.  A
+number between 0 and 9 will minimize a mixture of these two error 
+measures.
+
+number of units per dimension:  This algorithm requires far fewer knots 
+per dimension than the original CTM algorithm, because a 
+piecewise linear approximation is used.  This is usually a 
+number between 1 and 100 depending on the map 
+dimensionality. If a value of 0 is entered, the algorithm attempts to
+find this parameter automatically, which significantly increases the
+run time.
+
+adaptive scaling:  A heuristic adaptive scaling procedure can be used to
+determine the importance of the input variables.
+
+
+After entering the parameters, the algorithm trains a CTM 
+map, with piecewise linear units using batch training.  The 
+neighborhood width is gradually reduced.  Leave-one-out cross
+validation is used at each pass to come up with an approximate 
+measure of generalization error.  The training algorithm generates a 
+sequence of maps, one for every iteration.  The algorithm 
+stores the map with the best cross-validation error that it 
+has seen so far as a candidate for the final regression 
+model.  Final prediction on the test set is done with this 
+model.  Since the map has piecewise linear units, each unit 
+consists of a location vector as well as a local slope 
+vector determined using linear regression.  The program 
+produces two model output files.  The file called "map" 
+contains the locations of the units.  The file called 
+"coef" contains the zeroth order as well as first order 
+coefficients for each unit.  These coefficients describe a 
+local linear regression model for data near that unit.  The 
+file "fit1" contains the fitted values of the test set.  
+The program then asks if other test sets need to be 
+evaluated.  If so, enter the file names. If not enter the 
+word "done".
+
+The program produces some final statistics of the model, including
+variable importance and cross-validation score.

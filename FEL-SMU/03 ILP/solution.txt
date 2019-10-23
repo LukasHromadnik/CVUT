@@ -1,0 +1,23 @@
+Input:    daughter
+Settings: taxonomical = None, reduce = false
+Output:   female(X0) | !female(X2) | !parent(X1,X0) | daugther(X0)
+
+Input:    daughter
+Settings: taxonomical = None, reduce = true
+Output:   !female(X0) | !parent(X1, X0) | daugther(X0)
+
+Input:    animals
+Settings: taxonomical = None, reduce = false
+Output:   !spieces(X0, X1) | voice(X0, X2)
+
+Input:    animals
+Settings: taxonomical = None, reduce = true
+Output:   !spieces(X0, X1) | voice(X0, X2)
+
+Input:    animals
+Settings: taxonomical = animalsTaxonomy, reduce = false
+Output:   !spieces(X0, mammal) | voice(X0, X1)
+
+Input:    animals
+Settings: taxonomical = animalsTaxonomy, reduce = true
+Output:   !spieces(X0, mammal) | voice(X0, X1)

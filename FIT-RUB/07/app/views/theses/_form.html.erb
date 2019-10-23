@@ -1,0 +1,43 @@
+<%= form_for(thesis) do |f| %>
+  <% if thesis.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(thesis.errors.count, "error") %> prohibited this thesis from being saved:</h2>
+
+      <ul>
+      <% thesis.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :abstract %>
+    <%= f.text_area :abstract %>
+  </div>
+
+  <div class="field">
+    <%= f.label :defended %>
+    <%= f.date_select :defended %>
+  </div>
+
+  <div class="field">
+    <%= f.label :faculty %><br>
+    <%= f.select :faculty_id, Faculty.all.collect { |f| [f.name, f.id] }, include_blank: true %>
+  </div>
+
+
+  <div class="field">
+    <%= f.label :person %><br>
+    <%= f.select :person_id, Person.all.collect { |f| [f.name + " " + f.surname, f.id] }, include_blank: true %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

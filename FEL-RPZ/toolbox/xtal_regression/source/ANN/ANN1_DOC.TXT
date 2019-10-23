@@ -1,0 +1,25 @@
+ANN1_DOC.TXT-- XTAL Version 5 Regression Package
+
+                Comments regarding the ANN source code 
+
+
+     The source code used for ANN1 regression is derived from the
+software supplied with the book "Practical Neural Network Recipes in
+C++" by Timothy Masters and published 1993 by Academic Press.  The
+original source was written to run on an IBM PC but was modified so
+that it could be compiled to run on a Sun Sparcstation.  It will run
+the same as described in the book with two exceptions: (1) The escape
+key will not interrupt training as in the IBM version.  (2) The new
+version is case sensitive with respect to filenames since Unix
+filenames are case sensitive but DOS is not.
+
+     Beware when using this module standalone , since although it
+behaves as described in the book it does not operate as it is used
+with XTAL.  In particular, XTAL rescales the response variable so that
+it falls in the range .1 to .9 as required by the original software.
+The book is therefore absolutely necessary as a reference if using
+ANN1 separate from the XTAL package.
+
+     This code was compiled with the "g++" compiler from the Free
+Software Foundation.  It does not compile correctly with the Sun
+compiler available on the Sun Sparcstations here at the U of M.

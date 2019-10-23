@@ -1,0 +1,158 @@
+44
+(available blackfeeder-rsrc)
+(available colorcontainer-rsrc)
+(available colorfeeder-rsrc)
+(available colorprinter-rsrc)
+(available down-rsrc)
+(available finisher1-rsrc)
+(available finisher2-rsrc)
+(available up-rsrc)
+(hasimage sheet1 front image-1)
+(hasimage sheet2 front image-2)
+(hasimage sheet3 front image-3)
+(location sheet1 colorcontainer_entry-down_bottomexit)
+(location sheet1 colorcontainer_exit-up_bottomentry)
+(location sheet1 colorcontainer_exittoime-colorprinter_entry)
+(location sheet1 colorprinter_exit-colorcontainer_entryfromime)
+(location sheet1 down_bottomentry-colorfeeder_exit)
+(location sheet1 finisher1_entry-up_topexit)
+(location sheet1 some_feeder_tray)
+(location sheet1 some_finisher_tray)
+(location sheet2 colorcontainer_entry-down_bottomexit)
+(location sheet2 colorcontainer_exit-up_bottomentry)
+(location sheet2 colorcontainer_exittoime-colorprinter_entry)
+(location sheet2 colorprinter_exit-colorcontainer_entryfromime)
+(location sheet2 down_bottomentry-colorfeeder_exit)
+(location sheet2 finisher1_entry-up_topexit)
+(location sheet2 some_feeder_tray)
+(location sheet2 some_finisher_tray)
+(location sheet3 colorcontainer_entry-down_bottomexit)
+(location sheet3 colorcontainer_exit-up_bottomentry)
+(location sheet3 colorcontainer_exittoime-colorprinter_entry)
+(location sheet3 colorprinter_exit-colorcontainer_entryfromime)
+(location sheet3 down_bottomentry-colorfeeder_exit)
+(location sheet3 finisher1_entry-up_topexit)
+(location sheet3 some_feeder_tray)
+(notprintedwith sheet1 front color)
+(notprintedwith sheet2 front color)
+(notprintedwith sheet3 front color)
+(sideup sheet1 front)
+(sideup sheet2 front)
+(sideup sheet3 front)
+(stackedin sheet1 finisher1_tray)
+(stackedin sheet2 finisher1_tray)
+(stackedin sheet3 finisher1_tray)
+(uninitialized)
+7 17 25 33 34 35 36 43
+19 0 1 2 3 4 5 6 7 8 9 10 18 26 37 38 39 40 41 42
+22
+colorcontainer-fromime-letter sheet1
+11 0 1 2 3 4 5 6 7 8 14 37
+1 12
+1 14
+8000
+colorcontainer-fromime-letter sheet2
+11 0 1 2 3 4 5 6 7 9 22 38
+1 20
+1 22
+8000
+colorcontainer-fromime-letter sheet3
+11 0 1 2 3 4 5 6 7 10 30 39
+1 28
+1 30
+8000
+colorcontainer-toime-letter sheet1
+11 0 1 2 3 4 5 6 7 11 34 37
+1 13
+1 11
+8000
+colorcontainer-toime-letter sheet2
+11 0 1 2 3 4 5 6 7 19 35 38
+1 21
+1 19
+8000
+colorcontainer-toime-letter sheet3
+11 0 1 2 3 4 5 6 7 27 36 39
+1 29
+1 27
+8000
+colorfeeder-feed-letter sheet1
+10 0 1 2 3 4 5 6 7 17 34
+2 15 37
+1 17
+8000
+colorfeeder-feed-letter sheet2
+10 0 1 2 3 4 5 6 7 25 35
+2 23 38
+1 25
+8000
+colorfeeder-feed-letter sheet3
+10 0 1 2 3 4 5 6 7 33 36
+2 31 39
+1 33
+8000
+colorprinter-simplex-letter sheet1 front image-1
+11 0 1 2 3 4 5 6 7 13 34 37
+2 8 14
+2 13 34
+224040
+colorprinter-simplex-letter sheet2 front image-2
+11 0 1 2 3 4 5 6 7 21 35 38
+2 9 22
+2 21 35
+224040
+colorprinter-simplex-letter sheet3 front image-3
+11 0 1 2 3 4 5 6 7 29 36 39
+2 10 30
+2 29 36
+224040
+down-movebottom-letter sheet1
+11 0 1 2 3 4 5 6 7 15 34 37
+1 11
+1 15
+2999
+down-movebottom-letter sheet2
+11 0 1 2 3 4 5 6 7 23 35 38
+1 19
+1 23
+2999
+down-movebottom-letter sheet3
+11 0 1 2 3 4 5 6 7 31 36 39
+1 27
+1 31
+2999
+finisher1-stack-letter sheet1 dummy-sheet
+11 0 1 2 3 4 5 6 7 8 16 37
+2 18 40
+1 16
+8000
+finisher1-stack-letter sheet2 sheet1
+15 0 1 2 3 4 5 6 7 8 9 18 24 37 38 40
+2 26 41
+1 24
+8000
+finisher1-stack-letter sheet3 sheet2
+19 0 1 2 3 4 5 6 7 8 9 10 18 26 32 37 38 39 40 41
+1 42
+1 32
+8000
+initialize
+7 17 25 33 34 35 36 43
+8 0 1 2 3 4 5 6 7
+1 43
+0
+up-moveup-letter sheet1
+11 0 1 2 3 4 5 6 7 8 12 37
+1 16
+1 12
+9999
+up-moveup-letter sheet2
+11 0 1 2 3 4 5 6 7 9 20 38
+1 24
+1 20
+9999
+up-moveup-letter sheet3
+11 0 1 2 3 4 5 6 7 10 28 39
+1 32
+1 28
+9999

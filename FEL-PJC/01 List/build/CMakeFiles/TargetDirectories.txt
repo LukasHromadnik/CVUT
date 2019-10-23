@@ -1,0 +1,8 @@
+/Users/Luke/CloudStation/Škola/B6B36PJC/Úkoly/list/build/CMakeFiles/test.dir
+/Users/Luke/CloudStation/Škola/B6B36PJC/Úkoly/list/build/CMakeFiles/tests-stage-5.dir
+/Users/Luke/CloudStation/Škola/B6B36PJC/Úkoly/list/build/CMakeFiles/tests-stage-4.dir
+/Users/Luke/CloudStation/Škola/B6B36PJC/Úkoly/list/build/CMakeFiles/tests-stage-2.dir
+/Users/Luke/CloudStation/Škola/B6B36PJC/Úkoly/list/build/CMakeFiles/rebuild_cache.dir
+/Users/Luke/CloudStation/Škola/B6B36PJC/Úkoly/list/build/CMakeFiles/tests-stage-3.dir
+/Users/Luke/CloudStation/Škola/B6B36PJC/Úkoly/list/build/CMakeFiles/edit_cache.dir
+/Users/Luke/CloudStation/Škola/B6B36PJC/Úkoly/list/build/CMakeFiles/tests-stage-1.dir

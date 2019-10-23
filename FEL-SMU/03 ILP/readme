@@ -1,0 +1,79 @@
+
+Welcome
+-------
+ In order to use this Python interface for implementing and testing various ILP method, you need to have installed following SW:
+    Java 8 JDK or higher
+    Python 3.6 or higher
+    Python's package PyJNIus
+ See following sections for installing the required SWs; read all first, thereafter select suitable path.
+ See minlog notebook for basic operation with FOL elements in this library. Most of the code is type hinted, even variables, therefore usage of a friendly IDE with type/method whispering, which can really simplify the work, is heavily recommended :) Also, most of the classes, e.g. Clause, have implemented iterator over their elements, so one can iterate over literals of a clause by calling 'for l in clause'; this also holds for arguments of an atom, literal, etc.
+
+ 
+Installing Required SWs
+--------------------
+ The general idea is follows:
+    1) install Java 8
+    2) properly set PATH so that PyJNIus sees JVM server
+    3) install python 3.6
+       * if you don't use conda, you may install one from https://www.anaconda.com/download/
+       * if you use conda then it is sufficient to run following command in cmd/terminal
+            conda create -n py36 python=3.6
+         by that, you create a new environment called py36, to run Python under its installation run following command in cmd/terminal
+            activate py36
+         however, this may differ according to conda version, or try
+            source activate py36
+    4) install Cython, e.g.
+            pip install cython
+    5) install PyJNIus by running following command in cmd/terminal
+            pip install pyjnius
+    6) install pandas, e.g.
+            pip install pandas
+
+    Tested with Java 8 and 9, Cython 0.25.2 and 0.27.1, Python 3.6
+
+	
+ Labs Computers
+ --------------
+    add following lines to file ~/.bashrc
+        export JAVA_HOME="/opt/jdk1.8.0_144"
+        export PATH="$JAVA_HOME/bin:$PATH"
+    install conda if you haven't done it before, see https://cw.fel.cvut.cz/b172/courses/smu/tutorials/tutorial1
+        wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+        bash Miniconda3-latest-Linux-x86_64.sh
+     create environment with Python 3.6
+        conda create -n py36 python=3.6
+     activate the environment
+        source activate py36
+     install Cython
+        pip install cython
+     install PyJNIus
+        pip install pyjnius
+
+		
+ Installing Java
+ ---------------
+    Download proper installation package, e.g. see http://www.oracle.com/technetwork/java/javase/downloads/index.html and follow instruction.
+    Thereafter add path JDK_PATH\jre\bin\server to PATH system variable and set JAVA_HOME to path where JDK is installed.
+        Windows -> see System variables
+        Linux -> e.g. by terminal command
+            export PATH=~/JDK_PATH/jre/bin/server:$PATH
+            export JAVA_HOME=/.../jdk1.8.0_.../
+    Check up whether a path to the right Java is set up, e.g. 'java -version' should give you something like "java version '1.8.0_...'" or higher.
+
+	
+ Linux
+ -----
+    In case of the error while importing pyjnius ".../sever/libjvm.so: cannot open shared object file: No such file or directory", create a symlink, e.g.
+        # mkdir which is wanted, then move to it, then
+        sudo ln -s /usr/lib/jvm/java..../lib/server/libjvm.so libjvm.so
+        # i.e. ln -s /path/to/file /path/to/symlink
+
+		
+Acknowledgment
+--------------
+ Java source codes uses following parts:
+    TreeLiker subsumption engine and libraries for representation of FOL
+    SAT4J's SAT solver
+
+
+

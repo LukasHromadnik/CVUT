@@ -1,0 +1,57 @@
+lint_options        = -uv
+lint_pipe           = | grep -v -e "possible pointer" \
+                      | grep -v -e "and return;" \
+                      | grep -v -e "llib-lc" \
+                      | grep -v -e "ignored"
+
+# The interesting stuff:
+
+files               = choldc_e.c cholsl.c matrix_iof.c memoryutilf.c ctmq_batch2.c regress.c ctml8.c 
+ofiles              = $(files:.c=.o)
+
+base                = .
+
+binary_directory    = . 
+main                = ctml8.c 
+execute             = bctm
+
+
+# here's what controls compilation of all .o files
+# this overrides any implicit  compilation directives built in
+.c.o:
+	cc  -fast -Dsun4  -target sun4 -c $*.c
+
+
+# For the rest of the file JUST STANDARD STUFF. Don't try to edit or understand
+# -lm - math library for sqrt() - link with a file named  libm.a (usually in /usr/lib)
+test4:  $(ofiles)
+	cc -o $(execute) $(ofiles)  -lm
+
+
+
+lint:
+	lint $(lint_options) $(include_directories) \
+             test4.c $(xwsource) $(sources) $(lint_pipe)
+
+clean:
+	rm -f *.o core $(execute)
+	
+
+
+	
+
+# To maintain dependence on include files changing:
+
+
+
+
+
+
+
+
+
+
+
+
+
+

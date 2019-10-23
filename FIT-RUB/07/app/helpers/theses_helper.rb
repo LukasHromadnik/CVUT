@@ -1,0 +1,2 @@
+module ThesesHelper
+end

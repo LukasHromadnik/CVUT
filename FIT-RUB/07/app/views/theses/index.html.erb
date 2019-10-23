@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Theses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Abstract</th>
+      <th>Defended</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @theses.each do |thesis| %>
+      <tr>
+        <td><%= thesis.title %></td>
+        <td><%= thesis.abstract %></td>
+        <td><%= thesis.defended %></td>
+        <td><%= link_to 'Show', thesis %></td>
+        <td><%= link_to 'Edit', edit_thesis_path(thesis) %></td>
+        <td><%= link_to 'Destroy', thesis, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Thesis', new_thesis_path %>

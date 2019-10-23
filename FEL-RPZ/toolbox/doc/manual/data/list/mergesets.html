@@ -1,0 +1,89 @@
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=ISO-8859-1">
+  <title>mergesets.m</title>
+<link rel="stylesheet" type="text/css" href="../../m-syntax.css">
+</head>
+<body>
+<code>
+<span class=defun_kw>function</span>&nbsp;<span class=defun_name>mergesets</span>(<span class=defun_in>&nbsp;DirName,&nbsp;OutputFile&nbsp;</span>)<br>
+<span class=h1>%&nbsp;MERGESETS&nbsp;Merges&nbsp;data&nbsp;sets&nbsp;to&nbsp;one&nbsp;labeled&nbsp;data&nbsp;file.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Synopsis:</span></span><br>
+<span class=help>%&nbsp;&nbsp;mergesets(DirName,OutputFile)</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Description:</span></span><br>
+<span class=help>%&nbsp;&nbsp;It&nbsp;loads&nbsp;data&nbsp;files&nbsp;from&nbsp;given&nbsp;directory&nbsp;DirName&nbsp;and</span><br>
+<span class=help>%&nbsp;&nbsp;merges&nbsp;them&nbsp;to&nbsp;one&nbsp;labeled&nbsp;data&nbsp;file.&nbsp;The&nbsp;individual&nbsp;files</span><br>
+<span class=help>%&nbsp;&nbsp;are&nbsp;assumed&nbsp;to&nbsp;contain&nbsp;the&nbsp;field&nbsp;X&nbsp;[dim&nbsp;x&nbsp;num_data].</span><br>
+<span class=help>%&nbsp;&nbsp;The&nbsp;file&nbsp;names&nbsp;have&nbsp;to&nbsp;have&nbsp;the&nbsp;following&nbsp;format</span><br>
+<span class=help>%&nbsp;&nbsp;name_xxx.mat&nbsp;('_'&nbsp;can&nbsp;be&nbsp;omitted),&nbsp;where&nbsp;xxx&nbsp;denotes&nbsp;an&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;integer&nbsp;which&nbsp;is&nbsp;used&nbsp;to&nbsp;label&nbsp;the&nbsp;data&nbsp;X&nbsp;from&nbsp;the&nbsp;given&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;file.&nbsp;The&nbsp;OutputFile&nbsp;contains&nbsp;item&nbsp;X&nbsp;[dim&nbsp;x&nbsp;num_all_data]&nbsp;</span><br>
+<span class=help>%&nbsp;&nbsp;with&nbsp;all&nbsp;merged&nbsp;data&nbsp;and&nbsp;vector&nbsp;of&nbsp;labels&nbsp;y&nbsp;[1&nbsp;x&nbsp;num_all_data].&nbsp;</span><br>
+<span class=help>%&nbsp;</span><br>
+<span class=help>%&nbsp;<span class=help_field>Input:</span></span><br>
+<span class=help>%&nbsp;&nbsp;DirName&nbsp;[string]&nbsp;Input&nbsp;directory.</span><br>
+<span class=help>%&nbsp;&nbsp;OutputFile&nbsp;[string]&nbsp;Output&nbsp;data&nbsp;file.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Output:</span></span><br>
+<span class=help>%&nbsp;&nbsp;file&nbsp;OutputFile&nbsp;with&nbsp;items:</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;X&nbsp;[dim&nbsp;x&nbsp;num_all_data]&nbsp;Data&nbsp;matrix.</span><br>
+<span class=help>%&nbsp;&nbsp;&nbsp;y&nbsp;[1&nbsp;x&nbsp;num_all_data]&nbsp;Labels&nbsp;of&nbsp;data.</span><br>
+<span class=help>%</span><br>
+<hr>
+<br>
+<span class=help1>%&nbsp;<span class=help1_field>(c)</span>&nbsp;Statistical&nbsp;Pattern&nbsp;Recognition&nbsp;Toolbox,&nbsp;(C)&nbsp;1999-2003,</span><br>
+<span class=help1>%&nbsp;Written&nbsp;by&nbsp;Vojtech&nbsp;Franc&nbsp;and&nbsp;Vaclav&nbsp;Hlavac,</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://www.cvut.cz"&gt;Czech&nbsp;Technical&nbsp;University&nbsp;Prague&lt;/a&gt;,</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://www.feld.cvut.cz"&gt;Faculty&nbsp;of&nbsp;Electrical&nbsp;engineering&lt;/a&gt;,</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://cmp.felk.cvut.cz"&gt;Center&nbsp;for&nbsp;Machine&nbsp;Perception&lt;/a&gt;</span><br>
+<br>
+<span class=help1>%&nbsp;<span class=help1_field>Modifications:</span></span><br>
+<span class=help1>%&nbsp;&nbsp;9-sep-2003,&nbsp;VF</span><br>
+<br>
+<hr>
+list=&nbsp;dir(DirName);<br>
+<br>
+X&nbsp;=[];<br>
+y&nbsp;=&nbsp;[];<br>
+<span class=keyword>for</span>&nbsp;i=1:length(list),<br>
+&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<span class=keyword>if</span>&nbsp;~list(i).isdir,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num=GetLabel(list(i).name);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>if</span>&nbsp;~isempty(num),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=io>fprintf</span>(<span class=quotes>'Input&nbsp;file:&nbsp;%s,&nbsp;label:&nbsp;%d\n'</span>,&nbsp;list(i).name,&nbsp;num);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;=&nbsp;load([DirName&nbsp;list(i).name]);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X&nbsp;=&nbsp;[X&nbsp;,&nbsp;data.X];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y&nbsp;=&nbsp;[y,&nbsp;ones(1,size(data.X,2))*num];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>end</span><br>
+&nbsp;&nbsp;&nbsp;<span class=keyword>end</span><br>
+<span class=keyword>end</span><br>
+<br>
+<span class=io>fprintf</span>(<span class=quotes>'Saving&nbsp;data&nbsp;to:&nbsp;%s\n'</span>,&nbsp;OutputFile&nbsp;);<br>
+save(OutputFile,&nbsp;<span class=quotes>'X'</span>,<span class=quotes>'y'</span>);<br>
+<br>
+<span class=jump>return</span>;<br>
+<br>
+<br>
+<span class=defun_kw>function</span>&nbsp;<span class=defun_out>num</span>=<span class=defun_name>GetLabel</span>(<span class=defun_in>&nbsp;fname&nbsp;</span>)<br>
+<br>
+&nbsp;&nbsp;<span class=keyword>if</span>&nbsp;strcmpi(&nbsp;fname(<span class=keyword>end</span>-2:<span class=keyword>end</span>),&nbsp;<span class=quotes>'mat'</span>&nbsp;)~=1,&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num=[];&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=jump>return</span>;<br>
+&nbsp;&nbsp;<span class=keyword>end</span><br>
+<br>
+&nbsp;&nbsp;<span class=keyword>for</span>&nbsp;i=1:length(fname)-4,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b&nbsp;=&nbsp;fname(i:<span class=keyword>end</span>-4);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num=str2num(&nbsp;b&nbsp;);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=keyword>if</span>&nbsp;~isempty(num),&nbsp;<span class=jump>return</span>;&nbsp;<span class=keyword>end</span><br>
+&nbsp;&nbsp;<span class=keyword>end</span><br>
+<br>
+num=[];<br>
+<br>
+<span class=jump>return</span>;<br>
+<br>
+<span class=comment>%EOF</span><br>
+</code>

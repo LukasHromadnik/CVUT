@@ -1,0 +1,284 @@
+XTAL_DOC.TXT -- Instruction Manual for XTAL Version 5
+                A Multimethod Program Package for Multivariate Regression
+To run on linux:
+	You can try and run the package as it is since the binaries in this dir are compiled for linux (Mandrake10.0).  If it doesn't work, you will need to recompile.  You will need gcc, g++, and g77 to recompile the packages.  Follow the directions below to recompile:
+
+To compile package for linux:
+First, delete all the existing binary files:
+rm xpp
+rm bctm
+rm neural
+rm xmars
+rm xtal
+
+Now, compile all the separate packages:
+
+1.  ANN
+Go into the ANN directory.  Type:
+make
+This should create the "neural" binary file.  Check to see if it is there.  If it is, copy it to the xtal dir with command:
+cp neural ../.
+
+2.  CTM
+Go into the CTM directory.  Type:
+make
+This should create the "bctm" binary file.  Check to see if it is there.  If it is, copy it to the xtal dir with command:
+cp bctm ../.
+
+3.  MARS
+Go into the MARS directory.  Type:
+g77 -g -o xmars mars_dvr3.f marslib.f -ff77 -fno-globals -Wno-globals
+This should create the "xmars" binary file.  Check to see if it is there.  If it is, copy it to the xtal dir with command:
+cp xmars ../.
+
+4.  PPR
+Go into the PPR directory.  Type:
+g77 -o xpp ppprog.f ppr_dvr3.f 
+This should create the "xpp" binary file.  Check to see if it is there.  If it is, copy it to the xtal dir with command:
+cp xpp ../.
+
+5.  XTAL
+Go into the XTAL_V51 directory.  Type:
+gcc -o xtal xta_v51.c -lm
+This should create the "xtal" binary file.  Check to see if it is there.  If it is, copy it to the xtal dir with command:
+cpp xtal ../.
+
+Read the rest of the instructions on setting up the input files. Everything should work now.
+Harry Rostovtsev
+
+Vladimir Cherkassky
+Don Gehring
+Filip Mulier
+U of M  EE Dept.
+April 14, 1995
+
+
+INDEX:
+
+I.   The "FILENAME" Control File
+II.  The "OPERATION" Control File
+III. Output Files Produced by XTAL
+IV.  Format of Test and Training Data Set Files
+V.   Guide to Parameter Settings
+VI.  Running XTAL
+
+
+
+I. The "FILENAME" Control File
+    The user must provide XTAL with a control file named
+"filename.con".  This file should contain a list of filename pairs,
+with one pair on each line.  The first filename specifies the name of
+a file that contains the data set used for training a method, while
+the second supplies the name of a file that contains the data set that
+is used to test the trained method.  The filenames must be separated
+by at least one space and each line must be terminated with a <CR>.
+Any number of these pairs may be listed.  A typical filename control
+file might look something like:
+
+function1.train  function1.test
+function2.train  function2.test
+function3.train  function3.test
+
+
+II. The "OPERATION" Control File
+     The second of the two control files required by XTAL is named
+"operate.con".  This file is used to specify what methods are to be
+used and what parameters are to be tested.  Only those parameters that
+are most critical to tuning a particular method's performance need to
+be supplied in the operation control file.  In the current
+implementation there are five possible methods to choose from.  Thus,
+an "operate.con" control file might look something like this:
+
+ANN1  5  10  20  40
+MRS1  100,0  100,2  100,5  100,9
+PPR1  1  2  5  8
+CTM1  2,0  2,2  2,5  2,9
+KNN1  2 4 8 16
+
+   In the above control file, the parameters with ANN1 specify that the
+neural net program should be run 4 times - each time with the number
+of hidden neurons set to one of the values in the list.  In a similar
+fashion, MRS1 would be run 4 times with the maximum number of basis
+functions allowed set to 100 and the penalty parameter set to each of
+four different values.  Projection Pursuit would be run 4 times with
+four different settings of the parameter that controls the number of
+terms in the model.  The CTM1 Regression package would be run four
+times, first with a map dimension of 2 and its smoothness parameter
+set to 0 and so on.  Finally, the program would run k-nearest
+neighbors regression four times - first with 2 nearest neighbors ,
+next k equal to 4 , and so on.
+   Note that the first four characters of a control line must
+correspond EXACTLY with one of five possible choices. ("ANN1" , "MRS1"
+, "PPR1" , "CTM1" , or "KNN1") .  Use only CAPITAL letters for these
+designators.  Any assortment of methods may be selected in any order,
+and any method may be used more than once or not at all.  CTMR and
+MARS require two parameters for each execution of the method and these
+must be grouped together with only a comma for a delineator and no
+other characters in-between.  The single parameters required for the
+other methods and the groups of parameter pairs for CTMR and PRPR must
+be separated by at least one non-numeric delimitor(typically one or
+more spaces).
+   The combined set of operations in the "operation" control file
+define one "operation cycle".  Each filename pair listed in the
+"filename" control file is run through the entire sequence of
+operations in an "operation cycle".  Thus, with 10 filename pairs in a
+"filename" control file and 12 operations specified in an "operation"
+file, the program will produce results for 120 separate regression
+experiments.
+
+
+III. Output files produced by XTAL
+    The XTAL program produces two primary output report files.  The
+first of these is called "rms.out" and it contains the normalized RMS
+error that results from executing a trained method with a test file.
+This normalized RMS error (abbreviated NRMS) is formed by dividing the
+test set RMS error by the estimated standard deviation for the test
+set.  The second file is called "max.out" and contains the normalized
+maximum error that resulted from evaluation of a test file.  This
+normalized maximum error (abbreviated NMAX) is computed by dividing
+the absolute maximum error by the difference between the smallest and
+largest response values contained in the test set.  Each time a
+regression experiment is performed a line is produced in each of these
+two files that specifies the method that was tested, what parameters
+were used with it, and a numeric result.  Following each of these
+lines is a second line which contains a bar graph of asterisks that
+provides an easily read visual performance indicator.  The NRMS error
+bargraph is referenced against the estimated standard deviation for
+the test set.  The longer the bar the better the method was able to
+fit the values in the test set.  If the bar contains only one star,
+then the method was able to produce an RMS error that was no better
+than the standard deviation for the test set.  The NMAX error bargraph
+indicates its result relative to the maximum possible difference that
+occurs between response variables in either the training or test sets.
+The longer this bar is the smaller the absolute maximum error was.  If
+there is only one star, in the graph this indicates that the absolute
+maximum error was greater than or equal to this difference.
+   In addition , individual "fitted" output files are left in the
+directory from which XTAL is run.  These correspond to the last
+parameter that was run for each method and contain the output estimate
+produced by a given method for each of the test samples in the test
+file.  The format of each of these files is the same as that for the
+test and training files.
+
+ANN1 leaves results in "ann1.res"
+PPR1 leaves results in "ppr.res"
+CTM1 leaves results in "fit1"
+KNN1 leaves results in "knn.res"
+MRS1 leaves results in "mars.res"
+
+
+IV. Format for the Training and Test Data Set Files
+   The files specified in the filename control file contain a list of
+samples to be used for either training or testing a given method.  The
+format for the training and the test file is the same.  Each line in
+these files contains a sequence of predictor variables followed by a
+single response variable.  No blank lines are allowed.  The variables
+may be of any type - ie. integers, long integers, single precision
+floating point, double precision floating point, or scientific
+notation (using "e" or "E").  Each variable may be preceded by or
+delimited with just about any delimitor except a numeric digit, a
+period , an "e" or "E" , or a <CR>.  The <CR> is used at the end of a
+line after the response variable to delineate samples.  From 1 to 10
+predictor variables are allowed in this version of XTAL.  The test and
+training files may contain up to 10,000 samples.
+   The values used for both the predictor variables and the response
+variable do not have to be scaled as this is done automatically by the
+program as necessary.
+
+
+V. Guide to Parameter Settings
+
+
+ANN1
+
+     The single parameter specified with ANN sets the number of hidden
+neurons to be used in a three layer neural network.  The greater the
+number of neurons the greater the training time.  Values are typically
+between 2 to 40 but can be as high as 1000.
+
+
+KNN1
+
+     This method requires one parameter called "k" which specifies the
+numbers of nearest nieghbors that are averaged to form an estimate.
+The value for k must be greater than 0 but less than the number of
+samples in training file.  Try values between 1 and 20.
+
+
+
+
+MRS1
+
+     This method has two principal tuning parameters.  The first one
+is the maximum number of basis functions to use.  This parameter
+controls the maximum amount of complexity of the model.  In most
+cases, the results are not very sensitive to this parameter.  The
+range of this parameter is from 1 to 100.  For most problems, this
+parameter can be set to a high value (50-100) which results in a good
+fit.  The second parameter is the amount of penalty given to complex
+models.  This is an integer from 0-9 where 0 means a small penalty is
+given to complex models and 9 means a large penalty is given.  This
+parameter is adjusted based on the estimated amount of noise in the
+data, and has the largest effect on the results.  For problems with
+little noise, use a value less than 5.  For noisy problems, use values
+large than 5.  A good starting value for this parameter is 5.
+
+
+CTM1
+
+     This method requires two parameters.  The first one is the number
+of dimensions used in the map.  This parameter is chosen based on
+whether constraints exit between the independent variables.  It should
+reflect the estimated intrinsic dimensionality of the data.  For most
+problems, this is chosen to be 1, 2, or 3.  The second parameter is a
+smoothing parameter.  This is an integer from 0 to 9, where 9
+indicates the most smooth model.  If this parameter is set to 0 then
+the algorithm tries to minimize the RMS error on the training set.  If
+this parameter is set to 9, then the algorithm tries to minimize the
+cross-validation error.  For any value between 0 and 9, a mixture of
+the two error measures is minimized.  This parameter becomes critical
+for problems with high noise and/or small number of samples in the
+training set.  For problems with low noise and large number of
+samples, the parameter has little effect.  For high noise problems,
+choose a larger number.
+
+
+PPR1
+
+     This method requires one parameter.  This parameter controls the
+complexity (number of terms) of the model.  For most problems, a value
+between 1 and 10 works well.  This method does not use any internal
+parameter selection, so this parameter directly affects the complexity
+of the model and must be chosen with care.
+
+
+VI. Running XTAL
+
+    XTAL is run within a directory where it expects to find several
+other programs and files.  In addition to the main program called
+"xtal" there must be a subprogram module for each of the methods
+except KNN1.  These subprograms are named "xpp" (PPR1), "xmars"
+(MRS1), "bctm" (CTM1), and "neural" (ANN1).  Place "xtal" and the
+subprogram modules in a directory with the "filename.con" and
+"operate.con" control files, and include all the training and test
+files you have specified in the "filename.con" file.
+    Run times for this program can be quite long.  This is mainly
+determined by the number of times that neural network regression is
+called.  With a large number of hidden neurons and a long training
+data set the ANN program can run for many hours.  Because of this, it
+is generally best to run XTAL as a background program so that the user
+can logout and return later after the program has finished executing.
+This is done by using the & at the end of the statement that executes
+XTAL.  For instance, one might type:
+
+xtal  >console.out &
+
+     This would start XTAL and pipe its console output into a file
+called "console.out".  The console output produced by XTAL is
+generally useless and is the result of chatter from the regression
+modules called.  These modules were used without modifying them so
+that the user would have the option of using them standalone if
+necessary.  The progress of the program may be monitored at any time
+by examining the contents of the rms.out file.
+
+

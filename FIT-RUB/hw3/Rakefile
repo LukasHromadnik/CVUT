@@ -1,0 +1,22 @@
+# encoding: UTF-8
+require 'rubygems'
+require 'bundler/setup'
+require 'em-synchrony/activerecord'
+require 'yaml'
+require 'erb'
+require 'zip'
+require 'open-uri'
+require 'pathname'
+# load models
+Dir[File.expand_path('../app/models/*.rb', __FILE__)].each do |f|
+  require f
+end
+require 'rspec/core/rake_task'
+
+RSpec::Core::RakeTask.new(:spec)
+
+task default: :spec
+
+load File.expand_path(File.join(File.dirname(__FILE__), 'lib/tasks/db.rake'))
+load File.expand_path(File.join(File.dirname(__FILE__), 'lib/tasks/data.rake'))
+load File.expand_path(File.join(File.dirname(__FILE__), 'lib/tasks/bench.rake'))

@@ -1,0 +1,426 @@
+
+NEURAL - Program to train and test neural networks
+Copyright (c) 1993 by Academic Press, Inc.
+All rights reserved.  Permission is hereby granted, until further notice,
+to make copies of this diskette, which are not for resale, provided these
+copies are made from this master diskette only, and provided that the
+following copyright notice appears on the diskette label:
+(c) 1993 by Academic Press, Inc.
+Except as previously stated, no part of the computer program embodied in
+this diskette may be reproduced or transmitted in any form or by any means,
+electronic or mechanical, including input into storage in any information
+system for resale, without permission in writing from the publisher.
+Produced in the United States of America.
+ISBN 0-12-479041-0
+Input (or QUIT:) 
+NETWORK MODEL : LAYER
+Input (or QUIT:) 
+LAYER INIT : ANNEAL NOREGRESS
+Input (or QUIT:) 
+OUTPUT MODEL : GENERAL
+Input (or QUIT:) 
+QUIT RETRIES : 9
+Input (or QUIT:) 
+N INPUTS : 1
+Input (or QUIT:) 
+N OUTPUTS : 1
+Input (or QUIT:) 
+N HIDDEN1 : 5
+Input (or QUIT:) 
+N HIDDEN2 : 0
+Input (or QUIT:) 
+TRAIN : tempor.trn
+Input (or QUIT:) 
+LEARN : 
+ANNEAL temp=3.00  err=3.637% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00  err=3.043% 
+Try 1  (best=3.043057):  Gradient err=0.833031  Anneal err=0.833031  RESTART
+ANNEAL temp=3.00  err=3.569% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00  err=3.313% 
+Try 2  (best=0.833031):  Gradient err=0.809585  Anneal err=0.809585  RESTART
+ANNEAL temp=3.00  err=4.670% 
+ANNEAL temp=1.73  err=3.506% 
+ANNEAL temp=1.00  err=3.135% 
+Try 3  (best=0.809585):  Gradient err=0.823003  Anneal err=0.823003  RESTART
+ANNEAL temp=3.00  err=3.629% 
+ANNEAL temp=1.73  err=3.050% 
+ANNEAL temp=1.00 
+Try 4  (best=0.809585):  Gradient err=0.813743  Anneal err=0.813743  RESTART
+ANNEAL temp=3.00  err=4.409% 
+ANNEAL temp=1.73  err=3.702% 
+ANNEAL temp=1.00  err=3.072% 
+Try 5  (best=0.809585):  Gradient err=0.881052  Anneal err=0.881052  RESTART
+ANNEAL temp=3.00  err=3.629% 
+ANNEAL temp=1.73  err=3.050% 
+ANNEAL temp=1.00 
+Try 6  (best=0.809585):  Gradient err=0.813743  Anneal err=0.813743  RESTART
+ANNEAL temp=3.00  err=4.772% 
+ANNEAL temp=1.73  err=4.233% 
+ANNEAL temp=1.00  err=3.906% 
+Try 7  (best=0.809585):  Gradient err=0.813319  Anneal err=0.813319  RESTART
+ANNEAL temp=3.00  err=4.085% 
+ANNEAL temp=1.73  err=3.448% 
+ANNEAL temp=1.00 
+Try 8  (best=0.809585):  Gradient err=0.912977  Anneal err=0.912977  RESTART
+ANNEAL temp=3.00  err=2.860% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00  err=2.495% 
+Try 9  (best=0.809585):  Gradient err=0.810180  Anneal err=0.810180  RESTART
+ANNEAL temp=3.00  err=3.629% 
+ANNEAL temp=1.73  err=3.050% 
+ANNEAL temp=1.00 
+Try 10  (best=0.809585):  Gradient err=0.813743  Anneal err=0.813743
+0 successful escapes, 10 retries
+Final error = 0.8096% of max possible
+Input (or QUIT:) 
+OUTPUT FILE : ann_temp.res
+Input (or QUIT:) 
+EXECUTE : tempor.tst
+Input (or QUIT:) 
+CLEAR WEIGHTS : 
+Input (or QUIT:) 
+CLEAR TRAINING : 
+Input (or QUIT:) 
+QUIT : 
+NEURAL - Program to train and test neural networks
+Copyright (c) 1993 by Academic Press, Inc.
+All rights reserved.  Permission is hereby granted, until further notice,
+to make copies of this diskette, which are not for resale, provided these
+copies are made from this master diskette only, and provided that the
+following copyright notice appears on the diskette label:
+(c) 1993 by Academic Press, Inc.
+Except as previously stated, no part of the computer program embodied in
+this diskette may be reproduced or transmitted in any form or by any means,
+electronic or mechanical, including input into storage in any information
+system for resale, without permission in writing from the publisher.
+Produced in the United States of America.
+ISBN 0-12-479041-0
+Input (or QUIT:) 
+NETWORK MODEL : LAYER
+Input (or QUIT:) 
+LAYER INIT : ANNEAL NOREGRESS
+Input (or QUIT:) 
+OUTPUT MODEL : GENERAL
+Input (or QUIT:) 
+QUIT RETRIES : 9
+Input (or QUIT:) 
+N INPUTS : 1
+Input (or QUIT:) 
+N OUTPUTS : 1
+Input (or QUIT:) 
+N HIDDEN1 : 10
+Input (or QUIT:) 
+N HIDDEN2 : 0
+Input (or QUIT:) 
+TRAIN : tempor.trn
+Input (or QUIT:) 
+LEARN : 
+ANNEAL temp=3.00  err=4.199% 
+ANNEAL temp=1.73  err=3.123% 
+ANNEAL temp=1.00  err=2.185% 
+Try 1  (best=2.184705):  Gradient err=0.819248  Anneal err=0.819248  RESTART
+ANNEAL temp=3.00  err=5.296% 
+ANNEAL temp=1.73  err=3.553% 
+ANNEAL temp=1.00 
+Try 2  (best=0.819248):  Gradient err=0.808836  Anneal err=0.808836  RESTART
+ANNEAL temp=3.00  err=8.080% 
+ANNEAL temp=1.73  err=3.361% 
+ANNEAL temp=1.00  err=2.920% 
+Try 3  (best=0.808836):  Gradient err=0.813042  Anneal err=0.813042  RESTART
+ANNEAL temp=3.00  err=5.296% 
+ANNEAL temp=1.73  err=3.553% 
+ANNEAL temp=1.00 
+Try 4  (best=0.808836):  Gradient err=0.808836  Anneal err=0.808836  RESTART
+ANNEAL temp=3.00  err=4.568% 
+ANNEAL temp=1.73  err=2.830% 
+ANNEAL temp=1.00 
+Try 5  (best=0.808836):  Gradient err=0.812309  Anneal err=0.812309  RESTART
+ANNEAL temp=3.00  err=3.838% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00 
+Try 6  (best=0.808836):  Gradient err=0.807877  Anneal err=0.807877  RESTART
+ANNEAL temp=3.00  err=6.236% 
+ANNEAL temp=1.73  err=4.267% 
+ANNEAL temp=1.00 
+Try 7  (best=0.807877):  Gradient err=0.823635  Anneal err=0.823635  RESTART
+ANNEAL temp=3.00  err=3.980% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00 
+Try 8  (best=0.807877):  Gradient err=0.802211  Anneal err=0.802211  RESTART
+ANNEAL temp=3.00  err=4.064% 
+ANNEAL temp=1.73  err=3.518% 
+ANNEAL temp=1.00  err=2.837% 
+Try 9  (best=0.802211):  Gradient err=0.812510  Anneal err=0.812510  RESTART
+ANNEAL temp=3.00  err=6.236% 
+ANNEAL temp=1.73  err=4.267% 
+ANNEAL temp=1.00 
+Try 10  (best=0.802211):  Gradient err=0.823635  Anneal err=0.823635
+0 successful escapes, 10 retries
+Final error = 0.8022% of max possible
+Input (or QUIT:) 
+OUTPUT FILE : ann_temp.res
+Input (or QUIT:) 
+EXECUTE : tempor.tst
+Input (or QUIT:) 
+CLEAR WEIGHTS : 
+Input (or QUIT:) 
+CLEAR TRAINING : 
+Input (or QUIT:) 
+QUIT : 
+NEURAL - Program to train and test neural networks
+Copyright (c) 1993 by Academic Press, Inc.
+All rights reserved.  Permission is hereby granted, until further notice,
+to make copies of this diskette, which are not for resale, provided these
+copies are made from this master diskette only, and provided that the
+following copyright notice appears on the diskette label:
+(c) 1993 by Academic Press, Inc.
+Except as previously stated, no part of the computer program embodied in
+this diskette may be reproduced or transmitted in any form or by any means,
+electronic or mechanical, including input into storage in any information
+system for resale, without permission in writing from the publisher.
+Produced in the United States of America.
+ISBN 0-12-479041-0
+Input (or QUIT:) 
+NETWORK MODEL : LAYER
+Input (or QUIT:) 
+LAYER INIT : ANNEAL NOREGRESS
+Input (or QUIT:) 
+OUTPUT MODEL : GENERAL
+Input (or QUIT:) 
+QUIT RETRIES : 9
+Input (or QUIT:) 
+N INPUTS : 1
+Input (or QUIT:) 
+N OUTPUTS : 1
+Input (or QUIT:) 
+N HIDDEN1 : 20
+Input (or QUIT:) 
+N HIDDEN2 : 0
+Input (or QUIT:) 
+TRAIN : tempor.trn
+Input (or QUIT:) 
+LEARN : 
+ANNEAL temp=3.00  err=4.788% 
+ANNEAL temp=1.73  err=3.100% 
+ANNEAL temp=1.00 
+Try 1  (best=3.100263):  Gradient err=0.830914  Anneal err=0.830914  RESTART
+ANNEAL temp=3.00  err=4.737% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00  err=3.730% 
+Try 2  (best=0.830914):  Gradient err=0.839239  Anneal err=0.839239  RESTART
+ANNEAL temp=3.00  err=6.930% 
+ANNEAL temp=1.73  err=3.523% 
+ANNEAL temp=1.00 
+Try 3  (best=0.830914):  Gradient err=0.799493  Anneal err=0.799493  RESTART
+ANNEAL temp=3.00  err=4.097% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00  err=3.562% 
+Try 4  (best=0.799493):  Gradient err=0.822487  Anneal err=0.822487  RESTART
+ANNEAL temp=3.00  err=4.788% 
+ANNEAL temp=1.73  err=3.100% 
+ANNEAL temp=1.00 
+Try 5  (best=0.799493):  Gradient err=0.830914  Anneal err=0.830914  RESTART
+ANNEAL temp=3.00  err=3.521% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00 
+Try 6  (best=0.799493):  Gradient err=0.816857  Anneal err=0.816857  RESTART
+ANNEAL temp=3.00  err=4.737% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00  err=3.730% 
+Try 7  (best=0.799493):  Gradient err=0.839239  Anneal err=0.839239  RESTART
+ANNEAL temp=3.00  err=6.577% 
+ANNEAL temp=1.73  err=4.144% 
+ANNEAL temp=1.00 
+Try 8  (best=0.799493):  Gradient err=0.833274  Anneal err=0.833274  RESTART
+ANNEAL temp=3.00  err=4.525% 
+ANNEAL temp=1.73  err=3.482% 
+ANNEAL temp=1.00 
+Try 9  (best=0.799493):  Gradient err=0.825663  Anneal err=0.825663  RESTART
+ANNEAL temp=3.00  err=7.995% 
+ANNEAL temp=1.73  err=5.644% 
+ANNEAL temp=1.00  err=3.202% 
+Try 10  (best=0.799493):  Gradient err=0.804001  Anneal err=0.804001
+0 successful escapes, 10 retries
+Final error = 0.7995% of max possible
+Input (or QUIT:) 
+OUTPUT FILE : ann_temp.res
+Input (or QUIT:) 
+EXECUTE : tempor.tst
+Input (or QUIT:) 
+CLEAR WEIGHTS : 
+Input (or QUIT:) 
+CLEAR TRAINING : 
+Input (or QUIT:) 
+QUIT : 
+NEURAL - Program to train and test neural networks
+Copyright (c) 1993 by Academic Press, Inc.
+All rights reserved.  Permission is hereby granted, until further notice,
+to make copies of this diskette, which are not for resale, provided these
+copies are made from this master diskette only, and provided that the
+following copyright notice appears on the diskette label:
+(c) 1993 by Academic Press, Inc.
+Except as previously stated, no part of the computer program embodied in
+this diskette may be reproduced or transmitted in any form or by any means,
+electronic or mechanical, including input into storage in any information
+system for resale, without permission in writing from the publisher.
+Produced in the United States of America.
+ISBN 0-12-479041-0
+Input (or QUIT:) 
+NETWORK MODEL : LAYER
+Input (or QUIT:) 
+LAYER INIT : ANNEAL NOREGRESS
+Input (or QUIT:) 
+OUTPUT MODEL : GENERAL
+Input (or QUIT:) 
+QUIT RETRIES : 9
+Input (or QUIT:) 
+N INPUTS : 1
+Input (or QUIT:) 
+N OUTPUTS : 1
+Input (or QUIT:) 
+N HIDDEN1 : 40
+Input (or QUIT:) 
+N HIDDEN2 : 0
+Input (or QUIT:) 
+TRAIN : tempor.trn
+Input (or QUIT:) 
+LEARN : 
+ANNEAL temp=3.00  err=4.526% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00 
+Try 1  (best=4.526284):  Gradient err=0.831740  Anneal err=0.831740  RESTART
+ANNEAL temp=3.00  err=11.223% 
+ANNEAL temp=1.73  err=6.668% 
+ANNEAL temp=1.00  err=4.996% 
+Try 2  (best=0.831740):  Gradient err=0.840211  Anneal err=0.840211  RESTART
+ANNEAL temp=3.00  err=5.771% 
+ANNEAL temp=1.73  err=4.187% 
+ANNEAL temp=1.00  err=3.008% 
+Try 3  (best=0.831740):  Gradient err=0.805304  Anneal err=0.805304  RESTART
+ANNEAL temp=3.00  err=6.586% 
+ANNEAL temp=1.73  err=5.777% 
+ANNEAL temp=1.00  err=4.194% 
+Try 4  (best=0.805304):  Gradient err=0.869448  Anneal err=0.869448  RESTART
+ANNEAL temp=3.00  err=9.769% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00  err=4.559% 
+Try 5  (best=0.805304):  Gradient err=0.816796  Anneal err=0.816796  RESTART
+ANNEAL temp=3.00  err=4.352% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00 
+Try 6  (best=0.805304):  Gradient err=0.826057  Anneal err=0.826057  RESTART
+ANNEAL temp=3.00  err=6.586% 
+ANNEAL temp=1.73  err=5.777% 
+ANNEAL temp=1.00  err=4.194% 
+Try 7  (best=0.805304):  Gradient err=0.869448  Anneal err=0.869448  RESTART
+ANNEAL temp=3.00  err=3.290% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00 
+Try 8  (best=0.805304):  Gradient err=0.807603  Anneal err=0.807603  RESTART
+ANNEAL temp=3.00  err=5.034% 
+ANNEAL temp=1.73  err=4.628% 
+ANNEAL temp=1.00 
+Try 9  (best=0.805304):  Gradient err=0.821429  Anneal err=0.821429  RESTART
+ANNEAL temp=3.00  err=11.223% 
+ANNEAL temp=1.73  err=6.668% 
+ANNEAL temp=1.00  err=4.996% 
+Try 10  (best=0.805304):  Gradient err=0.840211  Anneal err=0.840211
+0 successful escapes, 10 retries
+Final error = 0.8053% of max possible
+Input (or QUIT:) 
+OUTPUT FILE : ann_temp.res
+Input (or QUIT:) 
+EXECUTE : tempor.tst
+Input (or QUIT:) 
+CLEAR WEIGHTS : 
+Input (or QUIT:) 
+CLEAR TRAINING : 
+Input (or QUIT:) 
+QUIT : 
+NEURAL - Program to train and test neural networks
+Copyright (c) 1993 by Academic Press, Inc.
+All rights reserved.  Permission is hereby granted, until further notice,
+to make copies of this diskette, which are not for resale, provided these
+copies are made from this master diskette only, and provided that the
+following copyright notice appears on the diskette label:
+(c) 1993 by Academic Press, Inc.
+Except as previously stated, no part of the computer program embodied in
+this diskette may be reproduced or transmitted in any form or by any means,
+electronic or mechanical, including input into storage in any information
+system for resale, without permission in writing from the publisher.
+Produced in the United States of America.
+ISBN 0-12-479041-0
+Input (or QUIT:) 
+NETWORK MODEL : LAYER
+Input (or QUIT:) 
+LAYER INIT : ANNEAL NOREGRESS
+Input (or QUIT:) 
+OUTPUT MODEL : GENERAL
+Input (or QUIT:) 
+QUIT RETRIES : 9
+Input (or QUIT:) 
+N INPUTS : 1
+Input (or QUIT:) 
+N OUTPUTS : 1
+Input (or QUIT:) 
+N HIDDEN1 : 100
+Input (or QUIT:) 
+N HIDDEN2 : 0
+Input (or QUIT:) 
+TRAIN : tempor.trn
+Input (or QUIT:) 
+LEARN : 
+ANNEAL temp=3.00  err=8.108% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00  err=7.850% 
+Try 1  (best=7.850176):  Gradient err=0.803156  Anneal err=0.803156  RESTART
+ANNEAL temp=3.00  err=11.694% 
+ANNEAL temp=1.73  err=5.059% 
+ANNEAL temp=1.00 
+Try 2  (best=0.803156):  Gradient err=0.797851  Anneal err=0.797851  RESTART
+ANNEAL temp=3.00  err=11.659% 
+ANNEAL temp=1.73  err=7.323% 
+ANNEAL temp=1.00  err=5.338% 
+Try 3  (best=0.797851):  Gradient err=0.796998  Anneal err=0.796998  RESTART
+ANNEAL temp=3.00  err=13.845% 
+ANNEAL temp=1.73  err=6.539% 
+ANNEAL temp=1.00 
+Try 4  (best=0.796998):  Gradient err=0.843508  Anneal err=0.843508  RESTART
+ANNEAL temp=3.00  err=9.653% 
+ANNEAL temp=1.73  err=8.468% 
+ANNEAL temp=1.00 
+Try 5  (best=0.796998):  Gradient err=0.807283  Anneal err=0.807283  RESTART
+ANNEAL temp=3.00  err=6.985% 
+ANNEAL temp=1.73 
+ANNEAL temp=1.00 
+Try 6  (best=0.796998):  Gradient err=0.838466  Anneal err=0.838466  RESTART
+ANNEAL temp=3.00  err=13.845% 
+ANNEAL temp=1.73  err=6.539% 
+ANNEAL temp=1.00 
+Try 7  (best=0.796998):  Gradient err=0.843508  Anneal err=0.843508  RESTART
+ANNEAL temp=3.00  err=11.372% 
+ANNEAL temp=1.73  err=5.527% 
+ANNEAL temp=1.00  err=3.218% 
+Try 8  (best=0.796998):  Gradient err=0.832925  Anneal err=0.832925  RESTART
+ANNEAL temp=3.00  err=12.996% 
+ANNEAL temp=1.73  err=6.380% 
+ANNEAL temp=1.00 
+Try 9  (best=0.796998):  Gradient err=0.811619  Anneal err=0.811619  RESTART
+ANNEAL temp=3.00  err=13.845% 
+ANNEAL temp=1.73  err=6.539% 
+ANNEAL temp=1.00 
+Try 10  (best=0.796998):  Gradient err=0.843508  Anneal err=0.843508
+0 successful escapes, 10 retries
+Final error = 0.7970% of max possible
+Input (or QUIT:) 
+OUTPUT FILE : ann_temp.res
+Input (or QUIT:) 
+EXECUTE : tempor.tst
+Input (or QUIT:) 
+CLEAR WEIGHTS : 
+Input (or QUIT:) 
+CLEAR TRAINING : 
+Input (or QUIT:) 
+QUIT : 

@@ -1,0 +1,53 @@
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=ISO-8859-1">
+  <title>check2dgauss.m</title>
+<link rel="stylesheet" type="text/css" href="../../m-syntax.css">
+</head>
+<body>
+<code>
+<span class=defun_kw>function</span>&nbsp;<span class=defun_out>res&nbsp;</span>=&nbsp;<span class=defun_name>check2dgauss</span>(<span class=defun_in>fname</span>)<br>
+<span class=h1>%&nbsp;CHECK2DGAUSS&nbsp;Checks&nbsp;if&nbsp;given&nbsp;file&nbsp;containes&nbsp;bivariate&nbsp;Gaussians.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Synopsis:</span></span><br>
+<span class=help>%&nbsp;&nbsp;res&nbsp;=&nbsp;check2dgauss(fname)</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Description:</span></span><br>
+<span class=help>%&nbsp;&nbsp;If&nbsp;the&nbsp;file&nbsp;'fname'&nbsp;contains&nbsp;a&nbsp;matrix&nbsp;Mean&nbsp;[2&nbsp;x&nbsp;ncomp],</span><br>
+<span class=help>%&nbsp;&nbsp;a&nbsp;matrix&nbsp;Cov&nbsp;[2&nbsp;x&nbsp;2&nbsp;x&nbsp;ncomp]&nbsp;and&nbsp;a&nbsp;vector&nbsp;y&nbsp;[1&nbsp;x&nbsp;ncomp]</span><br>
+<span class=help>%&nbsp;&nbsp;then&nbsp;it&nbsp;returns&nbsp;1&nbsp;else&nbsp;it&nbsp;returns&nbsp;&nbsp;0.</span><br>
+<span class=help>%</span><br>
+<span class=help>%&nbsp;<span class=help_field>Input:</span></span><br>
+<span class=help>%&nbsp;&nbsp;fname&nbsp;[string]&nbsp;File&nbsp;name.</span><br>
+<span class=help>%&nbsp;</span><br>
+<span class=help>%&nbsp;<span class=help_field>Output:</span></span><br>
+<span class=help>%&nbsp;&nbsp;res&nbsp;[1x1]&nbsp;Equals&nbsp;to&nbsp;1&nbsp;if&nbsp;it&nbsp;is&nbsp;valid&nbsp;file&nbsp;otherwise&nbsp;0.</span><br>
+<span class=help>%</span><br>
+<hr>
+<span class=help1>%&nbsp;<span class=help1_field>About:</span>&nbsp;Statistical&nbsp;Pattern&nbsp;Recognition&nbsp;Toolbox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+<span class=help1>%&nbsp;(C)&nbsp;1999-2003,&nbsp;Written&nbsp;by&nbsp;Vojtech&nbsp;Franc&nbsp;and&nbsp;Vaclav&nbsp;Hlavac&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://www.cvut.cz"&gt;Czech&nbsp;Technical&nbsp;University&nbsp;Prague&lt;/a&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://www.feld.cvut.cz"&gt;Faculty&nbsp;of&nbsp;Electrical&nbsp;Engineering&lt;/a&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+<span class=help1>%&nbsp;&lt;a&nbsp;href="http://cmp.felk.cvut.cz"&gt;Center&nbsp;for&nbsp;Machine&nbsp;Perception&lt;/a&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+<br>
+<span class=help1>%&nbsp;<span class=help1_field>Modifications:</span>&nbsp;</span><br>
+<span class=help1>%&nbsp;1-may-2004,&nbsp;VF</span><br>
+<span class=help1>%&nbsp;13-Feb-2003,&nbsp;VF&nbsp;&nbsp;</span><br>
+<br>
+<hr>
+data=load(&nbsp;fname);<br>
+<br>
+<span class=keyword>if</span>&nbsp;~isfield(&nbsp;data,&nbsp;<span class=quotes>'Mean'</span>),&nbsp;res=0;&nbsp;<span class=jump>return</span>;&nbsp;<span class=keyword>end</span><br>
+<span class=keyword>if</span>&nbsp;~isfield(&nbsp;data,&nbsp;<span class=quotes>'Cov'</span>),&nbsp;res=0;&nbsp;<span class=jump>return</span>;&nbsp;<span class=keyword>end</span><br>
+<span class=keyword>if</span>&nbsp;~isfield(&nbsp;data,&nbsp;<span class=quotes>'y'</span>),&nbsp;res=0;&nbsp;<span class=jump>return</span>;&nbsp;<span class=keyword>end</span><br>
+<br>
+<span class=keyword>if</span>&nbsp;size(data.Mean,1)&nbsp;~=&nbsp;2,&nbsp;res=0;&nbsp;<span class=jump>return</span>;&nbsp;<span class=keyword>end</span><br>
+<span class=keyword>if</span>&nbsp;size(data.Cov,1)&nbsp;~=&nbsp;2,&nbsp;res=0;&nbsp;<span class=jump>return</span>;&nbsp;<span class=keyword>end</span><br>
+<span class=keyword>if</span>&nbsp;size(data.Cov,2)&nbsp;~=&nbsp;2,&nbsp;res=0;&nbsp;<span class=jump>return</span>;&nbsp;<span class=keyword>end</span><br>
+<span class=keyword>if</span>&nbsp;size(data.Cov,3)&nbsp;~=&nbsp;size(data.Mean,2),&nbsp;res=0;&nbsp;<span class=jump>return</span>;&nbsp;<span class=keyword>end</span><br>
+<span class=keyword>if</span>&nbsp;size(data.y,2)&nbsp;~=&nbsp;size(data.Mean,2),&nbsp;res=0;&nbsp;<span class=jump>return</span>;&nbsp;<span class=keyword>end</span><br>
+<br>
+res=1;<br>
+<br>
+<span class=jump>return</span>;<br>
+</code>
