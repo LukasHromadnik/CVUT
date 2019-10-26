@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Luke/Documents/BI-SAP/segments/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Luke/Documents/BI-SAP/segments/xst"
+elaborate
+-ifn segf.prj
+-ifmt mixed

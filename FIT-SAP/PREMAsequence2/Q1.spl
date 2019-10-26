@@ -1,0 +1,8 @@
+[Inputs]
+q0
+q1
+q2
+en
+[Outputs]
+f
+[BiDir]

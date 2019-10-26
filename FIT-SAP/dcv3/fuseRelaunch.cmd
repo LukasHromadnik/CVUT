@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Luke/Documents/BI-SAP/dcv3/scit4_test_isim_beh.exe" -prj "C:/Users/Luke/Documents/BI-SAP/dcv3/scit4_test_beh.prj" "work.scit4_test" 

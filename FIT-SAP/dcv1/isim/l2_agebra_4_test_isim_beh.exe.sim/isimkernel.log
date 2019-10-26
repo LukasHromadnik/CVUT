@@ -1,0 +1,29 @@
+Command line:
+   l2_agebra_4_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49495
+
+Sun Mar 02 10:45:32 2014
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 504.578 Meg
+
+ Total Signals          : 10
+ Total Nets             : 5
+ Total Signal Drivers   : 5
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 2
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 383
+Total Line Count : 15
+
+ Total Simulation Time: 0.171601 sec
+
+ Current Memory Usage: 504.578 Meg
+
+Sun Mar 02 10:47:04 2014
+

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work segg.vhd -prj segments -o segg.spl -module segg -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e segg.spl C:/Users/Luke/Documents/BI-SAP/segments/segg.sym 

@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "H:/Documents/SAP/sequence/schema.xst" -ofn "H:/Documents/SAP/sequence/schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc schema.ucf -p xc3s100e-cp132-4 schema.ngc schema.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o schema_map.ncd schema.ngd schema.pcf 
+par -w -intstyle ise -ol high -t 1 schema_map.ncd schema.ncd schema.pcf 
+bitgen -intstyle ise -f schema.ut schema.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc schema.ucf -p xc3s100e-cp132-4 schema.ngc schema.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o schema_map.ncd schema.ngd schema.pcf 
+par -w -intstyle ise -ol high -t 1 schema_map.ncd schema.ncd schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml schema.twx schema.ncd -o schema.twr schema.pcf -ucf schema.ucf 
+bitgen -intstyle ise -f schema.ut schema.ncd 
+xst -intstyle ise -ifn "H:/Documents/SAP/sequence2/schema.xst" -ofn "H:/Documents/SAP/sequence2/schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc schema.ucf -p xc3s100e-cp132-4 schema.ngc schema.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o schema_map.ncd schema.ngd schema.pcf 
+par -w -intstyle ise -ol high -t 1 schema_map.ncd schema.ncd schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml schema.twx schema.ncd -o schema.twr schema.pcf -ucf schema.ucf 
+bitgen -intstyle ise -f schema.ut schema.ncd 
+xst -intstyle ise -ifn "H:/Documents/SAP/sequence2/schema.xst" -ofn "H:/Documents/SAP/sequence2/schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc schema.ucf -p xc3s100e-cp132-4 schema.ngc schema.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o schema_map.ncd schema.ngd schema.pcf 
+par -w -intstyle ise -ol high -t 1 schema_map.ncd schema.ncd schema.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml schema.twx schema.ncd -o schema.twr schema.pcf -ucf schema.ucf 
+bitgen -intstyle ise -f schema.ut schema.ncd 
+xst -intstyle ise -ifn "H:/Documents/SAP/sequence2/schema.xst" -ofn "H:/Documents/SAP/sequence2/schema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc schema.ucf -p xc3s100e-cp132-4 schema.ngc schema.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o schema_map.ncd schema.ngd schema.pcf 

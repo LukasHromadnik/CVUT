@@ -1,0 +1,12 @@
+AR debounce arch //samba1/homes/cernypre/Documents/SAP/sequence2/debounce.vhd sub00/vhpl07 1396267717
+EN q0 NULL //samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4.vhd sub00/vhpl00 1396268180
+EN q1 NULL //samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4a.vhd sub00/vhpl02 1396268182
+EN q2 NULL //samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4b.vhd sub00/vhpl04 1396268184
+EN d3_8e_mxilinx_schema NULL //samba1/homes/cernypre/Documents/SAP/sequence2/schema.vhf sub00/vhpl10 1396268186
+AR q2 behavioral //samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4b.vhd sub00/vhpl05 1396268185
+EN schema NULL //samba1/homes/cernypre/Documents/SAP/sequence2/schema.vhf sub00/vhpl08 1396268188
+AR schema behavioral //samba1/homes/cernypre/Documents/SAP/sequence2/schema.vhf sub00/vhpl09 1396268189
+AR d3_8e_mxilinx_schema behavioral //samba1/homes/cernypre/Documents/SAP/sequence2/schema.vhf sub00/vhpl11 1396268187
+AR q0 behavioral //samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4.vhd sub00/vhpl01 1396268181
+EN debounce NULL //samba1/homes/cernypre/Documents/SAP/sequence2/debounce.vhd sub00/vhpl06 1396267716
+AR q1 behavioral //samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4a.vhd sub00/vhpl03 1396268183

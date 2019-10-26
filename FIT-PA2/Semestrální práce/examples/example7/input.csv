@@ -1,0 +1,13 @@
+bitmap,20,20
+
+pattern,begin
+square,0,0,5,*
+line,1,1,4,4,\
+line,4,1,1,4,/
+fill,3,4,.
+pattern,end
+
+pattern,0,0
+pattern,5,5
+pattern,10,10
+pattern,15,15

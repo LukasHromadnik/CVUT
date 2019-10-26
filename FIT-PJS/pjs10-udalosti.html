@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>BI-PJS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+	<h1>Události 2</h1>
+	<ul id="mujSeznam">
+		<li>Prvni</li>
+		<li>Druhy</li>
+		<li>Treti</li>
+		<li>Ctvrty</li>
+	</ul>
+
+	<script type="text/javascript">
+		// mutacni udalosti - zmena struktury dokumentu (vlozeni, vymazani, ...)
+
+		// pri odstraneni elementu ul vzniknou tyto udalosti:
+		// na ul - DOMNodeRemoved
+		// na vsech li totez
+		// na rodici ul (zde body) - DOMSubtreeMedified
+
+		// napr
+		var seznam = document.getElementById("mujSeznam");
+
+		seznam.addEventListener('DOMNodeRemoved', function (e) {
+			var str = "type: " + e.type + "\ntarget: " + e.target + "\nrelatedNode: " + e.relatedNode;
+			alert(str);
+		}, false);
+
+		// alert("Vyjmu seznam");
+		// seznam.parentNode.removeChild(seznam);
+
+		// Edux - dalsi mutacni udalosti
+	</script>
+</body>
+
+</html>

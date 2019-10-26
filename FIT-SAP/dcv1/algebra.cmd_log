@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Luke/Documents/BI-SAP/dcv1/algebra.xst" -ofn "C:/Users/Luke/Documents/BI-SAP/dcv1/algebra.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-cp132-4 algebra.ngc algebra.ngd  
+map -intstyle ise -p xc3s500e-cp132-4 -cm area -ir off -pr off -c 100 -o algebra_map.ncd algebra.ngd algebra.pcf 
+par -w -intstyle ise -ol high -t 1 algebra_map.ncd algebra.ncd algebra.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml algebra.twx algebra.ncd -o algebra.twr algebra.pcf 
+bitgen -intstyle ise -f algebra.ut algebra.ncd 

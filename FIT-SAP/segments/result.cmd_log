@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl result_drc.vhf -w C:/Users/Luke/Documents/BI-SAP/segments/result.sch 
+sch2sym -intstyle ise -family spartan3e -refsym result C:/Users/Luke/Documents/BI-SAP/segments/result.sch C:/Users/Luke/Documents/BI-SAP/segments/result.sym 

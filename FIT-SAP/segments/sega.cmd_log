@@ -1,0 +1,2 @@
+vhdtdtfi -lib work sega.vhd -prj segments -o sega.spl -module sega -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sega.spl C:/Users/Luke/Documents/BI-SAP/segments/sega.sym 

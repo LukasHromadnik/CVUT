@@ -1,0 +1,2 @@
+Zadejte parametry kruznice #1:
+Nespravny vstup.

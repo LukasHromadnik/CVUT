@@ -1,0 +1,6 @@
+platform :ios, '7.0'
+pod 'AFNetworking', '~> 2.5'
+pod 'ACKategories', :git => 'https://github.com/AckeeCZ/ACKategories.git'
+pod 'SVProgressHUD', :head
+pod 'Masonry'
+pod 'SVWebViewController', :head

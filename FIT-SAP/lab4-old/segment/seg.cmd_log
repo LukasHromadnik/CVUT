@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "H:/sap/lab4/segment/seg.xst" -ofn "H:/sap/lab4/segment/seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg.ucf -p xc3s100e-cp132-4 seg.ngc seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg_map.ncd seg.ngd seg.pcf 
+par -w -intstyle ise -ol high -t 1 seg_map.ncd seg.ncd seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg.twx seg.ncd -o seg.twr seg.pcf -ucf seg.ucf 
+bitgen -intstyle ise -f seg.ut seg.ncd 
+xst -intstyle ise -ifn "H:/sap/lab4/segment/seg.xst" -ofn "H:/sap/lab4/segment/seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seg.ucf -p xc3s100e-cp132-4 seg.ngc seg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seg_map.ncd seg.ngd seg.pcf 
+par -w -intstyle ise -ol high -t 1 seg_map.ncd seg.ncd seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seg.twx seg.ncd -o seg.twr seg.pcf -ucf seg.ucf 
+bitgen -intstyle ise -f seg.ut seg.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym seg H:/sap/lab4/segment/seg.sch H:/sap/lab4/segment/seg.sym 

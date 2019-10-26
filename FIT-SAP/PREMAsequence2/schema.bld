@@ -1,0 +1,90 @@
+Release 14.1 ngdbuild P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc schema.ucf -p xc3s100e-cp132-4
+schema.ngc schema.ngd
+
+Reading NGO file "H:/Documents/SAP/sequence2/schema.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "schema.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:119 - Constraint <NET "MEAL0" LOC = M5;>
+   [schema.ucf(5)]: This constraint cannot be distributed from the design
+   objects matching 'NET "MEAL0"' because those design objects do not contain or
+   drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MEAL0" LOC = M5;> [schema.ucf(5)]' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "MEAL1" LOC = M11;>
+   [schema.ucf(6)]: This constraint cannot be distributed from the design
+   objects matching 'NET "MEAL1"' because those design objects do not contain or
+   drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MEAL1" LOC = M11;> [schema.ucf(6)]' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "MEAL2" LOC = P7;>
+   [schema.ucf(7)]: This constraint cannot be distributed from the design
+   objects matching 'NET "MEAL2"' because those design objects do not contain or
+   drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MEAL2" LOC = P7;> [schema.ucf(7)]' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "MOORE0" LOC = N5;>
+   [schema.ucf(8)]: This constraint cannot be distributed from the design
+   objects matching 'NET "MOORE0"' because those design objects do not contain
+   or drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MOORE0" LOC = N5;> [schema.ucf(8)]' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "MOORE1" LOC = N4;>
+   [schema.ucf(9)]: This constraint cannot be distributed from the design
+   objects matching 'NET "MOORE1"' because those design objects do not contain
+   or drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MOORE1" LOC = N4;> [schema.ucf(9)]' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "MOORE2" LOC = P4;>
+   [schema.ucf(10)]: This constraint cannot be distributed from the design
+   objects matching 'NET "MOORE2"' because those design objects do not contain
+   or drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MOORE2" LOC = P4;> [schema.ucf(10)]' could not be found and so the
+   Locate constraint will be removed.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  12
+
+Total memory usage is 153776 kilobytes
+
+Writing NGD file "schema.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "schema.bld"...

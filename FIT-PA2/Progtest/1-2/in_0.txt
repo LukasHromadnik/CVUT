@@ -1,0 +1,4 @@
+lada: PA1, PA2, OSY
+pepa: PA1, PA2
+mirek: PA1, PJV
+honza: PA1, PA2, PJP

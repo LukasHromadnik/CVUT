@@ -1,0 +1,87 @@
+--------------------------------------------------------------------------------
+Release 14.1 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml seg.twx seg.ncd -o seg.twr seg.pcf -ucf seg.ucf
+
+Design file:              seg.ncd
+Physical constraint file: seg.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2012-04-23)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A              |P              |    6.875|
+A              |Q              |    8.017|
+A              |R              |    7.531|
+A              |S              |    7.258|
+A              |T              |    7.865|
+A              |U              |    6.875|
+A              |V              |    7.258|
+B              |P              |    8.763|
+B              |Q              |    9.216|
+B              |R              |    9.412|
+B              |S              |    8.517|
+B              |T              |    9.064|
+B              |U              |    8.763|
+B              |V              |    9.717|
+C              |P              |    7.664|
+C              |Q              |    8.671|
+C              |R              |    8.255|
+C              |S              |    7.937|
+C              |T              |    8.519|
+C              |U              |    7.664|
+C              |V              |    8.520|
+D              |P              |    7.589|
+D              |Q              |    9.178|
+D              |R              |    8.207|
+D              |S              |    8.484|
+D              |T              |    9.026|
+D              |U              |    7.589|
+D              |V              |    7.934|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Mar 10 12:04:22 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 153 MB
+
+
+

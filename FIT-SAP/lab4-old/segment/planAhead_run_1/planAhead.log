@@ -1,0 +1,83 @@
+#-----------------------------------------------------------
+# PlanAhead v14.1 (64-bit)
+# Build 179419 by xbuild on Thu Apr 26 11:43:29 MDT 2012
+# Start of session at: Mon Mar 10 12:02:26 2014
+# Process ID: 3468
+# Log file: H:/sap/lab4/segment/planAhead_run_1/planAhead.log
+# Journal file: H:/sap/lab4/segment/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Device-36] Loading parts and site information from C:/Xilinx/14.1/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.1/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.1/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source H:/sap/lab4/segment/pa.fromHdl.tcl
+# create_project -name segment -dir "H:/sap/lab4/segment/planAhead_run_1" -part xc3s100ecp132-4
+Parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [C:/Xilinx/14.1/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "seg.ucf" [current_fileset -constrset]
+Adding file 'H:\sap\lab4\segment\seg.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {G:/segG.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {G:/segF.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {G:/segE.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {G:/segD.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {G:/segC.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {G:/segB.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {G:/segA.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {seg.vhf}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top seg $srcset
+# add_files [list {seg.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s100ecp132-4
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.1/ISE_DS/PlanAhead/data\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.1/ISE_DS/PlanAhead/data\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+Parsing VHDL file "G:\segG.vhd" into library work
+Parsing VHDL file "G:\segF.vhd" into library work
+Parsing VHDL file "G:\segE.vhd" into library work
+Parsing VHDL file "G:\segD.vhd" into library work
+Parsing VHDL file "G:\segC.vhd" into library work
+Parsing VHDL file "G:\segB.vhd" into library work
+Parsing VHDL file "G:\segA.vhd" into library work
+Parsing VHDL file "H:\sap\lab4\segment\seg.vhf" into library work
+INFO: [Project-86] Reading macro library C:/Xilinx/14.1/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.1/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.1/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.1/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.1/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.1/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.1/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device-19] Loading pkg sso from C:/Xilinx/14.1/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.1/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing-77] Reading timing library C:/Xilinx/14.1/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing-34] Done reading timing library C:/Xilinx/14.1/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [H:\sap\lab4\segment\seg.ucf]
+Finished Parsing UCF File [H:\sap\lab4\segment\seg.ucf]
+INFO: [Project-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project-176] Phase 0 Netlist Checksum: dcfc421d 
+open_rtl_design: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 508.168 ; gain = 175.051
+exit
+INFO: [Common-206] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

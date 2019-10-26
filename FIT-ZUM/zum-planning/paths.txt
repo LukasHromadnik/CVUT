@@ -1,0 +1,4 @@
+Logistics:    java -jar JGraphPlan.jar ./problems/logistics-unlimited/logistics.pddl ./problems/logistics-unlimited/logistics-1.pddl
+Logistics-1:  java -jar JGraphPlan.jar ./problems/logistics/logistics.pddl ./problems/logistics/logistics-1.pddl
+Lisak:        java -jar JGraphPlan.jar ./problems/lisak/lisak.pddl ./problems/lisak/lisak-1.pddl
+Lisak-hard:   java -jar JGraphPlan.jar ./problems/lisak-hard/lisak.pddl ./problems/lisak-hard/lisak-1.pddl

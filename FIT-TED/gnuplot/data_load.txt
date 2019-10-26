@@ -1,0 +1,600 @@
+Pá dub 11 10:05:07 CEST 2014
+ 10:05:07 up  1:20,  8 users,  load average: 0,97, 1,94, 1,05
+Pá dub 11 10:05:08 CEST 2014
+ 10:05:08 up  1:20,  8 users,  load average: 1,06, 1,94, 1,05
+Pá dub 11 10:05:09 CEST 2014
+ 10:05:09 up  1:20,  8 users,  load average: 1,06, 1,94, 1,05
+Pá dub 11 10:05:10 CEST 2014
+ 10:05:10 up  1:20,  8 users,  load average: 1,06, 1,94, 1,05
+Pá dub 11 10:05:11 CEST 2014
+ 10:05:11 up  1:20,  8 users,  load average: 1,06, 1,94, 1,05
+Pá dub 11 10:05:12 CEST 2014
+ 10:05:12 up  1:20,  8 users,  load average: 1,06, 1,94, 1,05
+Pá dub 11 10:05:13 CEST 2014
+ 10:05:13 up  1:20,  8 users,  load average: 0,97, 1,91, 1,05
+Pá dub 11 10:05:14 CEST 2014
+ 10:05:14 up  1:20,  8 users,  load average: 0,97, 1,91, 1,05
+Pá dub 11 10:05:15 CEST 2014
+ 10:05:15 up  1:20,  8 users,  load average: 0,97, 1,91, 1,05
+Pá dub 11 10:05:16 CEST 2014
+ 10:05:16 up  1:20,  8 users,  load average: 0,97, 1,91, 1,05
+Pá dub 11 10:05:17 CEST 2014
+ 10:05:17 up  1:20,  8 users,  load average: 0,97, 1,91, 1,05
+Pá dub 11 10:05:18 CEST 2014
+ 10:05:18 up  1:20,  8 users,  load average: 0,89, 1,88, 1,04
+Pá dub 11 10:05:19 CEST 2014
+ 10:05:19 up  1:20,  8 users,  load average: 0,89, 1,88, 1,04
+Pá dub 11 10:05:20 CEST 2014
+ 10:05:20 up  1:20,  8 users,  load average: 0,89, 1,88, 1,04
+Pá dub 11 10:05:21 CEST 2014
+ 10:05:21 up  1:20,  8 users,  load average: 0,89, 1,88, 1,04
+Pá dub 11 10:05:22 CEST 2014
+ 10:05:22 up  1:20,  8 users,  load average: 0,89, 1,88, 1,04
+Pá dub 11 10:05:23 CEST 2014
+ 10:05:23 up  1:20,  8 users,  load average: 2,02, 2,10, 1,12
+Pá dub 11 10:05:24 CEST 2014
+ 10:05:24 up  1:21,  8 users,  load average: 2,02, 2,10, 1,12
+Pá dub 11 10:05:25 CEST 2014
+ 10:05:25 up  1:21,  8 users,  load average: 2,02, 2,10, 1,12
+Pá dub 11 10:05:26 CEST 2014
+ 10:05:26 up  1:21,  8 users,  load average: 2,02, 2,10, 1,12
+Pá dub 11 10:05:27 CEST 2014
+ 10:05:27 up  1:21,  8 users,  load average: 3,06, 2,31, 1,19
+Pá dub 11 10:05:28 CEST 2014
+ 10:05:29 up  1:21,  8 users,  load average: 3,06, 2,31, 1,19
+Pá dub 11 10:05:30 CEST 2014
+ 10:05:30 up  1:21,  8 users,  load average: 3,06, 2,31, 1,19
+Pá dub 11 10:05:31 CEST 2014
+ 10:05:31 up  1:21,  8 users,  load average: 3,06, 2,31, 1,19
+Pá dub 11 10:05:32 CEST 2014
+ 10:05:32 up  1:21,  8 users,  load average: 3,06, 2,31, 1,19
+Pá dub 11 10:05:33 CEST 2014
+ 10:05:33 up  1:21,  8 users,  load average: 4,02, 2,52, 1,27
+Pá dub 11 10:05:34 CEST 2014
+ 10:05:34 up  1:21,  8 users,  load average: 4,02, 2,52, 1,27
+Pá dub 11 10:05:35 CEST 2014
+ 10:05:35 up  1:21,  8 users,  load average: 4,02, 2,52, 1,27
+Pá dub 11 10:05:36 CEST 2014
+ 10:05:36 up  1:21,  8 users,  load average: 4,02, 2,52, 1,27
+Pá dub 11 10:05:37 CEST 2014
+ 10:05:37 up  1:21,  8 users,  load average: 4,02, 2,52, 1,27
+Pá dub 11 10:05:38 CEST 2014
+ 10:05:38 up  1:21,  8 users,  load average: 4,98, 2,75, 1,35
+Pá dub 11 10:05:39 CEST 2014
+ 10:05:39 up  1:21,  8 users,  load average: 4,98, 2,75, 1,35
+Pá dub 11 10:05:40 CEST 2014
+ 10:05:40 up  1:21,  8 users,  load average: 4,98, 2,75, 1,35
+Pá dub 11 10:05:41 CEST 2014
+ 10:05:42 up  1:21,  8 users,  load average: 4,98, 2,75, 1,35
+Pá dub 11 10:05:43 CEST 2014
+ 10:05:43 up  1:21,  8 users,  load average: 5,78, 2,95, 1,42
+Pá dub 11 10:05:44 CEST 2014
+ 10:05:44 up  1:21,  8 users,  load average: 5,78, 2,95, 1,42
+Pá dub 11 10:05:45 CEST 2014
+ 10:05:45 up  1:21,  8 users,  load average: 5,78, 2,95, 1,42
+Pá dub 11 10:05:46 CEST 2014
+ 10:05:46 up  1:21,  8 users,  load average: 5,78, 2,95, 1,42
+Pá dub 11 10:05:47 CEST 2014
+ 10:05:47 up  1:21,  8 users,  load average: 5,78, 2,95, 1,42
+Pá dub 11 10:05:48 CEST 2014
+ 10:05:48 up  1:21,  8 users,  load average: 6,52, 3,15, 1,49
+Pá dub 11 10:05:49 CEST 2014
+ 10:05:49 up  1:21,  8 users,  load average: 6,52, 3,15, 1,49
+Pá dub 11 10:05:50 CEST 2014
+ 10:05:50 up  1:21,  8 users,  load average: 6,52, 3,15, 1,49
+Pá dub 11 10:05:51 CEST 2014
+ 10:05:51 up  1:21,  8 users,  load average: 6,52, 3,15, 1,49
+Pá dub 11 10:05:52 CEST 2014
+ 10:05:52 up  1:21,  8 users,  load average: 7,20, 3,35, 1,56
+Pá dub 11 10:05:53 CEST 2014
+ 10:05:54 up  1:21,  8 users,  load average: 7,20, 3,35, 1,56
+Pá dub 11 10:05:55 CEST 2014
+ 10:05:55 up  1:21,  8 users,  load average: 7,20, 3,35, 1,56
+Pá dub 11 10:05:56 CEST 2014
+ 10:05:56 up  1:21,  8 users,  load average: 7,20, 3,35, 1,56
+Pá dub 11 10:05:57 CEST 2014
+ 10:05:57 up  1:21,  8 users,  load average: 7,20, 3,35, 1,56
+Pá dub 11 10:05:58 CEST 2014
+ 10:05:58 up  1:21,  8 users,  load average: 7,90, 3,56, 1,64
+Pá dub 11 10:05:59 CEST 2014
+ 10:05:59 up  1:21,  8 users,  load average: 7,90, 3,56, 1,64
+Pá dub 11 10:06:00 CEST 2014
+ 10:06:00 up  1:21,  8 users,  load average: 7,90, 3,56, 1,64
+Pá dub 11 10:06:01 CEST 2014
+ 10:06:01 up  1:21,  8 users,  load average: 7,90, 3,56, 1,64
+Pá dub 11 10:06:02 CEST 2014
+ 10:06:02 up  1:21,  8 users,  load average: 8,55, 3,76, 1,72
+Pá dub 11 10:06:03 CEST 2014
+ 10:06:03 up  1:21,  8 users,  load average: 8,55, 3,76, 1,72
+Pá dub 11 10:06:04 CEST 2014
+ 10:06:05 up  1:21,  8 users,  load average: 8,55, 3,76, 1,72
+Pá dub 11 10:06:06 CEST 2014
+ 10:06:06 up  1:21,  8 users,  load average: 8,55, 3,76, 1,72
+Pá dub 11 10:06:07 CEST 2014
+ 10:06:07 up  1:21,  8 users,  load average: 8,55, 3,76, 1,72
+Pá dub 11 10:06:08 CEST 2014
+ 10:06:08 up  1:21,  8 users,  load average: 9,07, 3,95, 1,79
+Pá dub 11 10:06:09 CEST 2014
+ 10:06:09 up  1:21,  8 users,  load average: 9,07, 3,95, 1,79
+Pá dub 11 10:06:10 CEST 2014
+ 10:06:10 up  1:21,  8 users,  load average: 9,07, 3,95, 1,79
+Pá dub 11 10:06:11 CEST 2014
+ 10:06:11 up  1:21,  8 users,  load average: 9,07, 3,95, 1,79
+Pá dub 11 10:06:12 CEST 2014
+ 10:06:12 up  1:21,  8 users,  load average: 9,07, 3,95, 1,79
+Pá dub 11 10:06:13 CEST 2014
+ 10:06:13 up  1:21,  8 users,  load average: 9,46, 4,12, 1,86
+Pá dub 11 10:06:14 CEST 2014
+ 10:06:14 up  1:21,  8 users,  load average: 9,46, 4,12, 1,86
+Pá dub 11 10:06:15 CEST 2014
+ 10:06:16 up  1:21,  8 users,  load average: 9,46, 4,12, 1,86
+Pá dub 11 10:06:17 CEST 2014
+ 10:06:17 up  1:21,  8 users,  load average: 9,46, 4,12, 1,86
+Pá dub 11 10:06:18 CEST 2014
+ 10:06:18 up  1:21,  8 users,  load average: 9,35, 4,18, 1,89
+Pá dub 11 10:06:19 CEST 2014
+ 10:06:19 up  1:21,  8 users,  load average: 9,35, 4,18, 1,89
+Pá dub 11 10:06:20 CEST 2014
+ 10:06:20 up  1:21,  8 users,  load average: 9,35, 4,18, 1,89
+Pá dub 11 10:06:21 CEST 2014
+ 10:06:21 up  1:21,  8 users,  load average: 9,35, 4,18, 1,89
+Pá dub 11 10:06:22 CEST 2014
+ 10:06:22 up  1:21,  8 users,  load average: 9,35, 4,18, 1,89
+Pá dub 11 10:06:23 CEST 2014
+ 10:06:23 up  1:21,  8 users,  load average: 8,68, 4,13, 1,88
+Pá dub 11 10:06:24 CEST 2014
+ 10:06:24 up  1:22,  8 users,  load average: 8,68, 4,13, 1,88
+Pá dub 11 10:06:25 CEST 2014
+ 10:06:25 up  1:22,  8 users,  load average: 8,68, 4,13, 1,88
+Pá dub 11 10:06:26 CEST 2014
+ 10:06:26 up  1:22,  8 users,  load average: 8,68, 4,13, 1,88
+Pá dub 11 10:06:27 CEST 2014
+ 10:06:27 up  1:22,  8 users,  load average: 8,68, 4,13, 1,88
+Pá dub 11 10:06:28 CEST 2014
+ 10:06:28 up  1:22,  8 users,  load average: 9,18, 4,31, 1,95
+Pá dub 11 10:06:29 CEST 2014
+ 10:06:29 up  1:22,  8 users,  load average: 9,18, 4,31, 1,95
+Pá dub 11 10:06:30 CEST 2014
+ 10:06:31 up  1:22,  8 users,  load average: 9,18, 4,31, 1,95
+Pá dub 11 10:06:32 CEST 2014
+ 10:06:32 up  1:22,  8 users,  load average: 9,18, 4,31, 1,95
+Pá dub 11 10:06:33 CEST 2014
+ 10:06:33 up  1:22,  8 users,  load average: 9,81, 4,52, 2,04
+Pá dub 11 10:06:34 CEST 2014
+ 10:06:34 up  1:22,  8 users,  load average: 9,81, 4,52, 2,04
+Pá dub 11 10:06:35 CEST 2014
+ 10:06:35 up  1:22,  8 users,  load average: 9,81, 4,52, 2,04
+Pá dub 11 10:06:36 CEST 2014
+ 10:06:36 up  1:22,  8 users,  load average: 9,81, 4,52, 2,04
+Pá dub 11 10:06:37 CEST 2014
+ 10:06:37 up  1:22,  8 users,  load average: 9,81, 4,52, 2,04
+Pá dub 11 10:06:38 CEST 2014
+ 10:06:38 up  1:22,  8 users,  load average: 10,22, 4,69, 2,10
+Pá dub 11 10:06:39 CEST 2014
+ 10:06:39 up  1:22,  8 users,  load average: 10,22, 4,69, 2,10
+Pá dub 11 10:06:40 CEST 2014
+ 10:06:40 up  1:22,  8 users,  load average: 10,22, 4,69, 2,10
+Pá dub 11 10:06:41 CEST 2014
+ 10:06:42 up  1:22,  8 users,  load average: 10,22, 4,69, 2,10
+Pá dub 11 10:06:43 CEST 2014
+ 10:06:43 up  1:22,  8 users,  load average: 10,77, 4,90, 2,18
+Pá dub 11 10:06:44 CEST 2014
+ 10:06:44 up  1:22,  8 users,  load average: 10,77, 4,90, 2,18
+Pá dub 11 10:06:45 CEST 2014
+ 10:06:45 up  1:22,  8 users,  load average: 10,77, 4,90, 2,18
+Pá dub 11 10:06:46 CEST 2014
+ 10:06:46 up  1:22,  8 users,  load average: 10,77, 4,90, 2,18
+Pá dub 11 10:06:47 CEST 2014
+ 10:06:47 up  1:22,  8 users,  load average: 10,77, 4,90, 2,18
+Pá dub 11 10:06:48 CEST 2014
+ 10:06:48 up  1:22,  8 users,  load average: 11,11, 5,07, 2,25
+Pá dub 11 10:06:49 CEST 2014
+ 10:06:49 up  1:22,  8 users,  load average: 11,11, 5,07, 2,25
+Pá dub 11 10:06:50 CEST 2014
+ 10:06:50 up  1:22,  8 users,  load average: 11,11, 5,07, 2,25
+Pá dub 11 10:06:51 CEST 2014
+ 10:06:51 up  1:22,  8 users,  load average: 11,11, 5,07, 2,25
+Pá dub 11 10:06:52 CEST 2014
+ 10:06:52 up  1:22,  8 users,  load average: 11,42, 5,23, 2,32
+Pá dub 11 10:06:54 CEST 2014
+ 10:06:54 up  1:22,  8 users,  load average: 11,42, 5,23, 2,32
+Pá dub 11 10:06:55 CEST 2014
+ 10:06:55 up  1:22,  8 users,  load average: 11,42, 5,23, 2,32
+Pá dub 11 10:06:56 CEST 2014
+ 10:06:56 up  1:22,  8 users,  load average: 11,42, 5,23, 2,32
+Pá dub 11 10:06:57 CEST 2014
+ 10:06:57 up  1:22,  8 users,  load average: 11,42, 5,23, 2,32
+Pá dub 11 10:06:58 CEST 2014
+ 10:06:58 up  1:22,  8 users,  load average: 11,79, 5,41, 2,40
+Pá dub 11 10:06:59 CEST 2014
+ 10:06:59 up  1:22,  8 users,  load average: 11,79, 5,41, 2,40
+Pá dub 11 10:07:00 CEST 2014
+ 10:07:00 up  1:22,  8 users,  load average: 11,79, 5,41, 2,40
+Pá dub 11 10:07:01 CEST 2014
+ 10:07:01 up  1:22,  8 users,  load average: 11,79, 5,41, 2,40
+Pá dub 11 10:07:02 CEST 2014
+ 10:07:02 up  1:22,  8 users,  load average: 12,04, 5,57, 2,46
+Pá dub 11 10:07:04 CEST 2014
+ 10:07:04 up  1:22,  8 users,  load average: 12,04, 5,57, 2,46
+Pá dub 11 10:07:05 CEST 2014
+ 10:07:05 up  1:22,  8 users,  load average: 12,04, 5,57, 2,46
+Pá dub 11 10:07:06 CEST 2014
+ 10:07:06 up  1:22,  8 users,  load average: 12,04, 5,57, 2,46
+Pá dub 11 10:07:07 CEST 2014
+ 10:07:07 up  1:22,  8 users,  load average: 12,04, 5,57, 2,46
+Pá dub 11 10:07:08 CEST 2014
+ 10:07:08 up  1:22,  8 users,  load average: 12,28, 5,73, 2,53
+Pá dub 11 10:07:09 CEST 2014
+ 10:07:09 up  1:22,  8 users,  load average: 12,28, 5,73, 2,53
+Pá dub 11 10:07:10 CEST 2014
+ 10:07:10 up  1:22,  8 users,  load average: 12,28, 5,73, 2,53
+Pá dub 11 10:07:11 CEST 2014
+ 10:07:11 up  1:22,  8 users,  load average: 12,28, 5,73, 2,53
+Pá dub 11 10:07:12 CEST 2014
+ 10:07:12 up  1:22,  8 users,  load average: 12,28, 5,73, 2,53
+Pá dub 11 10:07:13 CEST 2014
+ 10:07:13 up  1:22,  8 users,  load average: 12,50, 5,88, 2,60
+Pá dub 11 10:07:14 CEST 2014
+ 10:07:14 up  1:22,  8 users,  load average: 12,50, 5,88, 2,60
+Pá dub 11 10:07:15 CEST 2014
+ 10:07:16 up  1:22,  8 users,  load average: 12,50, 5,88, 2,60
+Pá dub 11 10:07:17 CEST 2014
+ 10:07:17 up  1:22,  8 users,  load average: 12,50, 5,88, 2,60
+Pá dub 11 10:07:18 CEST 2014
+ 10:07:18 up  1:22,  8 users,  load average: 12,46, 5,98, 2,65
+Pá dub 11 10:07:19 CEST 2014
+ 10:07:19 up  1:22,  8 users,  load average: 12,46, 5,98, 2,65
+Pá dub 11 10:07:20 CEST 2014
+ 10:07:20 up  1:22,  8 users,  load average: 12,46, 5,98, 2,65
+Pá dub 11 10:07:21 CEST 2014
+ 10:07:21 up  1:22,  8 users,  load average: 12,46, 5,98, 2,65
+Pá dub 11 10:07:22 CEST 2014
+ 10:07:22 up  1:22,  8 users,  load average: 12,46, 5,98, 2,65
+Pá dub 11 10:07:23 CEST 2014
+ 10:07:23 up  1:22,  8 users,  load average: 11,46, 5,88, 2,63
+Pá dub 11 10:07:24 CEST 2014
+ 10:07:24 up  1:23,  8 users,  load average: 11,46, 5,88, 2,63
+Pá dub 11 10:07:25 CEST 2014
+ 10:07:25 up  1:23,  8 users,  load average: 11,46, 5,88, 2,63
+Pá dub 11 10:07:26 CEST 2014
+ 10:07:26 up  1:23,  8 users,  load average: 11,46, 5,88, 2,63
+Pá dub 11 10:07:27 CEST 2014
+ 10:07:27 up  1:23,  8 users,  load average: 11,46, 5,88, 2,63
+Pá dub 11 10:07:28 CEST 2014
+ 10:07:28 up  1:23,  8 users,  load average: 10,54, 5,78, 2,62
+Pá dub 11 10:07:29 CEST 2014
+ 10:07:29 up  1:23,  8 users,  load average: 10,54, 5,78, 2,62
+Pá dub 11 10:07:30 CEST 2014
+ 10:07:30 up  1:23,  8 users,  load average: 10,54, 5,78, 2,62
+Pá dub 11 10:07:31 CEST 2014
+ 10:07:31 up  1:23,  8 users,  load average: 10,54, 5,78, 2,62
+Pá dub 11 10:07:32 CEST 2014
+ 10:07:32 up  1:23,  8 users,  load average: 10,54, 5,78, 2,62
+Pá dub 11 10:07:33 CEST 2014
+ 10:07:33 up  1:23,  8 users,  load average: 9,78, 5,70, 2,61
+Pá dub 11 10:07:34 CEST 2014
+ 10:07:34 up  1:23,  8 users,  load average: 9,78, 5,70, 2,61
+Pá dub 11 10:07:35 CEST 2014
+ 10:07:35 up  1:23,  8 users,  load average: 9,78, 5,70, 2,61
+Pá dub 11 10:07:36 CEST 2014
+ 10:07:36 up  1:23,  8 users,  load average: 9,78, 5,70, 2,61
+Pá dub 11 10:07:37 CEST 2014
+ 10:07:37 up  1:23,  8 users,  load average: 9,78, 5,70, 2,61
+Pá dub 11 10:07:38 CEST 2014
+ 10:07:38 up  1:23,  8 users,  load average: 8,99, 5,61, 2,60
+Pá dub 11 10:07:39 CEST 2014
+ 10:07:39 up  1:23,  8 users,  load average: 8,99, 5,61, 2,60
+Pá dub 11 10:07:40 CEST 2014
+ 10:07:40 up  1:23,  8 users,  load average: 8,99, 5,61, 2,60
+Pá dub 11 10:07:41 CEST 2014
+ 10:07:41 up  1:23,  8 users,  load average: 8,99, 5,61, 2,60
+Pá dub 11 10:07:42 CEST 2014
+ 10:07:42 up  1:23,  8 users,  load average: 8,99, 5,61, 2,60
+Pá dub 11 10:07:43 CEST 2014
+ 10:07:43 up  1:23,  8 users,  load average: 8,27, 5,52, 2,58
+Pá dub 11 10:07:44 CEST 2014
+ 10:07:44 up  1:23,  8 users,  load average: 8,27, 5,52, 2,58
+Pá dub 11 10:07:45 CEST 2014
+ 10:07:45 up  1:23,  8 users,  load average: 8,27, 5,52, 2,58
+Pá dub 11 10:07:46 CEST 2014
+ 10:07:46 up  1:23,  8 users,  load average: 8,27, 5,52, 2,58
+Pá dub 11 10:07:47 CEST 2014
+ 10:07:47 up  1:23,  8 users,  load average: 8,27, 5,52, 2,58
+Pá dub 11 10:07:48 CEST 2014
+ 10:07:48 up  1:23,  8 users,  load average: 7,69, 5,44, 2,57
+Pá dub 11 10:07:49 CEST 2014
+ 10:07:49 up  1:23,  8 users,  load average: 7,69, 5,44, 2,57
+Pá dub 11 10:07:50 CEST 2014
+ 10:07:50 up  1:23,  8 users,  load average: 7,69, 5,44, 2,57
+Pá dub 11 10:07:51 CEST 2014
+ 10:07:51 up  1:23,  8 users,  load average: 7,69, 5,44, 2,57
+Pá dub 11 10:07:52 CEST 2014
+ 10:07:52 up  1:23,  8 users,  load average: 7,69, 5,44, 2,57
+Pá dub 11 10:07:53 CEST 2014
+ 10:07:53 up  1:23,  8 users,  load average: 7,08, 5,35, 2,56
+Pá dub 11 10:07:54 CEST 2014
+ 10:07:54 up  1:23,  8 users,  load average: 7,08, 5,35, 2,56
+Pá dub 11 10:07:55 CEST 2014
+ 10:07:55 up  1:23,  8 users,  load average: 7,08, 5,35, 2,56
+Pá dub 11 10:07:56 CEST 2014
+ 10:07:56 up  1:23,  8 users,  load average: 7,08, 5,35, 2,56
+Pá dub 11 10:07:57 CEST 2014
+ 10:07:57 up  1:23,  8 users,  load average: 7,08, 5,35, 2,56
+Pá dub 11 10:07:58 CEST 2014
+ 10:07:58 up  1:23,  8 users,  load average: 6,59, 5,28, 2,55
+Pá dub 11 10:07:59 CEST 2014
+ 10:07:59 up  1:23,  8 users,  load average: 6,59, 5,28, 2,55
+Pá dub 11 10:08:00 CEST 2014
+ 10:08:00 up  1:23,  8 users,  load average: 6,59, 5,28, 2,55
+Pá dub 11 10:08:01 CEST 2014
+ 10:08:01 up  1:23,  8 users,  load average: 6,59, 5,28, 2,55
+Pá dub 11 10:08:02 CEST 2014
+ 10:08:02 up  1:23,  8 users,  load average: 6,22, 5,22, 2,55
+Pá dub 11 10:08:03 CEST 2014
+ 10:08:03 up  1:23,  8 users,  load average: 6,22, 5,22, 2,55
+Pá dub 11 10:08:04 CEST 2014
+ 10:08:04 up  1:23,  8 users,  load average: 6,22, 5,22, 2,55
+Pá dub 11 10:08:05 CEST 2014
+ 10:08:05 up  1:23,  8 users,  load average: 6,22, 5,22, 2,55
+Pá dub 11 10:08:06 CEST 2014
+ 10:08:06 up  1:23,  8 users,  load average: 6,22, 5,22, 2,55
+Pá dub 11 10:08:07 CEST 2014
+ 10:08:07 up  1:23,  8 users,  load average: 5,72, 5,14, 2,54
+Pá dub 11 10:08:08 CEST 2014
+ 10:08:08 up  1:23,  8 users,  load average: 5,72, 5,14, 2,54
+Pá dub 11 10:08:09 CEST 2014
+ 10:08:09 up  1:23,  8 users,  load average: 5,72, 5,14, 2,54
+Pá dub 11 10:08:10 CEST 2014
+ 10:08:10 up  1:23,  8 users,  load average: 5,72, 5,14, 2,54
+Pá dub 11 10:08:11 CEST 2014
+ 10:08:12 up  1:23,  8 users,  load average: 5,72, 5,14, 2,54
+Pá dub 11 10:08:13 CEST 2014
+ 10:08:13 up  1:23,  8 users,  load average: 5,35, 5,07, 2,53
+Pá dub 11 10:08:14 CEST 2014
+ 10:08:14 up  1:23,  8 users,  load average: 5,35, 5,07, 2,53
+Pá dub 11 10:08:15 CEST 2014
+ 10:08:15 up  1:23,  8 users,  load average: 5,35, 5,07, 2,53
+Pá dub 11 10:08:16 CEST 2014
+ 10:08:16 up  1:23,  8 users,  load average: 5,35, 5,07, 2,53
+Pá dub 11 10:08:17 CEST 2014
+ 10:08:17 up  1:23,  8 users,  load average: 5,35, 5,07, 2,53
+Pá dub 11 10:08:18 CEST 2014
+ 10:08:18 up  1:23,  8 users,  load average: 4,92, 4,98, 2,51
+Pá dub 11 10:08:19 CEST 2014
+ 10:08:19 up  1:23,  8 users,  load average: 4,92, 4,98, 2,51
+Pá dub 11 10:08:20 CEST 2014
+ 10:08:20 up  1:23,  8 users,  load average: 4,92, 4,98, 2,51
+Pá dub 11 10:08:21 CEST 2014
+ 10:08:21 up  1:23,  8 users,  load average: 4,92, 4,98, 2,51
+Pá dub 11 10:08:22 CEST 2014
+ 10:08:22 up  1:23,  8 users,  load average: 4,92, 4,98, 2,51
+Pá dub 11 10:08:23 CEST 2014
+ 10:08:23 up  1:23,  8 users,  load average: 4,52, 4,90, 2,50
+Pá dub 11 10:08:24 CEST 2014
+ 10:08:24 up  1:24,  8 users,  load average: 4,52, 4,90, 2,50
+Pá dub 11 10:08:25 CEST 2014
+ 10:08:25 up  1:24,  8 users,  load average: 4,52, 4,90, 2,50
+Pá dub 11 10:08:26 CEST 2014
+ 10:08:26 up  1:24,  8 users,  load average: 4,52, 4,90, 2,50
+Pá dub 11 10:08:27 CEST 2014
+ 10:08:27 up  1:24,  8 users,  load average: 4,52, 4,90, 2,50
+Pá dub 11 10:08:28 CEST 2014
+ 10:08:28 up  1:24,  8 users,  load average: 4,16, 4,82, 2,49
+Pá dub 11 10:08:29 CEST 2014
+ 10:08:29 up  1:24,  8 users,  load average: 4,16, 4,82, 2,49
+Pá dub 11 10:08:30 CEST 2014
+ 10:08:30 up  1:24,  8 users,  load average: 4,16, 4,82, 2,49
+Pá dub 11 10:08:31 CEST 2014
+ 10:08:31 up  1:24,  8 users,  load average: 4,16, 4,82, 2,49
+Pá dub 11 10:08:32 CEST 2014
+ 10:08:32 up  1:24,  8 users,  load average: 4,16, 4,82, 2,49
+Pá dub 11 10:08:33 CEST 2014
+ 10:08:33 up  1:24,  8 users,  load average: 3,83, 4,74, 2,47
+Pá dub 11 10:08:34 CEST 2014
+ 10:08:34 up  1:24,  8 users,  load average: 3,83, 4,74, 2,47
+Pá dub 11 10:08:35 CEST 2014
+ 10:08:35 up  1:24,  8 users,  load average: 3,83, 4,74, 2,47
+Pá dub 11 10:08:36 CEST 2014
+ 10:08:36 up  1:24,  8 users,  load average: 3,83, 4,74, 2,47
+Pá dub 11 10:08:37 CEST 2014
+ 10:08:37 up  1:24,  8 users,  load average: 3,83, 4,74, 2,47
+Pá dub 11 10:08:38 CEST 2014
+ 10:08:38 up  1:24,  8 users,  load average: 3,52, 4,66, 2,46
+Pá dub 11 10:08:39 CEST 2014
+ 10:08:39 up  1:24,  8 users,  load average: 3,52, 4,66, 2,46
+Pá dub 11 10:08:40 CEST 2014
+ 10:08:40 up  1:24,  8 users,  load average: 3,52, 4,66, 2,46
+Pá dub 11 10:08:41 CEST 2014
+ 10:08:41 up  1:24,  8 users,  load average: 3,52, 4,66, 2,46
+Pá dub 11 10:08:42 CEST 2014
+ 10:08:42 up  1:24,  8 users,  load average: 3,52, 4,66, 2,46
+Pá dub 11 10:08:43 CEST 2014
+ 10:08:43 up  1:24,  8 users,  load average: 3,24, 4,58, 2,45
+Pá dub 11 10:08:44 CEST 2014
+ 10:08:44 up  1:24,  8 users,  load average: 3,24, 4,58, 2,45
+Pá dub 11 10:08:45 CEST 2014
+ 10:08:45 up  1:24,  8 users,  load average: 3,24, 4,58, 2,45
+Pá dub 11 10:08:46 CEST 2014
+ 10:08:46 up  1:24,  8 users,  load average: 3,24, 4,58, 2,45
+Pá dub 11 10:08:47 CEST 2014
+ 10:08:47 up  1:24,  8 users,  load average: 3,24, 4,58, 2,45
+Pá dub 11 10:08:48 CEST 2014
+ 10:08:48 up  1:24,  8 users,  load average: 3,06, 4,52, 2,44
+Pá dub 11 10:08:49 CEST 2014
+ 10:08:49 up  1:24,  8 users,  load average: 3,06, 4,52, 2,44
+Pá dub 11 10:08:50 CEST 2014
+ 10:08:50 up  1:24,  8 users,  load average: 3,06, 4,52, 2,44
+Pá dub 11 10:08:51 CEST 2014
+ 10:08:51 up  1:24,  8 users,  load average: 3,06, 4,52, 2,44
+Pá dub 11 10:08:52 CEST 2014
+ 10:08:52 up  1:24,  8 users,  load average: 3,06, 4,52, 2,44
+Pá dub 11 10:08:53 CEST 2014
+ 10:08:53 up  1:24,  8 users,  load average: 2,81, 4,45, 2,43
+Pá dub 11 10:08:54 CEST 2014
+ 10:08:54 up  1:24,  8 users,  load average: 2,81, 4,45, 2,43
+Pá dub 11 10:08:55 CEST 2014
+ 10:08:55 up  1:24,  8 users,  load average: 2,81, 4,45, 2,43
+Pá dub 11 10:08:56 CEST 2014
+ 10:08:56 up  1:24,  8 users,  load average: 2,81, 4,45, 2,43
+Pá dub 11 10:08:57 CEST 2014
+ 10:08:57 up  1:24,  8 users,  load average: 2,81, 4,45, 2,43
+Pá dub 11 10:08:58 CEST 2014
+ 10:08:58 up  1:24,  8 users,  load average: 2,59, 4,38, 2,41
+Pá dub 11 10:08:59 CEST 2014
+ 10:08:59 up  1:24,  8 users,  load average: 2,59, 4,38, 2,41
+Pá dub 11 10:09:00 CEST 2014
+ 10:09:00 up  1:24,  8 users,  load average: 2,59, 4,38, 2,41
+Pá dub 11 10:09:01 CEST 2014
+ 10:09:01 up  1:24,  8 users,  load average: 2,59, 4,38, 2,41
+Pá dub 11 10:09:02 CEST 2014
+ 10:09:02 up  1:24,  8 users,  load average: 2,59, 4,38, 2,41
+Pá dub 11 10:09:03 CEST 2014
+ 10:09:03 up  1:24,  8 users,  load average: 2,38, 4,30, 2,40
+Pá dub 11 10:09:04 CEST 2014
+ 10:09:04 up  1:24,  8 users,  load average: 2,38, 4,30, 2,40
+Pá dub 11 10:09:05 CEST 2014
+ 10:09:05 up  1:24,  8 users,  load average: 2,38, 4,30, 2,40
+Pá dub 11 10:09:06 CEST 2014
+ 10:09:06 up  1:24,  8 users,  load average: 2,38, 4,30, 2,40
+Pá dub 11 10:09:07 CEST 2014
+ 10:09:07 up  1:24,  8 users,  load average: 2,38, 4,30, 2,40
+Pá dub 11 10:09:08 CEST 2014
+ 10:09:08 up  1:24,  8 users,  load average: 2,19, 4,23, 2,39
+Pá dub 11 10:09:09 CEST 2014
+ 10:09:09 up  1:24,  8 users,  load average: 2,19, 4,23, 2,39
+Pá dub 11 10:09:10 CEST 2014
+ 10:09:10 up  1:24,  8 users,  load average: 2,19, 4,23, 2,39
+Pá dub 11 10:09:11 CEST 2014
+ 10:09:11 up  1:24,  8 users,  load average: 2,19, 4,23, 2,39
+Pá dub 11 10:09:12 CEST 2014
+ 10:09:12 up  1:24,  8 users,  load average: 2,19, 4,23, 2,39
+Pá dub 11 10:09:13 CEST 2014
+ 10:09:13 up  1:24,  8 users,  load average: 2,02, 4,16, 2,37
+Pá dub 11 10:09:14 CEST 2014
+ 10:09:14 up  1:24,  8 users,  load average: 2,02, 4,16, 2,37
+Pá dub 11 10:09:15 CEST 2014
+ 10:09:15 up  1:24,  8 users,  load average: 2,02, 4,16, 2,37
+Pá dub 11 10:09:16 CEST 2014
+ 10:09:16 up  1:24,  8 users,  load average: 2,02, 4,16, 2,37
+Pá dub 11 10:09:17 CEST 2014
+ 10:09:17 up  1:24,  8 users,  load average: 2,02, 4,16, 2,37
+Pá dub 11 10:09:18 CEST 2014
+ 10:09:18 up  1:24,  8 users,  load average: 1,85, 4,09, 2,36
+Pá dub 11 10:09:19 CEST 2014
+ 10:09:19 up  1:24,  8 users,  load average: 1,85, 4,09, 2,36
+Pá dub 11 10:09:20 CEST 2014
+ 10:09:20 up  1:24,  8 users,  load average: 1,85, 4,09, 2,36
+Pá dub 11 10:09:21 CEST 2014
+ 10:09:21 up  1:24,  8 users,  load average: 1,85, 4,09, 2,36
+Pá dub 11 10:09:22 CEST 2014
+ 10:09:22 up  1:24,  8 users,  load average: 1,85, 4,09, 2,36
+Pá dub 11 10:09:23 CEST 2014
+ 10:09:23 up  1:25,  8 users,  load average: 1,71, 4,02, 2,35
+Pá dub 11 10:09:24 CEST 2014
+ 10:09:24 up  1:25,  8 users,  load average: 1,71, 4,02, 2,35
+Pá dub 11 10:09:25 CEST 2014
+ 10:09:25 up  1:25,  8 users,  load average: 1,71, 4,02, 2,35
+Pá dub 11 10:09:26 CEST 2014
+ 10:09:26 up  1:25,  8 users,  load average: 1,71, 4,02, 2,35
+Pá dub 11 10:09:27 CEST 2014
+ 10:09:27 up  1:25,  8 users,  load average: 1,71, 4,02, 2,35
+Pá dub 11 10:09:28 CEST 2014
+ 10:09:28 up  1:25,  8 users,  load average: 1,57, 3,96, 2,34
+Pá dub 11 10:09:29 CEST 2014
+ 10:09:29 up  1:25,  8 users,  load average: 1,57, 3,96, 2,34
+Pá dub 11 10:09:30 CEST 2014
+ 10:09:30 up  1:25,  8 users,  load average: 1,57, 3,96, 2,34
+Pá dub 11 10:09:31 CEST 2014
+ 10:09:31 up  1:25,  8 users,  load average: 1,57, 3,96, 2,34
+Pá dub 11 10:09:32 CEST 2014
+ 10:09:32 up  1:25,  8 users,  load average: 1,44, 3,89, 2,32
+Pá dub 11 10:09:33 CEST 2014
+ 10:09:33 up  1:25,  8 users,  load average: 1,44, 3,89, 2,32
+Pá dub 11 10:09:34 CEST 2014
+ 10:09:34 up  1:25,  8 users,  load average: 1,44, 3,89, 2,32
+Pá dub 11 10:09:35 CEST 2014
+ 10:09:35 up  1:25,  8 users,  load average: 1,44, 3,89, 2,32
+Pá dub 11 10:09:36 CEST 2014
+ 10:09:36 up  1:25,  8 users,  load average: 1,44, 3,89, 2,32
+Pá dub 11 10:09:38 CEST 2014
+ 10:09:38 up  1:25,  8 users,  load average: 1,33, 3,83, 2,31
+Pá dub 11 10:09:39 CEST 2014
+ 10:09:39 up  1:25,  8 users,  load average: 1,33, 3,83, 2,31
+Pá dub 11 10:09:40 CEST 2014
+ 10:09:40 up  1:25,  8 users,  load average: 1,33, 3,83, 2,31
+Pá dub 11 10:09:41 CEST 2014
+ 10:09:41 up  1:25,  8 users,  load average: 1,33, 3,83, 2,31
+Pá dub 11 10:09:42 CEST 2014
+ 10:09:42 up  1:25,  8 users,  load average: 1,33, 3,83, 2,31
+Pá dub 11 10:09:43 CEST 2014
+ 10:09:43 up  1:25,  8 users,  load average: 1,22, 3,76, 2,30
+Pá dub 11 10:09:44 CEST 2014
+ 10:09:44 up  1:25,  8 users,  load average: 1,22, 3,76, 2,30
+Pá dub 11 10:09:45 CEST 2014
+ 10:09:45 up  1:25,  8 users,  load average: 1,22, 3,76, 2,30
+Pá dub 11 10:09:46 CEST 2014
+ 10:09:46 up  1:25,  8 users,  load average: 1,22, 3,76, 2,30
+Pá dub 11 10:09:47 CEST 2014
+ 10:09:47 up  1:25,  8 users,  load average: 1,22, 3,76, 2,30
+Pá dub 11 10:09:48 CEST 2014
+ 10:09:48 up  1:25,  8 users,  load average: 1,12, 3,70, 2,29
+Pá dub 11 10:09:49 CEST 2014
+ 10:09:49 up  1:25,  8 users,  load average: 1,12, 3,70, 2,29
+Pá dub 11 10:09:50 CEST 2014
+ 10:09:50 up  1:25,  8 users,  load average: 1,12, 3,70, 2,29
+Pá dub 11 10:09:51 CEST 2014
+ 10:09:51 up  1:25,  8 users,  load average: 1,12, 3,70, 2,29
+Pá dub 11 10:09:52 CEST 2014
+ 10:09:52 up  1:25,  8 users,  load average: 1,12, 3,70, 2,29
+Pá dub 11 10:09:53 CEST 2014
+ 10:09:53 up  1:25,  8 users,  load average: 1,03, 3,64, 2,27
+Pá dub 11 10:09:54 CEST 2014
+ 10:09:54 up  1:25,  8 users,  load average: 1,03, 3,64, 2,27
+Pá dub 11 10:09:55 CEST 2014
+ 10:09:55 up  1:25,  8 users,  load average: 1,03, 3,64, 2,27
+Pá dub 11 10:09:56 CEST 2014
+ 10:09:56 up  1:25,  8 users,  load average: 1,03, 3,64, 2,27
+Pá dub 11 10:09:57 CEST 2014
+ 10:09:57 up  1:25,  8 users,  load average: 1,03, 3,64, 2,27
+Pá dub 11 10:09:58 CEST 2014
+ 10:09:58 up  1:25,  8 users,  load average: 1,11, 3,61, 2,27
+Pá dub 11 10:09:59 CEST 2014
+ 10:09:59 up  1:25,  8 users,  load average: 1,11, 3,61, 2,27
+Pá dub 11 10:10:00 CEST 2014
+ 10:10:00 up  1:25,  8 users,  load average: 1,11, 3,61, 2,27
+Pá dub 11 10:10:01 CEST 2014
+ 10:10:01 up  1:25,  8 users,  load average: 1,11, 3,61, 2,27
+Pá dub 11 10:10:02 CEST 2014
+ 10:10:02 up  1:25,  8 users,  load average: 1,11, 3,61, 2,27
+Pá dub 11 10:10:03 CEST 2014
+ 10:10:03 up  1:25,  8 users,  load average: 1,10, 3,57, 2,27
+Pá dub 11 10:10:04 CEST 2014
+ 10:10:04 up  1:25,  8 users,  load average: 1,10, 3,57, 2,27
+Pá dub 11 10:10:05 CEST 2014
+ 10:10:05 up  1:25,  8 users,  load average: 1,10, 3,57, 2,27
+Pá dub 11 10:10:06 CEST 2014
+ 10:10:06 up  1:25,  8 users,  load average: 1,10, 3,57, 2,27
+Pá dub 11 10:10:07 CEST 2014
+ 10:10:07 up  1:25,  8 users,  load average: 1,10, 3,57, 2,27
+Pá dub 11 10:10:08 CEST 2014
+ 10:10:08 up  1:25,  8 users,  load average: 1,25, 3,56, 2,27
+Pá dub 11 10:10:09 CEST 2014
+ 10:10:09 up  1:25,  8 users,  load average: 1,25, 3,56, 2,27
+Pá dub 11 10:10:10 CEST 2014
+ 10:10:10 up  1:25,  8 users,  load average: 1,25, 3,56, 2,27
+Pá dub 11 10:10:11 CEST 2014
+ 10:10:11 up  1:25,  8 users,  load average: 1,25, 3,56, 2,27
+Pá dub 11 10:10:12 CEST 2014
+ 10:10:12 up  1:25,  8 users,  load average: 1,25, 3,56, 2,27
+Pá dub 11 10:10:13 CEST 2014
+ 10:10:13 up  1:25,  8 users,  load average: 1,15, 3,50, 2,26
+Pá dub 11 10:10:14 CEST 2014
+ 10:10:14 up  1:25,  8 users,  load average: 1,15, 3,50, 2,26
+Pá dub 11 10:10:15 CEST 2014
+ 10:10:15 up  1:25,  8 users,  load average: 1,15, 3,50, 2,26
+Pá dub 11 10:10:16 CEST 2014
+ 10:10:16 up  1:25,  8 users,  load average: 1,15, 3,50, 2,26
+Pá dub 11 10:10:17 CEST 2014
+ 10:10:17 up  1:25,  8 users,  load average: 1,15, 3,50, 2,26
+Pá dub 11 10:10:18 CEST 2014
+ 10:10:18 up  1:25,  8 users,  load average: 1,06, 3,44, 2,25

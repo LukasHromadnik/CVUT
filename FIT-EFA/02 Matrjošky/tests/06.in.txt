@@ -1,0 +1,7 @@
+6
+-10 Pepa
+-3 Kuba
+3 Kuba
+10 Roman
+-8 Kuba
+8 Roman

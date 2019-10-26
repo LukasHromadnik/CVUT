@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.1 (64-bit)
+# Build 179419 by xbuild on Thu Apr 26 11:43:29 MDT 2012
+# Start of session at: Mon Mar 10 12:02:26 2014
+# Process ID: 3468
+# Log file: H:/sap/lab4/segment/planAhead_run_1/planAhead.log
+# Journal file: H:/sap/lab4/segment/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source H:/sap/lab4/segment/pa.fromHdl.tcl
+exit

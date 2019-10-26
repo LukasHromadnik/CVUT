@@ -1,0 +1,2 @@
+vhdtdtfi -lib work segg.vhd -lib work sega.vhd -prj segments -o algebra.spl -module algebra -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e algebra.spl C:/Users/Luke/Documents/BI-SAP/segments/algebra.sym 

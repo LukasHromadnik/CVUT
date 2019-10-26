@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl klopD_drc.vhf -w C:/Users/Luke/Documents/BI-SAP/snake/klopD.sch 
+sch2sym -intstyle ise -family spartan3e -refsym klopD C:/Users/Luke/Documents/BI-SAP/snake/klopD.sch C:/Users/Luke/Documents/BI-SAP/snake/klopD.sym 

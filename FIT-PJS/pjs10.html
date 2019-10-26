@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>BI-PJS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<style type="text/css">
+	h1 { color: red; text-decoration: underline; }
+	p { color: blue; }
+	.zluty { color: yellow; }
+	#tretiOdstavec { color: red; }
+	#secondDiv { background-color: green; width: 200px; height: 30px; }
+	</style>
+</head>
+
+<body>
+	<h1>Skriptování DOM 2, DOM 3</h1>
+	<div id="ukazkaDiv" style="color: green;">Já jsem ukázkový div</div>
+	<p>První odstavec</p>
+	<p class="zluty">Druhý odstavec</p>
+	<p id="tretiOdstavec">Třetí odstavec</p>
+	<p class="zluty">Čtvrt odstavec</p>
+	<div id="myDiv">Toto je můj div</div>
+	<div id="secondDiv" style="background-color: yellow; border: 3px solid blue;">Toto je druhý div</div>
+
+	<script type="text/javascript">
+		// DOm urovne 2, 3 ma vice modulu
+
+		// rozsireni o namepsaces - dulezite napr. pri vkladani XM, SVG, ...
+		// viz Edux a help
+			
+		// prace se styly
+
+		// podporuje browse praci s CSS na urovni DOM level 2?
+		// alert(document.implementation.hasFeature("CSS", "2.0"));
+		// Podporuje CSS2?
+		// alert(document.implementation.hasFeature("CSS2", "2.0"));
+
+		// elementy HTML (podporujici CSS) maji vlastnost style
+		// Objekt style neobsahuje zadne odvozene (kaskadovane) vlastnosti
+		// ani vlastnosti z pouzitych vlastnosti stylu - POUZE hodnoty z atributu style
+		// nazvy vlastnosti CSS se reprezentuji jako nazvy vlastnosti objektu style
+		// color --> style.color
+		// neleze pouzivat pomlcky ("minus") - proto se pouziva camel style
+		// font-family --> style.fontFamily
+		// nelze pouzit float (klicove slovo) - proto cssFloat (IE styleFloat)
+
+		// style mozne menit javascriptem - efekty:
+		// alert('Zmenim div!');
+
+		var myDiv = document.getElementById('myDiv');
+		myDiv.style.backgroundColor = "cyan";
+		myDiv.style.width = "150px"; // ve std. rezimu jednotky nutne
+		myDiv.style.height = "25px";
+		myDiv.style.border = "2px solid red";
+
+		// vlastnosti stylu mohu cist - ruzne metody
+		var str = "";
+
+		for (var i = 0; i < myDiv.style.length; i++) {
+			var name = myDiv.style[i];
+			str += name + " : " + myDiv.style.getPropertyValue(name) + "\n";
+		}
+
+		// alert(str);
+
+		// odvozene (kaskadovane) styly - lze pouze cist
+
+		var myDiv2 = document.getElementById('secondDiv');
+		var computedStyle = document.defaultView.getComputedStyle(myDiv2, false); // false pro pseudo elementy
+		
+		// alert(computedStyle.backgroundColor);
+		// alert(computedStyle.width);
+
+		// Sablony stylu (stylesheets) - jak <link ..>, tak <style> - viz Edux
+
+		// Prochazeni struktury DOM - NodeIterator a TreeWalker
+		// priklad prochazei podstramu daneho uzlu s filtrovanim
+		// filtrovaci funkce
+		var filter = function (node) {
+			return (node.tagName.toLowerCase() == 'div') ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
+		};
+
+		var iterator = document.createNodeIterator(document.documentElement, NodeFilter.SHOW_ELEMENT, filter, false);
+		// vlastni filtrovani
+		str = "";
+		var node = iterator.nextNode();
+		while (node != null) {
+			str += node.tagName + "\n";
+
+			node = iterator.nextNode();
+		}
+		
+		// alert(str);
+
+
+
+
+	</script>
+</body>
+
+</html>

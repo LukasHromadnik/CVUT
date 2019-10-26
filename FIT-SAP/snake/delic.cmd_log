@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl delic_drc.vhf -w C:/Users/Luke/Documents/BI-SAP/snake/delic.sch 
+sch2sym -intstyle ise -family spartan3e -refsym delic C:/Users/Luke/Documents/BI-SAP/snake/delic.sch C:/Users/Luke/Documents/BI-SAP/snake/delic.sym 

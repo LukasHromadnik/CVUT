@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../debounce.vhd -prj segment -o debounce.spl -module debounce -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e debounce.spl H:/sap/lab4/segment/debounce.sym 

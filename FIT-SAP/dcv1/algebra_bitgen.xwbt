@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Luke\Documents\BI-SAP\dcv1\algebra.ncd
+OUTFILE=C:\Users\Luke\Documents\BI-SAP\dcv1\algebra.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4cp132
+WORKINGDIR=C:\Users\Luke\Documents\BI-SAP\dcv1
+LICENSE=WebPack
+USER_INFO=210863870_0_0_133

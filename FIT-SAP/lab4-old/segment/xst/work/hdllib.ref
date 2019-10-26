@@ -1,0 +1,16 @@
+EN seg NULL //samba1/homes/hromalu1/sap/lab4/segment/seg.vhf sub00/vhpl14 1394449437
+AR segf behavioral G:/segF.vhd sub00/vhpl11 1394449434
+AR segd behavioral G:/segD.vhd sub00/vhpl07 1394449430
+AR segb behavioral G:/segB.vhd sub00/vhpl03 1394449426
+AR segg behavioral G:/segG.vhd sub00/vhpl13 1394449436
+AR sege behavioral G:/segE.vhd sub00/vhpl09 1394449432
+AR segc behavioral G:/segC.vhd sub00/vhpl05 1394449428
+EN sega NULL G:/segA.vhd sub00/vhpl00 1394449423
+EN segb NULL G:/segB.vhd sub00/vhpl02 1394449425
+EN segc NULL G:/segC.vhd sub00/vhpl04 1394449427
+EN segd NULL G:/segD.vhd sub00/vhpl06 1394449429
+EN sege NULL G:/segE.vhd sub00/vhpl08 1394449431
+EN segf NULL G:/segF.vhd sub00/vhpl10 1394449433
+EN segg NULL G:/segG.vhd sub00/vhpl12 1394449435
+AR seg behavioral //samba1/homes/hromalu1/sap/lab4/segment/seg.vhf sub00/vhpl15 1394449438
+AR sega behavioral G:/segA.vhd sub00/vhpl01 1394449424

@@ -1,0 +1,43 @@
+V3 34
+FL //samba1/homes/hromalu1/sap/lab4/segment/seg.vhf 2014/03/10.13:02:34 P.15xf
+EN work/seg 1394449437 FL //samba1/homes/hromalu1/sap/lab4/segment/seg.vhf \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627 LB UNISIM \
+      PH unisim/VCOMPONENTS 1335251629
+AR work/seg/BEHAVIORAL 1394449438 \
+      FL //samba1/homes/hromalu1/sap/lab4/segment/seg.vhf EN work/seg 1394449437 \
+      CP segA CP segB CP segC CP segD CP segE CP segF CP segG CP GND CP VCC
+FL G:/segA.vhd 2014/03/10.11:45:24 P.15xf
+EN work/segA 1394449423 FL G:/segA.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/std_logic_arith 1335251623 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/segA/Behavioral 1394449424 \
+      FL G:/segA.vhd EN work/segA 1394449423
+FL G:/segB.vhd 2014/03/10.11:45:38 P.15xf
+EN work/segB 1394449425 FL G:/segB.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/std_logic_arith 1335251623 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/segB/Behavioral 1394449426 \
+      FL G:/segB.vhd EN work/segB 1394449425
+FL G:/segC.vhd 2014/03/10.11:45:52 P.15xf
+EN work/segC 1394449427 FL G:/segC.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/std_logic_arith 1335251623 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/segC/Behavioral 1394449428 \
+      FL G:/segC.vhd EN work/segC 1394449427
+FL G:/segD.vhd 2014/03/10.11:45:16 P.15xf
+EN work/segD 1394449429 FL G:/segD.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/std_logic_arith 1335251623 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/segD/Behavioral 1394449430 \
+      FL G:/segD.vhd EN work/segD 1394449429
+FL G:/segE.vhd 2014/03/10.11:45:30 P.15xf
+EN work/segE 1394449431 FL G:/segE.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/std_logic_arith 1335251623 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/segE/Behavioral 1394449432 \
+      FL G:/segE.vhd EN work/segE 1394449431
+FL G:/segF.vhd 2014/03/10.11:45:10 P.15xf
+EN work/segF 1394449433 FL G:/segF.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/std_logic_arith 1335251623 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/segF/Behavioral 1394449434 \
+      FL G:/segF.vhd EN work/segF 1394449433
+FL G:/segG.vhd 2014/03/10.11:45:46 P.15xf
+EN work/segG 1394449435 FL G:/segG.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/std_logic_arith 1335251623 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/segG/Behavioral 1394449436 \
+      FL G:/segG.vhd EN work/segG 1394449435

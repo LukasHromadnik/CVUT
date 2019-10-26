@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Luke/Documents/BI-SAP/dcv1/l2_agebra_4_test_isim_beh.exe" -prj "C:/Users/Luke/Documents/BI-SAP/dcv1/l2_agebra_4_test_beh.prj" "work.l2_agebra_4_test" 

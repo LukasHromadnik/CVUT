@@ -1,0 +1,7 @@
+6
+-10 Pepa
+-3 Kuba'); DROP TABLE Kids;
+3 Kuba
+-8 Roman
+8 Kuba
+10 Roman

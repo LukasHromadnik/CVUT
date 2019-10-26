@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html lang="sk" class="ie7 no-js"> <![endif]-->
+<!--[if lt IE 9 ]><html lang="sk" class="ie8 no-js"> <![endif]-->
+<!--[if lt IE 10 ]><html lang="sk" class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!--><html lang="sk" class="no-js"> <!--<![endif]-->
+
+	<head>
+		<!-- metas -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="author" content="Igor Kuľka" />
+		<meta name="description" content="Popis" />
+		<meta name="keywords" content="Klucove slova" />
+		<title>Events</title>
+
+	</head>
+
+	<body>
+
+		<div id="content-wrapper">
+			
+			<div id="content">
+
+				<h1>Udalosti</h1>
+
+				<script type="text/javascript">
+
+					function zpracujKliknuti () {
+						alert("zpracovano");
+					}
+
+				</script>
+
+				<input type="button" value="klikni" onclick="alert('funguje');">&nbsp;&nbsp;
+				<input type="button" value="klikniZnovu" onclick="zpracujKliknuti();"><br><br>
+
+				<input type="button" value="DOM0" id="btnDOM0">&nbsp;&nbsp;
+				<input type="button" value="DOM2" id="btnDOM2">&nbsp;&nbsp;
+
+				<input type="button" value="event" id="btnEvent"><br><br>
+
+				<a href="http:\\centrum.cz" id="idCentrum">prechod na Centrum</a><br><br>
+
+				<div id="divCtverec" style="width:100px;height:100px;background-color:yellow;"></div>
+				<div id="divCtverec2" style="width:100px;height:100px;background-color:cyan;"></div>
+
+				<input type="text" id="txtCisla">
+
+				<script type="text/javascript">
+
+					var btn = document.getElementById("btnDOM0");
+					btn.onclick = function () {
+
+						alert("zpracovano dle DOM0");
+
+					}
+
+					var btn2 = document.getElementById("btnDOM2");
+					btn2.addEventListener("click", function() {
+						alert(this.id);
+					}, false); // probublavani
+
+					btn2.addEventListener("click", function() {
+						alert(event.type);
+					}, false); // probublavani
+
+					btn2.addEventListener("click", zpracujKliknuti, false);
+
+					//IE attachEvent, detachEvent, onclick, obracene
+
+					// event
+
+					var aCentrum = document.getElementById("idCentrum");
+					aCentrum.addEventListener("click", function(event) {
+						event.preventDefault();
+						alert("zakazano!");
+					});
+
+					// event.shiftkey, ctrlkey, button
+					var divCtverec = document.getElementById("divCtverec");
+					divCtverec.addEventListener("mouseover", function() {
+						divCtverec.style.backgroundColor = "red";
+					}, false);
+					divCtverec.addEventListener("mouseout", function() {
+						divCtverec.style.backgroundColor = "blue";
+					}, false);
+
+					var divCtverec2 = document.getElementById("divCtverec2");
+					divCtverec2.addEventListener("mousedown", function(event) {
+						alert(event.clientX + " " + event.clientY);
+					}, false);
+					
+					// udalosti klavesnice
+					var txt = document.getElementById("txtCisla");
+					txt.addEventListener("keypress", function (event) {
+						var znak = String.fromCharCode(event.charCode);
+						if ("0" > znak || "9" < znak) {
+							event.preventDefault();
+							alert("neni cislo");
+						}
+					}, false);
+
+					window.addEventListener("load", function () {
+						alert("stranka zavedena");
+					},false);
+
+
+				</script>
+
+			</div>
+			<!-- #content -->
+		</div>
+		<!-- #content-wrapper -->
+	</body>
+
+</html>

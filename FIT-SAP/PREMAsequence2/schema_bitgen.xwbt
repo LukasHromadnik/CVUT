@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=H:\Documents\SAP\sequence2\schema.ncd
+OUTFILE=H:\Documents\SAP\sequence2\schema.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=H:\Documents\SAP\sequence2
+LICENSE=ISE
+USER_INFO=176157208_177724465_210573123_105

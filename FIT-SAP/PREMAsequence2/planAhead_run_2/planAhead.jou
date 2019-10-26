@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.1 (64-bit)
+# Build 179419 by xbuild on Thu Apr 26 11:43:29 MDT 2012
+# Start of session at: Mon Mar 31 14:08:19 2014
+# Process ID: 2172
+# Log file: H:/Documents/SAP/sequence2/planAhead_run_2/planAhead.log
+# Journal file: H:/Documents/SAP/sequence2/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source H:/Documents/SAP/sequence2/pa.fromHdl.tcl

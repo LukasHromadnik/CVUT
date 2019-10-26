@@ -1,0 +1,21 @@
+
+
+NET "B8" LOC = B8;
+NET "CLEAR" LOC = M4;
+NET "MEAL0" LOC = M5;
+NET "MEAL1" LOC = M11;
+NET "MEAL2" LOC = P7;
+NET "MOORE0" LOC = N5;
+NET "MOORE1" LOC = N4;
+NET "MOORE2" LOC = P4;
+
+# PlanAhead Generated physical constraints 
+
+NET "D0" LOC = M5;
+NET "D1" LOC = M11;
+NET "D2" LOC = P7;
+NET "D3" LOC = P6;
+NET "D4" LOC = N5;
+NET "D5" LOC = N4;
+NET "D6" LOC = P4;
+NET "D7" LOC = G1;

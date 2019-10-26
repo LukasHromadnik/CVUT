@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Luke/Documents/BI-SAP/dcv3/scit4_test_isim_beh.exe -prj C:/Users/Luke/Documents/BI-SAP/dcv3/scit4_test_beh.prj work.scit4_test 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Luke/Documents/BI-SAP/dcv3/scit4_test.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/Users/Luke/Documents/BI-SAP/dcv3/scit4_test.vhd" Line 44: <scit4> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/Users/Luke/Documents/BI-SAP/dcv3/scit4_test.vhd" Line 44. Instance scit4 is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavior of entity scit4_test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable C:/Users/Luke/Documents/BI-SAP/dcv3/scit4_test_isim_beh.exe
+Fuse Memory Usage: 32052 KB
+Fuse CPU Usage: 701 ms

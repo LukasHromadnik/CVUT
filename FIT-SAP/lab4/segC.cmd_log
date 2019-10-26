@@ -1,0 +1,2 @@
+vhdtdtfi -lib work M:/lab4-old/segC.vhd -prj lab4 -o segC.spl -module segC -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e segC.spl C:/Users/Luke/Documents/BI-SAP/lab4/segC.sym 

@@ -1,0 +1,3 @@
+Zadejte parametry kruznice #1:
+Zadejte parametry kruznice #2:
+Kruznice #2 lezi uvnitr kruznice #1, prekryv: 575.401510

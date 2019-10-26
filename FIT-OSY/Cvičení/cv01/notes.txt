@@ -1,0 +1,9 @@
+ps
+-L		informace o vláknech
+-o		úprava hlavičky: nlwp, pid, lwp, s, comm
+
+výpis
+stavy
+- Z		zombie - vlákno skončilo, ale existuje
+- S 	sleeping
+- R		running

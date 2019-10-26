@@ -1,0 +1,2 @@
+vhdtdtfi -lib work l2_algebra_4b.vhd -prj sequence -o Q2.spl -module Q2 -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Q2.spl H:/Documents/SAP/sequence/Q2.sym 

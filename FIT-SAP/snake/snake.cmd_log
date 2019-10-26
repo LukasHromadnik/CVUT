@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Luke/Documents/BI-SAP/snake/snake.xst" -ofn "C:/Users/Luke/Documents/BI-SAP/snake/snake.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-cp132-4 snake.ngc snake.ngd  
+map -intstyle ise -p xc3s500e-cp132-4 -cm area -ir off -pr off -c 100 -o snake_map.ncd snake.ngd snake.pcf 
+par -w -intstyle ise -ol high -t 1 snake_map.ncd snake.ncd snake.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml snake.twx snake.ncd -o snake.twr snake.pcf 

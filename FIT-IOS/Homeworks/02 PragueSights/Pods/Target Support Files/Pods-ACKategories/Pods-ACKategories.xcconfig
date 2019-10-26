@@ -1,0 +1,1 @@
+PODS_ACKATEGORIES_OTHER_LDFLAGS = -framework "SystemConfiguration"

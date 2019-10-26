@@ -1,0 +1,12 @@
+vhdtdtfi -lib work l2_algebra_4.vhd -prj sequence -o Q0.spl -module Q0 -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Q0.spl H:/Documents/SAP/sequence/Q0.sym 
+xst -intstyle ise -ifn "H:/Documents/SAP/sequence/Q0.xst" -ofn "H:/Documents/SAP/sequence/Q0.syr" 
+xst -intstyle ise -ifn "H:/Documents/SAP/sequence/Q0.xst" -ofn "H:/Documents/SAP/sequence/Q0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Q0.ngc Q0.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Q0_map.ncd Q0.ngd Q0.pcf 
+par -w -intstyle ise -ol high -t 1 Q0_map.ncd Q0.ncd Q0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Q0.twx Q0.ncd -o Q0.twr Q0.pcf 
+vhdtdtfi -lib work l2_algebra_4.vhd -prj sequence -o Q0.spl -module Q0 -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Q0.spl H:/Documents/SAP/sequence/Q0.sym 
+vhdtdtfi -lib work l2_algebra_4.vhd -prj sequence -o Q0.spl -module Q0 -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Q0.spl H:/Documents/SAP/sequence/Q0.sym 

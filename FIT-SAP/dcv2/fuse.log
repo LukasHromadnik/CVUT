@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Luke/Documents/BI-SAP/dcv2/l2_truth_table_4_test_isim_beh.exe -prj C:/Users/Luke/Documents/BI-SAP/dcv2/l2_truth_table_4_test_beh.prj work.l2_truth_table_4_test 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Luke/Documents/BI-SAP/dcv2/l2_truth_table_4.vhd" into library work
+Parsing VHDL file "C:/Users/Luke/Documents/BI-SAP/dcv2/l2_truth_table_4_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity truth_table [truth_table_default]
+Compiling architecture behavior of entity l2_truth_table_4_test
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/Luke/Documents/BI-SAP/dcv2/l2_truth_table_4_test_isim_beh.exe
+Fuse Memory Usage: 32140 KB
+Fuse CPU Usage: 733 ms

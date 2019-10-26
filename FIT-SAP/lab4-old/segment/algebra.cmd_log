@@ -1,0 +1,1 @@
+vhdtdtfi -prj segment -o algebra.spl -module algebra -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 

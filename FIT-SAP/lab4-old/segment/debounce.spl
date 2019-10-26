@@ -1,0 +1,6 @@
+[Inputs]
+clk
+tl_in
+[Outputs]
+tl_out
+[BiDir]

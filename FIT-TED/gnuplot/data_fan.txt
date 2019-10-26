@@ -1,0 +1,1200 @@
+Pá dub 11 10:05:07 CEST 2014
+status:		enabled
+speed:		3223
+level:		auto
+Pá dub 11 10:05:08 CEST 2014
+status:		enabled
+speed:		3238
+level:		auto
+Pá dub 11 10:05:09 CEST 2014
+status:		enabled
+speed:		3238
+level:		auto
+Pá dub 11 10:05:10 CEST 2014
+status:		enabled
+speed:		3239
+level:		auto
+Pá dub 11 10:05:11 CEST 2014
+status:		enabled
+speed:		3238
+level:		auto
+Pá dub 11 10:05:12 CEST 2014
+status:		enabled
+speed:		3239
+level:		auto
+Pá dub 11 10:05:13 CEST 2014
+status:		enabled
+speed:		3238
+level:		auto
+Pá dub 11 10:05:14 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:05:15 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:05:16 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:05:17 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:05:18 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:05:19 CEST 2014
+status:		enabled
+speed:		3260
+level:		auto
+Pá dub 11 10:05:20 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:05:21 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:05:22 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:05:23 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:05:24 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:05:25 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:05:26 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:05:27 CEST 2014
+status:		enabled
+speed:		3260
+level:		auto
+Pá dub 11 10:05:28 CEST 2014
+status:		enabled
+speed:		3302
+level:		auto
+Pá dub 11 10:05:30 CEST 2014
+status:		enabled
+speed:		3485
+level:		auto
+Pá dub 11 10:05:31 CEST 2014
+status:		enabled
+speed:		3770
+level:		auto
+Pá dub 11 10:05:32 CEST 2014
+status:		enabled
+speed:		3906
+level:		auto
+Pá dub 11 10:05:33 CEST 2014
+status:		enabled
+speed:		3893
+level:		auto
+Pá dub 11 10:05:34 CEST 2014
+status:		enabled
+speed:		3818
+level:		auto
+Pá dub 11 10:05:35 CEST 2014
+status:		enabled
+speed:		3770
+level:		auto
+Pá dub 11 10:05:36 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:05:37 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:05:38 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:05:39 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:05:40 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:05:41 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:05:43 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:05:44 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:05:45 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:05:46 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:05:47 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:05:48 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:05:49 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:05:50 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:05:51 CEST 2014
+status:		enabled
+speed:		3741
+level:		auto
+Pá dub 11 10:05:52 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:05:53 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:05:55 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:05:56 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:05:57 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:05:58 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:05:59 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:00 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:01 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:06:02 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:03 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:04 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:06 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:07 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:08 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:09 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:10 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:11 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:12 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:13 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:14 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:15 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:17 CEST 2014
+status:		enabled
+speed:		3750
+level:		auto
+Pá dub 11 10:06:18 CEST 2014
+status:		enabled
+speed:		3750
+level:		auto
+Pá dub 11 10:06:19 CEST 2014
+status:		enabled
+speed:		3750
+level:		auto
+Pá dub 11 10:06:20 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:21 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:06:22 CEST 2014
+status:		enabled
+speed:		3749
+level:		auto
+Pá dub 11 10:06:23 CEST 2014
+status:		enabled
+speed:		3749
+level:		auto
+Pá dub 11 10:06:24 CEST 2014
+status:		enabled
+speed:		3752
+level:		auto
+Pá dub 11 10:06:25 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:26 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:27 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:28 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:29 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:30 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:32 CEST 2014
+status:		enabled
+speed:		3732
+level:		auto
+Pá dub 11 10:06:33 CEST 2014
+status:		enabled
+speed:		3732
+level:		auto
+Pá dub 11 10:06:34 CEST 2014
+status:		enabled
+speed:		3732
+level:		auto
+Pá dub 11 10:06:35 CEST 2014
+status:		enabled
+speed:		3732
+level:		auto
+Pá dub 11 10:06:36 CEST 2014
+status:		enabled
+speed:		3732
+level:		auto
+Pá dub 11 10:06:37 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:38 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:39 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:40 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:41 CEST 2014
+status:		enabled
+speed:		3732
+level:		auto
+Pá dub 11 10:06:43 CEST 2014
+status:		enabled
+speed:		3732
+level:		auto
+Pá dub 11 10:06:44 CEST 2014
+status:		enabled
+speed:		3732
+level:		auto
+Pá dub 11 10:06:45 CEST 2014
+status:		enabled
+speed:		3732
+level:		auto
+Pá dub 11 10:06:46 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:47 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:48 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:49 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:50 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:51 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:52 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:54 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:55 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:06:56 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:06:57 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:06:58 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:06:59 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:00 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:01 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:02 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:04 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:05 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:06 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:07 CEST 2014
+status:		enabled
+speed:		3741
+level:		auto
+Pá dub 11 10:07:08 CEST 2014
+status:		enabled
+speed:		3741
+level:		auto
+Pá dub 11 10:07:09 CEST 2014
+status:		enabled
+speed:		3741
+level:		auto
+Pá dub 11 10:07:10 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:11 CEST 2014
+status:		enabled
+speed:		3741
+level:		auto
+Pá dub 11 10:07:12 CEST 2014
+status:		enabled
+speed:		3741
+level:		auto
+Pá dub 11 10:07:13 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:07:14 CEST 2014
+status:		enabled
+speed:		3741
+level:		auto
+Pá dub 11 10:07:15 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:07:17 CEST 2014
+status:		enabled
+speed:		3741
+level:		auto
+Pá dub 11 10:07:18 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:19 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:20 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:21 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:22 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:23 CEST 2014
+status:		enabled
+speed:		3741
+level:		auto
+Pá dub 11 10:07:24 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:07:25 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:07:26 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:07:27 CEST 2014
+status:		enabled
+speed:		3747
+level:		auto
+Pá dub 11 10:07:28 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:07:29 CEST 2014
+status:		enabled
+speed:		3744
+level:		auto
+Pá dub 11 10:07:30 CEST 2014
+status:		enabled
+speed:		3741
+level:		auto
+Pá dub 11 10:07:31 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:32 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:33 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:34 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:35 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:36 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:37 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:38 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:39 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:40 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:41 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:42 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:43 CEST 2014
+status:		enabled
+speed:		3738
+level:		auto
+Pá dub 11 10:07:44 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:45 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:46 CEST 2014
+status:		enabled
+speed:		3735
+level:		auto
+Pá dub 11 10:07:47 CEST 2014
+status:		enabled
+speed:		3732
+level:		auto
+Pá dub 11 10:07:48 CEST 2014
+status:		enabled
+speed:		3729
+level:		auto
+Pá dub 11 10:07:49 CEST 2014
+status:		enabled
+speed:		3732
+level:		auto
+Pá dub 11 10:07:50 CEST 2014
+status:		enabled
+speed:		3723
+level:		auto
+Pá dub 11 10:07:51 CEST 2014
+status:		enabled
+speed:		3611
+level:		auto
+Pá dub 11 10:07:52 CEST 2014
+status:		enabled
+speed:		3515
+level:		auto
+Pá dub 11 10:07:53 CEST 2014
+status:		enabled
+speed:		3444
+level:		auto
+Pá dub 11 10:07:54 CEST 2014
+status:		enabled
+speed:		3376
+level:		auto
+Pá dub 11 10:07:55 CEST 2014
+status:		enabled
+speed:		3348
+level:		auto
+Pá dub 11 10:07:56 CEST 2014
+status:		enabled
+speed:		3338
+level:		auto
+Pá dub 11 10:07:57 CEST 2014
+status:		enabled
+speed:		3338
+level:		auto
+Pá dub 11 10:07:58 CEST 2014
+status:		enabled
+speed:		3338
+level:		auto
+Pá dub 11 10:07:59 CEST 2014
+status:		enabled
+speed:		3340
+level:		auto
+Pá dub 11 10:08:00 CEST 2014
+status:		enabled
+speed:		3376
+level:		auto
+Pá dub 11 10:08:01 CEST 2014
+status:		enabled
+speed:		3395
+level:		auto
+Pá dub 11 10:08:02 CEST 2014
+status:		enabled
+speed:		3395
+level:		auto
+Pá dub 11 10:08:03 CEST 2014
+status:		enabled
+speed:		3395
+level:		auto
+Pá dub 11 10:08:04 CEST 2014
+status:		enabled
+speed:		3395
+level:		auto
+Pá dub 11 10:08:05 CEST 2014
+status:		enabled
+speed:		3395
+level:		auto
+Pá dub 11 10:08:06 CEST 2014
+status:		enabled
+speed:		3424
+level:		auto
+Pá dub 11 10:08:07 CEST 2014
+status:		enabled
+speed:		3434
+level:		auto
+Pá dub 11 10:08:08 CEST 2014
+status:		enabled
+speed:		3434
+level:		auto
+Pá dub 11 10:08:09 CEST 2014
+status:		enabled
+speed:		3434
+level:		auto
+Pá dub 11 10:08:10 CEST 2014
+status:		enabled
+speed:		3444
+level:		auto
+Pá dub 11 10:08:11 CEST 2014
+status:		enabled
+speed:		3436
+level:		auto
+Pá dub 11 10:08:13 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:14 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:15 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:16 CEST 2014
+status:		enabled
+speed:		3464
+level:		auto
+Pá dub 11 10:08:17 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:18 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:19 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:20 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:21 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:22 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:23 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:24 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:25 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:26 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:27 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:28 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:29 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:30 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:31 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:32 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:33 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:34 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:35 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:36 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:37 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:38 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:39 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:40 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:41 CEST 2014
+status:		enabled
+speed:		3454
+level:		auto
+Pá dub 11 10:08:42 CEST 2014
+status:		enabled
+speed:		3451
+level:		auto
+Pá dub 11 10:08:43 CEST 2014
+status:		enabled
+speed:		3449
+level:		auto
+Pá dub 11 10:08:44 CEST 2014
+status:		enabled
+speed:		3464
+level:		auto
+Pá dub 11 10:08:45 CEST 2014
+status:		enabled
+speed:		3464
+level:		auto
+Pá dub 11 10:08:46 CEST 2014
+status:		enabled
+speed:		3474
+level:		auto
+Pá dub 11 10:08:47 CEST 2014
+status:		enabled
+speed:		3464
+level:		auto
+Pá dub 11 10:08:48 CEST 2014
+status:		enabled
+speed:		3395
+level:		auto
+Pá dub 11 10:08:49 CEST 2014
+status:		enabled
+speed:		3283
+level:		auto
+Pá dub 11 10:08:50 CEST 2014
+status:		enabled
+speed:		3179
+level:		auto
+Pá dub 11 10:08:51 CEST 2014
+status:		enabled
+speed:		3153
+level:		auto
+Pá dub 11 10:08:52 CEST 2014
+status:		enabled
+speed:		3137
+level:		auto
+Pá dub 11 10:08:53 CEST 2014
+status:		enabled
+speed:		3137
+level:		auto
+Pá dub 11 10:08:54 CEST 2014
+status:		enabled
+speed:		3128
+level:		auto
+Pá dub 11 10:08:55 CEST 2014
+status:		enabled
+speed:		3139
+level:		auto
+Pá dub 11 10:08:56 CEST 2014
+status:		enabled
+speed:		3170
+level:		auto
+Pá dub 11 10:08:57 CEST 2014
+status:		enabled
+speed:		3187
+level:		auto
+Pá dub 11 10:08:58 CEST 2014
+status:		enabled
+speed:		3187
+level:		auto
+Pá dub 11 10:08:59 CEST 2014
+status:		enabled
+speed:		3187
+level:		auto
+Pá dub 11 10:09:00 CEST 2014
+status:		enabled
+speed:		3187
+level:		auto
+Pá dub 11 10:09:01 CEST 2014
+status:		enabled
+speed:		3187
+level:		auto
+Pá dub 11 10:09:02 CEST 2014
+status:		enabled
+speed:		3221
+level:		auto
+Pá dub 11 10:09:03 CEST 2014
+status:		enabled
+speed:		3221
+level:		auto
+Pá dub 11 10:09:04 CEST 2014
+status:		enabled
+speed:		3230
+level:		auto
+Pá dub 11 10:09:05 CEST 2014
+status:		enabled
+speed:		3230
+level:		auto
+Pá dub 11 10:09:06 CEST 2014
+status:		enabled
+speed:		3230
+level:		auto
+Pá dub 11 10:09:07 CEST 2014
+status:		enabled
+speed:		3225
+level:		auto
+Pá dub 11 10:09:08 CEST 2014
+status:		enabled
+speed:		3239
+level:		auto
+Pá dub 11 10:09:09 CEST 2014
+status:		enabled
+speed:		3239
+level:		auto
+Pá dub 11 10:09:10 CEST 2014
+status:		enabled
+speed:		3247
+level:		auto
+Pá dub 11 10:09:11 CEST 2014
+status:		enabled
+speed:		3247
+level:		auto
+Pá dub 11 10:09:12 CEST 2014
+status:		enabled
+speed:		3247
+level:		auto
+Pá dub 11 10:09:13 CEST 2014
+status:		enabled
+speed:		3245
+level:		auto
+Pá dub 11 10:09:14 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:15 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:16 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:17 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:18 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:19 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:20 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:21 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:22 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:09:23 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:09:24 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:09:25 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:09:26 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:09:27 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:28 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:29 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:30 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:31 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:32 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:33 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:34 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:35 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:36 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:38 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:39 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:40 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:41 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:42 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:43 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:44 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:45 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:46 CEST 2014
+status:		enabled
+speed:		3265
+level:		auto
+Pá dub 11 10:09:47 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:09:48 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:09:49 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:09:50 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:09:51 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:09:52 CEST 2014
+status:		enabled
+speed:		3260
+level:		auto
+Pá dub 11 10:09:53 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:09:54 CEST 2014
+status:		enabled
+speed:		3260
+level:		auto
+Pá dub 11 10:09:55 CEST 2014
+status:		enabled
+speed:		3258
+level:		auto
+Pá dub 11 10:09:56 CEST 2014
+status:		enabled
+speed:		3258
+level:		auto
+Pá dub 11 10:09:57 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:09:58 CEST 2014
+status:		enabled
+speed:		3258
+level:		auto
+Pá dub 11 10:09:59 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:10:00 CEST 2014
+status:		enabled
+speed:		3258
+level:		auto
+Pá dub 11 10:10:01 CEST 2014
+status:		enabled
+speed:		3260
+level:		auto
+Pá dub 11 10:10:02 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:10:03 CEST 2014
+status:		enabled
+speed:		3262
+level:		auto
+Pá dub 11 10:10:04 CEST 2014
+status:		enabled
+speed:		3260
+level:		auto
+Pá dub 11 10:10:05 CEST 2014
+status:		enabled
+speed:		3260
+level:		auto
+Pá dub 11 10:10:06 CEST 2014
+status:		enabled
+speed:		3260
+level:		auto
+Pá dub 11 10:10:07 CEST 2014
+status:		enabled
+speed:		3258
+level:		auto
+Pá dub 11 10:10:08 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:10:09 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:10:10 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:10:11 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:10:12 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:10:13 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:10:14 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:10:15 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:10:16 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:10:17 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto
+Pá dub 11 10:10:18 CEST 2014
+status:		enabled
+speed:		3256
+level:		auto

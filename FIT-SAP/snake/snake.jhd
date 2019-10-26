@@ -1,0 +1,3 @@
+MODULE snake
+	SUBMODULE delic
+		INSTANCE XLXI_10

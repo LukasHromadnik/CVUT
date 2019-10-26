@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Luke/Documents/BI-SAP/sedmisegment/l2_truth_table_4_test_isim_beh.exe" -prj "C:/Users/Luke/Documents/BI-SAP/sedmisegment/l2_truth_table_4_test_beh.prj" "work.l2_truth_table_4_test" 

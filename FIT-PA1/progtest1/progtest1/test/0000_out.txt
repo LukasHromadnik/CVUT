@@ -1,0 +1,3 @@
+Zadejte parametry kruznice #1:
+Zadejte parametry kruznice #2:
+Kruznice se protinaji, prekryv: 552.737044

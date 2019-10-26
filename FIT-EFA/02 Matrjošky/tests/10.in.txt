@@ -1,0 +1,17 @@
+16
+-10 ahoj
+-3 ahoj
+-2 ahoj
+2 ahoj
+3 ahoj
+-7 ahoj
+-5 ahoj
+-3 ahoj
+-1 ahoj
+1 ahoj
+3 ahoj
+5 ahoj
+-2 ahoj
+2 ahoj
+7 ahoj
+10 ahoj

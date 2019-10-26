@@ -1,0 +1,10 @@
+pthread_mutex_t g_Mutex;
+phtread_cond_t  g_Cond;
+int             g_Prom;
+
+pthread_mutex_lock( &g_Mutex );
+if ( g_Prom != ? )
+	pthread_cond_wait( &g_Cond, &g_Mutex );
+pthread_mutex_unlock( &g_Mutex );
+
+pthread_cond_wait atomicky odemkne uzamčený mutex a uspí volající vlákno až do doby, kdy jiné vlákno zavolá funkci pthread_cond_singal / pthread_cond_broadcast. Až nastane tato událost, vlákno je probuzeno / čeká-li více, je probuzeno jedno z nich a toto vlákno opět zamkne mutex a pthread_cond_wait se vrací.

@@ -1,0 +1,391 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: schema.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "schema.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "schema"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : schema
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4.vhd" in Library work.
+Architecture behavioral of Entity q0 is up to date.
+Compiling vhdl file "//samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4a.vhd" in Library work.
+Architecture behavioral of Entity q1 is up to date.
+Compiling vhdl file "//samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4b.vhd" in Library work.
+Architecture behavioral of Entity q2 is up to date.
+Compiling vhdl file "//samba1/homes/cernypre/Documents/SAP/sequence2/schema.vhf" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//samba1/homes/cernypre/Documents/SAP/sequence2/schema.vhf" is newer than current system time.
+Entity <d3_8e_mxilinx_schema> compiled.
+Entity <d3_8e_mxilinx_schema> (Architecture <behavioral>) compiled.
+Entity <schema> compiled.
+Entity <schema> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <schema> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Q0> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Q1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Q2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D3_8E_MXILINX_schema> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <schema> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_8> in unit <schema>.
+    Set user-defined property "INIT =  0" for instance <XLXI_9> in unit <schema>.
+    Set user-defined property "INIT =  0" for instance <XLXI_10> in unit <schema>.
+    Set user-defined property "HU_SET =  XLXI_25_0" for instance <XLXI_25> in unit <schema>.
+Entity <schema> analyzed. Unit <schema> generated.
+
+Analyzing Entity <Q0> in library <work> (Architecture <behavioral>).
+Entity <Q0> analyzed. Unit <Q0> generated.
+
+Analyzing Entity <Q1> in library <work> (Architecture <behavioral>).
+Entity <Q1> analyzed. Unit <Q1> generated.
+
+Analyzing Entity <Q2> in library <work> (Architecture <behavioral>).
+Entity <Q2> analyzed. Unit <Q2> generated.
+
+Analyzing Entity <D3_8E_MXILINX_schema> in library <work> (Architecture <behavioral>).
+Entity <D3_8E_MXILINX_schema> analyzed. Unit <D3_8E_MXILINX_schema> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Q0>.
+    Related source file is "//samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4.vhd".
+WARNING:Xst:647 - Input <q1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <q2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <Q0> synthesized.
+
+
+Synthesizing Unit <Q1>.
+    Related source file is "//samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4a.vhd".
+WARNING:Xst:647 - Input <q2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <Q1> synthesized.
+
+
+Synthesizing Unit <Q2>.
+    Related source file is "//samba1/homes/cernypre/Documents/SAP/sequence2/l2_algebra_4b.vhd".
+Unit <Q2> synthesized.
+
+
+Synthesizing Unit <D3_8E_MXILINX_schema>.
+    Related source file is "//samba1/homes/cernypre/Documents/SAP/sequence2/schema.vhf".
+Unit <D3_8E_MXILINX_schema> synthesized.
+
+
+Synthesizing Unit <schema>.
+    Related source file is "//samba1/homes/cernypre/Documents/SAP/sequence2/schema.vhf".
+Unit <schema> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <schema> ...
+
+Optimizing unit <D3_8E_MXILINX_schema> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block schema, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : schema.ngr
+Top Level Output File Name         : schema
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 12
+#      AND4                        : 1
+#      AND4B1                      : 3
+#      AND4B2                      : 3
+#      AND4B3                      : 1
+#      INV                         : 1
+#      LUT2                        : 1
+#      LUT3                        : 1
+#      VCC                         : 1
+# FlipFlops/Latches                : 3
+#      FDC                         : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 1
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                        2  out of    960     0%  
+ Number of Slice Flip Flops:              3  out of   1920     0%  
+ Number of 4 input LUTs:                  3  out of   1920     0%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of     83    12%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+B8                                 | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+CLEAR                              | IBUF                   | 3     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.956ns (Maximum Frequency: 338.295MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 5.920ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'B8'
+  Clock period: 2.956ns (frequency: 338.295MHz)
+  Total number of paths / destination ports: 6 / 3
+-------------------------------------------------------------------------
+Delay:               2.956ns (Levels of Logic = 1)
+  Source:            XLXI_8 (FF)
+  Destination:       XLXI_8 (FF)
+  Source Clock:      B8 rising
+  Destination Clock: B8 rising
+
+  Data Path: XLXI_8 to XLXI_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             11   0.591   0.933  XLXI_8 (MEAL0)
+     INV:I->O              1   0.704   0.420  XLXI_1/f1_INV_0 (MOORE0)
+     FDC:D                     0.308          XLXI_8
+    ----------------------------------------
+    Total                      2.956ns (1.603ns logic, 1.353ns route)
+                                       (54.2% logic, 45.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'B8'
+  Total number of paths / destination ports: 24 / 8
+-------------------------------------------------------------------------
+Offset:              5.920ns (Levels of Logic = 3)
+  Source:            XLXI_8 (FF)
+  Destination:       D0 (PAD)
+  Source Clock:      B8 rising
+
+  Data Path: XLXI_8 to D0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             11   0.591   0.933  XLXI_8 (MEAL0)
+     begin scope: 'XLXI_25'
+     AND4:I2->O            1   0.704   0.420  I_36_30 (D7)
+     end scope: 'XLXI_25'
+     OBUF:I->O                 3.272          D7_OBUF (D7)
+    ----------------------------------------
+    Total                      5.920ns (4.567ns logic, 1.353ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.47 secs
+ 
+--> 
+
+Total memory usage is 268912 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Mon Mar 10 12:04:01 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "AN1" LOCATE = SITE "F12" LEVEL 1;
+COMP "AN2" LOCATE = SITE "J12" LEVEL 1;
+COMP "AN3" LOCATE = SITE "M13" LEVEL 1;
+COMP "AN4" LOCATE = SITE "K14" LEVEL 1;
+COMP "A" LOCATE = SITE "P11" LEVEL 1;
+COMP "B" LOCATE = SITE "L3" LEVEL 1;
+COMP "C" LOCATE = SITE "K3" LEVEL 1;
+COMP "D" LOCATE = SITE "B4" LEVEL 1;
+COMP "P" LOCATE = SITE "L14" LEVEL 1;
+COMP "Q" LOCATE = SITE "H12" LEVEL 1;
+COMP "R" LOCATE = SITE "N14" LEVEL 1;
+COMP "S" LOCATE = SITE "N11" LEVEL 1;
+COMP "T" LOCATE = SITE "P12" LEVEL 1;
+COMP "U" LOCATE = SITE "L13" LEVEL 1;
+COMP "V" LOCATE = SITE "M12" LEVEL 1;
+SCHEMATIC END;
+

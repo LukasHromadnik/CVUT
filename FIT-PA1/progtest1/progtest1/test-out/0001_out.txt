@@ -1,0 +1,3 @@
+Zadejte parametry kruznice #1:
+Zadejte parametry kruznice #2:
+Vnitrni dotyk, kruznice #1 lezi uvnitr kruznice #2, prekryv: 653.206806

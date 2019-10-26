@@ -1,0 +1,47 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.9</VERSION>
+ <DEVICE>ATmega169</DEVICE>
+ <WORKING_DIR>C:\Users\Luke\AppData\Local\Temp</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>\\psf\Home\Documents\lab7\lab7.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m169def.inc</FILE>
+  <FILE>\\psf\Home\Documents\lab7\print.inc</FILE>
+  <FILE>\\psf\Home\Documents\lab7\znaky.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>\\psf\Home\Documents\lab7\lab7.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>\\psf\Home\Documents\lab7\lab7.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>\\psf\Home\Documents\lab7\lab7.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init_disp><FILE>\\psf\Home\Documents\lab7\print.inc</FILE><LINE>3</LINE></init_disp>
+  <show_char><FILE>\\psf\Home\Documents\lab7\print.inc</FILE><LINE>18</LINE></show_char>
+  <nemezera><FILE>\\psf\Home\Documents\lab7\print.inc</FILE><LINE>35</LINE></nemezera>
+  <znaky><FILE>\\psf\Home\Documents\lab7\znaky.inc</FILE><LINE>8</LINE></znaky>
+  <zobzc><FILE>\\psf\Home\Documents\lab7\print.inc</FILE><LINE>55</LINE></zobzc>
+  <start><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>47</LINE></start>
+  <retez><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>13</LINE></retez>
+  <clear_disp><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>15</LINE></clear_disp>
+  <clearing><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>19</LINE></clearing>
+  <showspaces><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>26</LINE></showspaces>
+  <show><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>29</LINE></show>
+  <cycle3><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>39</LINE></cycle3>
+  <init><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>55</LINE></init>
+  <loadstr><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>61</LINE></loadstr>
+  <cycle><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>68</LINE></cycle>
+  <showchar><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>74</LINE></showchar>
+  <pause><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>98</LINE></pause>
+  <cont><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>80</LINE></cont>
+  <regular_str><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>95</LINE></regular_str>
+  <decZ><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>85</LINE></decZ>
+  <cycle2><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>87</LINE></cycle2>
+  <end><FILE>\\psf\Home\Documents\lab7\lab7.asm</FILE><LINE>121</LINE></end>
+ </LABELS>
+</ASSEMBLER_INFO>

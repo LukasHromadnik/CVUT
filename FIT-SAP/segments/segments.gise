@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="segments.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="algebra.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="algebra.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="algebra.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="algebra.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="algebra.xst"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="result.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="result_drc.vhf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sega.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sega.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sega.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sega.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sega.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="segb.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="segb.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="segb.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="segb.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="segb.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="segc.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="segc.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="segc.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="segc.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="segc.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="segd.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="segd.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="segd.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="segd.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="segd.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sege.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sege.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sege.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sege.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sege.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="segf.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="segf.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="segf.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="segf.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="segf.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="segg.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="segg.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="segg.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="segg.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="segg.xst"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="segment_drc.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="test.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+
+</generated_project>

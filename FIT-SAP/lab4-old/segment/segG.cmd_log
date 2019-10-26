@@ -1,0 +1,2 @@
+vhdtdtfi -lib work G:/segG.vhd -prj segment -o segG.spl -module segG -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e segG.spl H:/sap/lab4/segment/segG.sym 

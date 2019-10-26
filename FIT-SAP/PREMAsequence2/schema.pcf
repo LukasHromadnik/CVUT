@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Mon Mar 31 14:16:38 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CLEAR" LOCATE = SITE "M4" LEVEL 1;
+COMP "D0" LOCATE = SITE "M5" LEVEL 1;
+COMP "D1" LOCATE = SITE "M11" LEVEL 1;
+COMP "D2" LOCATE = SITE "P7" LEVEL 1;
+COMP "D3" LOCATE = SITE "P6" LEVEL 1;
+COMP "D4" LOCATE = SITE "N5" LEVEL 1;
+COMP "B8" LOCATE = SITE "B8" LEVEL 1;
+COMP "D5" LOCATE = SITE "N4" LEVEL 1;
+COMP "D6" LOCATE = SITE "P4" LEVEL 1;
+COMP "D7" LOCATE = SITE "G1" LEVEL 1;
+NET "B8_BUFGP/IBUFG" BEL "B8_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

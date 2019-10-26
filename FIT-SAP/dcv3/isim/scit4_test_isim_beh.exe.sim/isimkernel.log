@@ -1,0 +1,10 @@
+Command line:
+   scit4_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49603
+
+Sun Mar 02 11:10:59 2014
+
+
+ Elaboration Time: 0.031201 sec

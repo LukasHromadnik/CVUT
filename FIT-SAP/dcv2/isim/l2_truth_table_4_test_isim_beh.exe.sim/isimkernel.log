@@ -1,0 +1,29 @@
+Command line:
+   l2_truth_table_4_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49517
+
+Sun Mar 02 10:49:56 2014
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 504.578 Meg
+
+ Total Signals          : 11
+ Total Nets             : 9
+ Total Signal Drivers   : 9
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 6
+ Total Traceable Variables  : 11
+ Total Scalar Nets and Variables : 403
+Total Line Count : 19
+
+ Total Simulation Time: 0.0936 sec
+
+ Current Memory Usage: 504.578 Meg
+
+Sun Mar 02 10:50:24 2014
+

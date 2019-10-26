@@ -1,0 +1,4 @@
+vhdl work "l2_algebra_4b.vhd"
+vhdl work "l2_algebra_4a.vhd"
+vhdl work "l2_algebra_4.vhd"
+vhdl work "schema.vhf"

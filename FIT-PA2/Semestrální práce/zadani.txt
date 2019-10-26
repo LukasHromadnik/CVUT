@@ -1,0 +1,7 @@
+Kreslič obrázků v ASCII-artu.
+
+V textovém soubor je popsáno, co má být nakresleno v obrázku. Program textový soubor interpretuje a výstupem bude textový soubor ve kterém bude výsledný obrázek. V konfiguraci se specifikuje velikost obrázku ve znacích. Kreslič podporuje minimálně: čáru, polyline, kruh, elipsu, obdélník, semínkové vyplňování, různé barvy.
+
+Celý obrázek je třeba v paměti reprezentovat pomocí hierarchie objektů. Objekty se potom umí vykreslit do nějakého 2D pole(canvasu). V popisu obrázku je možné definovat pattern, který se bude vykreslovat podobně jako třeba čára. Tzn. nakreslím si kruh a do něj trojúhelník a celý tento pattern můžu vložit na libovolné místo v obrázku. Navíc můžu vložit tento vzor vícekrát třeba v mřížce NxM.
+
+Textovy souboru muze, ale nemusi byt ve formatu XML. Výstup je do textového souboru, který obsahuje NxM znaků (velikost je zadána v konf. souboru). Výplně mohou být různé znaky. 
