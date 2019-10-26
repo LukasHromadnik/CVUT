@@ -23,8 +23,8 @@ class StartViewController: BaseViewController, UITableViewDataSource, UITableVie
         
         navigationItem.title = "AngryFIT"
         
-        simpleModeButton.addTarget(self, action: #selector(simpleModeButtonAction(_:)), for: .touchUpInside)
-        realisticModeButton.addTarget(self, action: #selector(realisticModeButtonAction(_:)), for: .touchUpInside)
+        simpleModeButton.addTarget(self, action: #selector(simpleModeButtonAction), for: .touchUpInside)
+        realisticModeButton.addTarget(self, action: #selector(realisticModeButtonAction), for: .touchUpInside)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -41,12 +41,14 @@ class StartViewController: BaseViewController, UITableViewDataSource, UITableVie
     
     // MARK: - Actions
     
-    func simpleModeButtonAction(_ button: UIButton) {
+    @objc
+    private func simpleModeButtonAction(_ button: UIButton) {
         let gameController = GameViewController(factory: SimpleGameObjectsFactory())
         show(gameController, sender: self)
     }
-    
-    func realisticModeButtonAction(_ button: UIButton) {
+
+    @objc
+    private func realisticModeButtonAction(_ button: UIButton) {
         let gameController = GameViewController(factory: RealisticGameObjectsFactory())
         show(gameController, sender: self)
     }
