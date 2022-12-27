@@ -1,0 +1,7 @@
+<%= link_to 'Back', articles_path %>
+
+<h1><%= @article.title %></h1>
+
+<p><%= @article.description %></p>
+
+<%= link_to 'Continue reading', @article.link, target: "_blank" %>

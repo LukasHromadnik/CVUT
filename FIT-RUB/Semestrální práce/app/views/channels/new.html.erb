@@ -1,0 +1,20 @@
+<h1>Add new channel</h1>
+
+<%= link_to 'Back', channels_path %>
+
+<% if @channel.errors.any? %>
+<h2><%= pluralize(@channel.errors.count, 'error') %> prohibited this channel from being saved:</h2>
+<ul>
+
+	<% @channel.errors.full_messages.each do |error| %>
+	<li><%= error %></li>
+	<% end %>
+
+</ul>
+<% end %>
+
+<%= form_for :channel, url: channels_path do |f| %>
+<%= f.label :link %>
+<%= f.text_field :link %><br />
+<%= f.submit %>
+<% end %>

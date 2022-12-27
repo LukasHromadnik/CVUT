@@ -1,0 +1,23 @@
+<h1>Channels</h1>
+
+<%= link_to 'Add channel', new_channel_path %>
+<br><br>
+<table>
+	<tr>
+		<th>Title</th>
+		<th>Link</th>
+		<th>Description</th>
+		<th colspan="2"></th>
+	</tr>
+	
+	<% @channels.each do |channel| %>
+	<tr>
+		<td><%= channel.title %></td>
+		<td><%= channel.link %></td>
+		<td><%= channel.description %></td>
+		<td><%= link_to 'Articles', channel_articles_path(channel) %></td>
+		<td><%= link_to 'Delete', channel_path(channel), method: :delete, data: { confirm: "Are you sure?" } %></td>
+	</tr>
+	<% end %>
+
+</table>

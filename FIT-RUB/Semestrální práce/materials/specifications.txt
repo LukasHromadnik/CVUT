@@ -1,0 +1,32 @@
+source
++ title
++ link
++ description
+- language
+- copyright
+- managingEditor
+- webMaster
+- pubDate
+- lastBuildDate
+- category
+- generator
+- docs
+- cloud
+- ttl
+- image
+- rating
+- textInput
+- skipHours
+- skipDays
+
+article
+- title
+- link
+- description
+- author
+- category
+- comments
+- enclosure
+- guid
+- pubDate
+- source

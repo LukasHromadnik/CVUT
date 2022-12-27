@@ -1,0 +1,18 @@
+<table>
+	<tr>
+		<th>Title</th>
+		<th>Channel</th>
+		<th>Read</th>
+		<th colspan="1"></th>
+	</tr>
+	
+	<% @articles.each do |article| %>
+	<tr>
+		<td><%= article.title %></td>
+		<td><%= link_to article.channel.title, channel_articles_path(article.channel) %></td>
+		<td><%= article.read == 0 ? "False" : "True" %></td>
+		<td><%= link_to 'Detail', article_path(article) %></td>
+	</tr>
+	<% end %>
+	
+</table>
