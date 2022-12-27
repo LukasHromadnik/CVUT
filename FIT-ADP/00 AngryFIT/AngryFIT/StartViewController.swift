@@ -23,8 +23,8 @@ class StartViewController: BaseViewController, UITableViewDataSource, UITableVie
         
         navigationItem.title = "AngryFIT"
         
-        simpleModeButton.addTarget(self, action: #selector(simpleModeButtonAction), for: .touchUpInside)
-        realisticModeButton.addTarget(self, action: #selector(realisticModeButtonAction), for: .touchUpInside)
+        simpleModeButton.addTarget(self, action: #selector(simpleModeButtonAction(_:)), for: .touchUpInside)
+        realisticModeButton.addTarget(self, action: #selector(realisticModeButtonAction(_:)), for: .touchUpInside)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -40,7 +40,7 @@ class StartViewController: BaseViewController, UITableViewDataSource, UITableVie
     }
     
     // MARK: - Actions
-    
+
     @objc
     private func simpleModeButtonAction(_ button: UIButton) {
         let gameController = GameViewController(factory: SimpleGameObjectsFactory())
@@ -52,7 +52,6 @@ class StartViewController: BaseViewController, UITableViewDataSource, UITableVie
         let gameController = GameViewController(factory: RealisticGameObjectsFactory())
         show(gameController, sender: self)
     }
-    
     
     // MARK: - Components setup
     
@@ -72,7 +71,7 @@ class StartViewController: BaseViewController, UITableViewDataSource, UITableVie
         let contentView = UIStackView(arrangedSubviews: [simpleModeButton, realisticModeButton])
         contentView.spacing = 15
         contentView.axis = .vertical
-        contentView.backgroundColor = .red
+//        contentView.backgroundColor = .red
         view.addSubview(contentView)
         contentView.snp.makeConstraints { (make) in
             make.leading.trailing.equalTo(0).inset(15)

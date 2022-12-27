@@ -69,32 +69,32 @@ class GameViewController: BaseViewController, ModelObservable {
         
         recognizer.setTranslation(.zero, in: gameView)
     }
-    
+
     @objc
     private func tapGestureAction(_ recognizer: UITapGestureRecognizer) {
         Model.instance.fire()
     }
-    
+
     @objc
     private func forceSliderValueChanged(_ slider: UISlider) {
         Model.instance.update(force: Int(slider.value))
     }
-    
+
     @objc
     private func angleSliderValueChanged(_ slider: UISlider) {
         Model.instance.update(angle: Int(slider.value))
     }
-    
+
     @objc
     private func gravitySliderValueChanged(_ slider: UISlider) {
         Model.instance.update(gravity: Int(slider.value))
     }
-    
+
     @objc
     private func missileModeControlValueChanged(_ control: UISegmentedControl) {
         Model.instance.changeCannonState(control.selectedSegmentIndex)
     }
-    
+
     @objc
     private func saveAction(_ sender: UIBarButtonItem) {
         Model.instance.saveState()
@@ -147,8 +147,7 @@ class GameViewController: BaseViewController, ModelObservable {
         bottomView.spacing = 5
         view.addSubview(bottomView)
         bottomView.snp.makeConstraints { (make) in
-            make.leading.trailing.equalTo(0).inset(15)
-            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).inset(15)
+            make.leading.trailing.bottom.equalTo(0).inset(15)
         }
         
         let divider = UIView()

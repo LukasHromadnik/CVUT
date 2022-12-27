@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9460A70E8050A40D0783028E /* Pods_AngryFIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6233CA109A0B68AAD3144F /* Pods_AngryFIT.framework */; };
 		A31684A81DFF07C100B1F050 /* Cannon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31684A71DFF07C100B1F050 /* Cannon.swift */; };
 		A31684AA1DFF07D400B1F050 /* Missile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31684A91DFF07D400B1F050 /* Missile.swift */; };
 		A31684AC1DFF07DD00B1F050 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31684AB1DFF07DD00B1F050 /* Enemy.swift */; };
@@ -30,6 +29,8 @@
 		A339D3B21E0039BA00A5A144 /* GameObjectsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3B11E0039BA00A5A144 /* GameObjectsFactory.swift */; };
 		A339D3B61E003A3900A5A144 /* SimpleGameObjectsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3B51E003A3900A5A144 /* SimpleGameObjectsFactory.swift */; };
 		A339D3B81E003AC800A5A144 /* RealisticGameObjectsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3B71E003AC800A5A144 /* RealisticGameObjectsFactory.swift */; };
+		A346EA2729237670001195F3 /* SnapKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A346EA2629237670001195F3 /* SnapKit.xcframework */; };
+		A346EA2829237670001195F3 /* SnapKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A346EA2629237670001195F3 /* SnapKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A36FA86A1DFEB7CC00CF4EA6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FA8691DFEB7CC00CF4EA6 /* StartViewController.swift */; };
 		A36FA86C1DFEB94400CF4EA6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FA86B1DFEB94400CF4EA6 /* BaseViewController.swift */; };
 		A3741E191DEDC91F00B7FDE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3741E181DEDC91F00B7FDE2 /* AppDelegate.swift */; };
@@ -40,13 +41,23 @@
 		A3D28F6E1E00628200AE35A2 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D28F6D1E00628200AE35A2 /* Memento.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A346EA2929237670001195F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A346EA2829237670001195F3 /* SnapKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		101EDEC5CBF0D5487CA0E0F3 /* Pods_AngryFITUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngryFITUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		11AB02C16F3C9964673E0A65 /* Pods-AngryFITUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngryFITUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AngryFITUITests/Pods-AngryFITUITests.release.xcconfig"; sourceTree = "<group>"; };
-		13874E56E709979F5FCE355B /* Pods-AngryFITUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngryFITUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngryFITUITests/Pods-AngryFITUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A66E2D25C240CC028951BB6 /* Pods_AngryFITTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngryFITTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CE4E85C3BD65A7A330BAAE7 /* Pods-AngryFITTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngryFITTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngryFITTests/Pods-AngryFITTests.debug.xcconfig"; sourceTree = "<group>"; };
-		76643B915BB244A564974C1A /* Pods-AngryFITTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngryFITTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AngryFITTests/Pods-AngryFITTests.release.xcconfig"; sourceTree = "<group>"; };
 		A31684A71DFF07C100B1F050 /* Cannon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cannon.swift; sourceTree = "<group>"; };
 		A31684A91DFF07D400B1F050 /* Missile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
 		A31684AB1DFF07DD00B1F050 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
@@ -69,6 +80,7 @@
 		A339D3B11E0039BA00A5A144 /* GameObjectsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObjectsFactory.swift; sourceTree = "<group>"; };
 		A339D3B51E003A3900A5A144 /* SimpleGameObjectsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleGameObjectsFactory.swift; sourceTree = "<group>"; };
 		A339D3B71E003AC800A5A144 /* RealisticGameObjectsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealisticGameObjectsFactory.swift; sourceTree = "<group>"; };
+		A346EA2629237670001195F3 /* SnapKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SnapKit.xcframework; path = Carthage/Build/SnapKit.xcframework; sourceTree = "<group>"; };
 		A36FA8691DFEB7CC00CF4EA6 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		A36FA86B1DFEB94400CF4EA6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A3741E151DEDC91F00B7FDE2 /* AngryFIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngryFIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,14 +90,8 @@
 		A3741E251DEDC91F00B7FDE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3741E281DEDC91F00B7FDE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3741E2A1DEDC91F00B7FDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3741E331DEDC91F00B7FDE2 /* AngryFITTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryFITTests.swift; sourceTree = "<group>"; };
-		A3741E351DEDC91F00B7FDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3741E3E1DEDC91F00B7FDE2 /* AngryFITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryFITUITests.swift; sourceTree = "<group>"; };
-		A3741E401DEDC91F00B7FDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D28F6D1E00628200AE35A2 /* Memento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
 		AC6233CA109A0B68AAD3144F /* Pods_AngryFIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngryFIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDF91BDA07BEC4520ED739D7 /* Pods-AngryFIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngryFIT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngryFIT/Pods-AngryFIT.debug.xcconfig"; sourceTree = "<group>"; };
-		EB6CD8DA6A8F971DE9D4E5BF /* Pods-AngryFIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngryFIT.release.xcconfig"; path = "Pods/Target Support Files/Pods-AngryFIT/Pods-AngryFIT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,29 +99,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9460A70E8050A40D0783028E /* Pods_AngryFIT.framework in Frameworks */,
+				A346EA2729237670001195F3 /* SnapKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0112F4AF1A2447AA7494C69A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BDF91BDA07BEC4520ED739D7 /* Pods-AngryFIT.debug.xcconfig */,
-				EB6CD8DA6A8F971DE9D4E5BF /* Pods-AngryFIT.release.xcconfig */,
-				4CE4E85C3BD65A7A330BAAE7 /* Pods-AngryFITTests.debug.xcconfig */,
-				76643B915BB244A564974C1A /* Pods-AngryFITTests.release.xcconfig */,
-				13874E56E709979F5FCE355B /* Pods-AngryFITUITests.debug.xcconfig */,
-				11AB02C16F3C9964673E0A65 /* Pods-AngryFITUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		0CF80642C8AC426DACE2D768 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A346EA2629237670001195F3 /* SnapKit.xcframework */,
 				AC6233CA109A0B68AAD3144F /* Pods_AngryFIT.framework */,
 				3A66E2D25C240CC028951BB6 /* Pods_AngryFITTests.framework */,
 				101EDEC5CBF0D5487CA0E0F3 /* Pods_AngryFITUITests.framework */,
@@ -197,10 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				A3741E171DEDC91F00B7FDE2 /* AngryFIT */,
-				A3741E321DEDC91F00B7FDE2 /* AngryFITTests */,
-				A3741E3D1DEDC91F00B7FDE2 /* AngryFITUITests */,
 				A3741E161DEDC91F00B7FDE2 /* Products */,
-				0112F4AF1A2447AA7494C69A /* Pods */,
 				0CF80642C8AC426DACE2D768 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -237,24 +228,6 @@
 			path = AngryFIT;
 			sourceTree = "<group>";
 		};
-		A3741E321DEDC91F00B7FDE2 /* AngryFITTests */ = {
-			isa = PBXGroup;
-			children = (
-				A3741E331DEDC91F00B7FDE2 /* AngryFITTests.swift */,
-				A3741E351DEDC91F00B7FDE2 /* Info.plist */,
-			);
-			path = AngryFITTests;
-			sourceTree = "<group>";
-		};
-		A3741E3D1DEDC91F00B7FDE2 /* AngryFITUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A3741E3E1DEDC91F00B7FDE2 /* AngryFITUITests.swift */,
-				A3741E401DEDC91F00B7FDE2 /* Info.plist */,
-			);
-			path = AngryFITUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,11 +235,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3741E431DEDC91F00B7FDE2 /* Build configuration list for PBXNativeTarget "AngryFIT" */;
 			buildPhases = (
-				E903BEEC23133CAAF98A35B6 /* [CP] Check Pods Manifest.lock */,
 				A3741E111DEDC91E00B7FDE2 /* Sources */,
 				A3741E121DEDC91E00B7FDE2 /* Frameworks */,
 				A3741E131DEDC91E00B7FDE2 /* Resources */,
-				897DA6FF8ABDE8CFCA285102 /* [CP] Embed Pods Frameworks */,
+				A346EA2929237670001195F3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,7 +256,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Lukáš Hromadník";
 				TargetAttributes = {
 					A3741E141DEDC91E00B7FDE2 = {
@@ -296,9 +268,10 @@
 			};
 			buildConfigurationList = A3741E101DEDC91E00B7FDE2 /* Build configuration list for PBXProject "AngryFIT" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -323,45 +296,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		897DA6FF8ABDE8CFCA285102 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AngryFIT/Pods-AngryFIT-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AngryFIT/Pods-AngryFIT-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E903BEEC23133CAAF98A35B6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AngryFIT-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3741E111DEDC91E00B7FDE2 /* Sources */ = {
@@ -422,23 +356,15 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -462,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -481,23 +407,15 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -515,10 +433,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -526,14 +445,15 @@
 		};
 		A3741E441DEDC91F00B7FDE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDF91BDA07BEC4520ED739D7 /* Pods-AngryFIT.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Martin Pulpitel (KE4Y7PU6Z8)";
 				DEVELOPMENT_TEAM = PXDF48X6VX;
 				INFOPLIST_FILE = AngryFIT/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cz.ackee.enterprise.AngryFIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "2bfcc027-5151-4b96-a838-d00764a94a41";
@@ -543,13 +463,14 @@
 		};
 		A3741E451DEDC91F00B7FDE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB6CD8DA6A8F971DE9D4E5BF /* Pods-AngryFIT.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AngryFIT/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cz.ackee.enterprise.AngryFIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

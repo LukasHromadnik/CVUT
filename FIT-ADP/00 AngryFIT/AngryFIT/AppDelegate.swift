@@ -10,7 +10,6 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
     var memento: Memento?
 
@@ -22,5 +21,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-
 }

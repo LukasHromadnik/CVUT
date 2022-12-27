@@ -70,7 +70,7 @@ class GameScene: SKScene, GameObjectVisitor, SKPhysicsContactDelegate, ModelObse
     
     func loadRandomPosition(for enemy: Enemy) -> CGPoint {
         let padding = 50
-        let objectFrames = Model.instance.gameObjects.map { $0.frame }.compactMap { $0 }
+        let objectFrames = Model.instance.gameObjects.map { $0.frame }.flatMap { $0 }
         let minX = Int(Model.instance.cannon.size.width) + padding
         let minY = 15
         let maxX = Int(view?.frame.size.width ?? 0) - padding

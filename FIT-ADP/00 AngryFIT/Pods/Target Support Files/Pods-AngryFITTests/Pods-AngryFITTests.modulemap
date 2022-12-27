@@ -1,6 +1,0 @@
-framework module Pods_AngryFITTests {
-  umbrella header "Pods-AngryFITTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
