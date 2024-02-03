@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A31684A81DFF07C100B1F050 /* Cannon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31684A71DFF07C100B1F050 /* Cannon.swift */; };
+		A31684AA1DFF07D400B1F050 /* Missile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31684A91DFF07D400B1F050 /* Missile.swift */; };
+		A31684AC1DFF07DD00B1F050 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31684AB1DFF07DD00B1F050 /* Enemy.swift */; };
+		A339D38B1DFFD83900A5A144 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D38A1DFFD83900A5A144 /* Model.swift */; };
+		A339D38D1DFFDF0D00A5A144 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D38C1DFFDF0D00A5A144 /* GameObject.swift */; };
+		A339D38F1DFFDF3000A5A144 /* GameObjectVisitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D38E1DFFDF3000A5A144 /* GameObjectVisitable.swift */; };
+		A339D3911DFFDF6300A5A144 /* GameObjectVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3901DFFDF6300A5A144 /* GameObjectVisitor.swift */; };
+		A339D3931DFFE41C00A5A144 /* ModelObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3921DFFE41C00A5A144 /* ModelObservable.swift */; };
+		A339D39A1DFFE72000A5A144 /* GameProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3991DFFE72000A5A144 /* GameProperty.swift */; };
+		A339D39C1DFFE8F600A5A144 /* GamePropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D39B1DFFE8F600A5A144 /* GamePropertyView.swift */; };
+		A339D39E1E0009FF00A5A144 /* NumberExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D39D1E0009FF00A5A144 /* NumberExtensions.swift */; };
+		A339D3A11E001D7200A5A144 /* GamePhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3A01E001D7200A5A144 /* GamePhysicsCategory.swift */; };
+		A339D3A31E0023F200A5A144 /* MissileStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3A21E0023F200A5A144 /* MissileStrategy.swift */; };
+		A339D3A51E00241500A5A144 /* SimpleMissileStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3A41E00241500A5A144 /* SimpleMissileStrategy.swift */; };
+		A339D3A71E00247200A5A144 /* RealisticMissileStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3A61E00247200A5A144 /* RealisticMissileStrategy.swift */; };
+		A339D3AA1E0031D100A5A144 /* CannonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3A91E0031D100A5A144 /* CannonState.swift */; };
+		A339D3AC1E00325B00A5A144 /* SingleCannonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3AB1E00325B00A5A144 /* SingleCannonState.swift */; };
+		A339D3AE1E00343100A5A144 /* DoubleCannonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3AD1E00343100A5A144 /* DoubleCannonState.swift */; };
+		A339D3B01E0038D600A5A144 /* RealisticEnemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3AF1E0038D600A5A144 /* RealisticEnemy.swift */; };
+		A339D3B21E0039BA00A5A144 /* GameObjectsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3B11E0039BA00A5A144 /* GameObjectsFactory.swift */; };
+		A339D3B61E003A3900A5A144 /* SimpleGameObjectsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3B51E003A3900A5A144 /* SimpleGameObjectsFactory.swift */; };
+		A339D3B81E003AC800A5A144 /* RealisticGameObjectsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339D3B71E003AC800A5A144 /* RealisticGameObjectsFactory.swift */; };
+		A36FA86A1DFEB7CC00CF4EA6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FA8691DFEB7CC00CF4EA6 /* StartViewController.swift */; };
+		A36FA86C1DFEB94400CF4EA6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FA86B1DFEB94400CF4EA6 /* BaseViewController.swift */; };
+		A3741E191DEDC91F00B7FDE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3741E181DEDC91F00B7FDE2 /* AppDelegate.swift */; };
+		A3741E1F1DEDC91F00B7FDE2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3741E1E1DEDC91F00B7FDE2 /* GameScene.swift */; };
+		A3741E211DEDC91F00B7FDE2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3741E201DEDC91F00B7FDE2 /* GameViewController.swift */; };
+		A3741E261DEDC91F00B7FDE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3741E251DEDC91F00B7FDE2 /* Assets.xcassets */; };
+		A3741E291DEDC91F00B7FDE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3741E271DEDC91F00B7FDE2 /* LaunchScreen.storyboard */; };
+		A3D28F6E1E00628200AE35A2 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D28F6D1E00628200AE35A2 /* Memento.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		101EDEC5CBF0D5487CA0E0F3 /* Pods_AngryFITUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngryFITUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A66E2D25C240CC028951BB6 /* Pods_AngryFITTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngryFITTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31684A71DFF07C100B1F050 /* Cannon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cannon.swift; sourceTree = "<group>"; };
+		A31684A91DFF07D400B1F050 /* Missile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
+		A31684AB1DFF07DD00B1F050 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		A339D38A1DFFD83900A5A144 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A339D38C1DFFDF0D00A5A144 /* GameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		A339D38E1DFFDF3000A5A144 /* GameObjectVisitable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObjectVisitable.swift; sourceTree = "<group>"; };
+		A339D3901DFFDF6300A5A144 /* GameObjectVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObjectVisitor.swift; sourceTree = "<group>"; };
+		A339D3921DFFE41C00A5A144 /* ModelObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelObservable.swift; sourceTree = "<group>"; };
+		A339D3991DFFE72000A5A144 /* GameProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameProperty.swift; sourceTree = "<group>"; };
+		A339D39B1DFFE8F600A5A144 /* GamePropertyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePropertyView.swift; sourceTree = "<group>"; };
+		A339D39D1E0009FF00A5A144 /* NumberExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberExtensions.swift; sourceTree = "<group>"; };
+		A339D3A01E001D7200A5A144 /* GamePhysicsCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePhysicsCategory.swift; sourceTree = "<group>"; };
+		A339D3A21E0023F200A5A144 /* MissileStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissileStrategy.swift; sourceTree = "<group>"; };
+		A339D3A41E00241500A5A144 /* SimpleMissileStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleMissileStrategy.swift; sourceTree = "<group>"; };
+		A339D3A61E00247200A5A144 /* RealisticMissileStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealisticMissileStrategy.swift; sourceTree = "<group>"; };
+		A339D3A91E0031D100A5A144 /* CannonState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CannonState.swift; sourceTree = "<group>"; };
+		A339D3AB1E00325B00A5A144 /* SingleCannonState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleCannonState.swift; sourceTree = "<group>"; };
+		A339D3AD1E00343100A5A144 /* DoubleCannonState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleCannonState.swift; sourceTree = "<group>"; };
+		A339D3AF1E0038D600A5A144 /* RealisticEnemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealisticEnemy.swift; sourceTree = "<group>"; };
+		A339D3B11E0039BA00A5A144 /* GameObjectsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObjectsFactory.swift; sourceTree = "<group>"; };
+		A339D3B51E003A3900A5A144 /* SimpleGameObjectsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleGameObjectsFactory.swift; sourceTree = "<group>"; };
+		A339D3B71E003AC800A5A144 /* RealisticGameObjectsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealisticGameObjectsFactory.swift; sourceTree = "<group>"; };
+		A346EA2629237670001195F3 /* SnapKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SnapKit.xcframework; path = Carthage/Build/SnapKit.xcframework; sourceTree = "<group>"; };
+		A36FA8691DFEB7CC00CF4EA6 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A36FA86B1DFEB94400CF4EA6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A3741E151DEDC91F00B7FDE2 /* AngryFIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngryFIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3741E181DEDC91F00B7FDE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3741E1E1DEDC91F00B7FDE2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A3741E201DEDC91F00B7FDE2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A3741E251DEDC91F00B7FDE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3741E281DEDC91F00B7FDE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3741E2A1DEDC91F00B7FDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D28F6D1E00628200AE35A2 /* Memento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		AC6233CA109A0B68AAD3144F /* Pods_AngryFIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngryFIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3741E121DEDC91E00B7FDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF80642C8AC426DACE2D768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A346EA2629237670001195F3 /* SnapKit.xcframework */,
+				AC6233CA109A0B68AAD3144F /* Pods_AngryFIT.framework */,
+				3A66E2D25C240CC028951BB6 /* Pods_AngryFITTests.framework */,
+				101EDEC5CBF0D5487CA0E0F3 /* Pods_AngryFITUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A31684A61DFF07A500B1F050 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A31684A71DFF07C100B1F050 /* Cannon.swift */,
+				A31684AB1DFF07DD00B1F050 /* Enemy.swift */,
+				A31684A91DFF07D400B1F050 /* Missile.swift */,
+				A339D38A1DFFD83900A5A144 /* Model.swift */,
+				A339D3991DFFE72000A5A144 /* GameProperty.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A339D3941DFFE65D00A5A144 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A36FA86B1DFEB94400CF4EA6 /* BaseViewController.swift */,
+				A3741E201DEDC91F00B7FDE2 /* GameViewController.swift */,
+				A36FA8691DFEB7CC00CF4EA6 /* StartViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A339D3951DFFE66E00A5A144 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A339D38C1DFFDF0D00A5A144 /* GameObject.swift */,
+				A339D38E1DFFDF3000A5A144 /* GameObjectVisitable.swift */,
+				A339D3901DFFDF6300A5A144 /* GameObjectVisitor.swift */,
+				A339D3921DFFE41C00A5A144 /* ModelObservable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		A339D3961DFFE67C00A5A144 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A339D39B1DFFE8F600A5A144 /* GamePropertyView.swift */,
+				A3741E1E1DEDC91F00B7FDE2 /* GameScene.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A339D39F1E000A0600A5A144 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A339D39D1E0009FF00A5A144 /* NumberExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		A339D3A81E00247A00A5A144 /* MissileStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				A339D3A21E0023F200A5A144 /* MissileStrategy.swift */,
+				A339D3A61E00247200A5A144 /* RealisticMissileStrategy.swift */,
+				A339D3A41E00241500A5A144 /* SimpleMissileStrategy.swift */,
+			);
+			name = MissileStrategy;
+			sourceTree = "<group>";
+		};
+		A36FA8661DFEA90500CF4EA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3741E251DEDC91F00B7FDE2 /* Assets.xcassets */,
+				A3741E271DEDC91F00B7FDE2 /* LaunchScreen.storyboard */,
+				A3741E2A1DEDC91F00B7FDE2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3741E0C1DEDC91E00B7FDE2 = {
+			isa = PBXGroup;
+			children = (
+				A3741E171DEDC91F00B7FDE2 /* AngryFIT */,
+				A3741E161DEDC91F00B7FDE2 /* Products */,
+				0CF80642C8AC426DACE2D768 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3741E161DEDC91F00B7FDE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3741E151DEDC91F00B7FDE2 /* AngryFIT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3741E171DEDC91F00B7FDE2 /* AngryFIT */ = {
+			isa = PBXGroup;
+			children = (
+				A3D28F6D1E00628200AE35A2 /* Memento.swift */,
+				A339D3B51E003A3900A5A144 /* SimpleGameObjectsFactory.swift */,
+				A339D3B71E003AC800A5A144 /* RealisticGameObjectsFactory.swift */,
+				A339D3B11E0039BA00A5A144 /* GameObjectsFactory.swift */,
+				A339D3AF1E0038D600A5A144 /* RealisticEnemy.swift */,
+				A339D3AD1E00343100A5A144 /* DoubleCannonState.swift */,
+				A339D3A91E0031D100A5A144 /* CannonState.swift */,
+				A339D3AB1E00325B00A5A144 /* SingleCannonState.swift */,
+				A339D3A81E00247A00A5A144 /* MissileStrategy */,
+				A339D3A01E001D7200A5A144 /* GamePhysicsCategory.swift */,
+				A3741E181DEDC91F00B7FDE2 /* AppDelegate.swift */,
+				A339D39F1E000A0600A5A144 /* Extensions */,
+				A339D3951DFFE66E00A5A144 /* Protocols */,
+				A31684A61DFF07A500B1F050 /* Model */,
+				A339D3941DFFE65D00A5A144 /* Controllers */,
+				A339D3961DFFE67C00A5A144 /* Views */,
+				A36FA8661DFEA90500CF4EA6 /* Supporting Files */,
+			);
+			path = AngryFIT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3741E141DEDC91E00B7FDE2 /* AngryFIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3741E431DEDC91F00B7FDE2 /* Build configuration list for PBXNativeTarget "AngryFIT" */;
+			buildPhases = (
+				A3741E111DEDC91E00B7FDE2 /* Sources */,
+				A3741E121DEDC91E00B7FDE2 /* Frameworks */,
+				A3741E131DEDC91E00B7FDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngryFIT;
+			productName = AngryFIT;
+			productReference = A3741E151DEDC91F00B7FDE2 /* AngryFIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3741E0D1DEDC91E00B7FDE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "Lukáš Hromadník";
+				TargetAttributes = {
+					A3741E141DEDC91E00B7FDE2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PXDF48X6VX;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A3741E101DEDC91E00B7FDE2 /* Build configuration list for PBXProject "AngryFIT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3741E0C1DEDC91E00B7FDE2;
+			productRefGroup = A3741E161DEDC91F00B7FDE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3741E141DEDC91E00B7FDE2 /* AngryFIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3741E131DEDC91E00B7FDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3741E261DEDC91F00B7FDE2 /* Assets.xcassets in Resources */,
+				A3741E291DEDC91F00B7FDE2 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3741E111DEDC91E00B7FDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A339D3AC1E00325B00A5A144 /* SingleCannonState.swift in Sources */,
+				A3D28F6E1E00628200AE35A2 /* Memento.swift in Sources */,
+				A339D3A11E001D7200A5A144 /* GamePhysicsCategory.swift in Sources */,
+				A339D38F1DFFDF3000A5A144 /* GameObjectVisitable.swift in Sources */,
+				A339D38D1DFFDF0D00A5A144 /* GameObject.swift in Sources */,
+				A36FA86A1DFEB7CC00CF4EA6 /* StartViewController.swift in Sources */,
+				A339D3B81E003AC800A5A144 /* RealisticGameObjectsFactory.swift in Sources */,
+				A339D39C1DFFE8F600A5A144 /* GamePropertyView.swift in Sources */,
+				A339D3B21E0039BA00A5A144 /* GameObjectsFactory.swift in Sources */,
+				A339D3931DFFE41C00A5A144 /* ModelObservable.swift in Sources */,
+				A339D3911DFFDF6300A5A144 /* GameObjectVisitor.swift in Sources */,
+				A339D3A51E00241500A5A144 /* SimpleMissileStrategy.swift in Sources */,
+				A3741E1F1DEDC91F00B7FDE2 /* GameScene.swift in Sources */,
+				A3741E211DEDC91F00B7FDE2 /* GameViewController.swift in Sources */,
+				A3741E191DEDC91F00B7FDE2 /* AppDelegate.swift in Sources */,
+				A339D39A1DFFE72000A5A144 /* GameProperty.swift in Sources */,
+				A339D3AE1E00343100A5A144 /* DoubleCannonState.swift in Sources */,
+				A339D3A31E0023F200A5A144 /* MissileStrategy.swift in Sources */,
+				A339D39E1E0009FF00A5A144 /* NumberExtensions.swift in Sources */,
+				A339D3AA1E0031D100A5A144 /* CannonState.swift in Sources */,
+				A339D3A71E00247200A5A144 /* RealisticMissileStrategy.swift in Sources */,
+				A339D38B1DFFD83900A5A144 /* Model.swift in Sources */,
+				A31684AC1DFF07DD00B1F050 /* Enemy.swift in Sources */,
+				A31684A81DFF07C100B1F050 /* Cannon.swift in Sources */,
+				A339D3B01E0038D600A5A144 /* RealisticEnemy.swift in Sources */,
+				A339D3B61E003A3900A5A144 /* SimpleGameObjectsFactory.swift in Sources */,
+				A31684AA1DFF07D400B1F050 /* Missile.swift in Sources */,
+				A36FA86C1DFEB94400CF4EA6 /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3741E271DEDC91F00B7FDE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3741E281DEDC91F00B7FDE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3741E411DEDC91F00B7FDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A3741E421DEDC91F00B7FDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3741E441DEDC91F00B7FDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Martin Pulpitel (KE4Y7PU6Z8)";
+				DEVELOPMENT_TEAM = PXDF48X6VX;
+				INFOPLIST_FILE = AngryFIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ackee.enterprise.AngryFIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2bfcc027-5151-4b96-a838-d00764a94a41";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development cz.ackee.enterprise.*";
+			};
+			name = Debug;
+		};
+		A3741E451DEDC91F00B7FDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AngryFIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ackee.enterprise.AngryFIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3741E101DEDC91E00B7FDE2 /* Build configuration list for PBXProject "AngryFIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3741E411DEDC91F00B7FDE2 /* Debug */,
+				A3741E421DEDC91F00B7FDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3741E431DEDC91F00B7FDE2 /* Build configuration list for PBXNativeTarget "AngryFIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3741E441DEDC91F00B7FDE2 /* Debug */,
+				A3741E451DEDC91F00B7FDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3741E0D1DEDC91E00B7FDE2 /* Project object */;
+}
